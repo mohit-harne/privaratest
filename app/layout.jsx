@@ -66,7 +66,7 @@ export default function RootLayout({ children }) {
           <NavBar />
           
           {children}
-          <whatsapp />
+          <Whatsapp />
           <Footer />
           
       </div>

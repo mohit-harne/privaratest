@@ -9,9 +9,12 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.5.2",
     "bootstrap": "^5.3.3",
     "classname": "^0.0.0",
+    "lovely-whatsapp-fab": "^1.0.2",
     "next": "14.2.3",
+    "nodemailer": "^6.9.13",
     "react": "^18",
     "react-bootstrap": "^2.10.2",
     "react-dom": "^18",

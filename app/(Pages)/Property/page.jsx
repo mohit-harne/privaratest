@@ -1,13 +1,14 @@
 import React from 'react'
 import Image from 'next/image'
 import '../../styles/bootstrap.min.css'
+import '../../styles/style.css'
 import '../../styles/common.css'
-import p1 from '../../../public/img/property-1.jpg'
-import p2 from '../../../public/img/property-2.jpg'
-import p3 from '../../../public/img/property-3.jpg'
-import p4 from '../../../public/img/property-4.jpg'
-import p5 from '../../../public/img/property-5.jpg'
-import p6 from '../../../public/img/property-6.jpg'
+import p1 from '../../../public/img/carousel-7.jpg'
+import p2 from '../../../public/img/KUHASA VIEW 1.jpg'
+import p3 from '../../../public/img/p3.jpg'
+import p4 from '../../../public/img/carousel-4.jpg'
+import p5 from '../../../public/img/PV 5 VIEW_Photo - 1.jpg'
+import p6 from '../../../public/img/PRIVARA VIHAR 6 ENTRY GATE.jpg'
 import header from '../../../public/img/header.jpg'
 
 const Property = () => {
@@ -114,8 +115,7 @@ const Property = () => {
             >
               <h1 className="mb-3">Property Listing</h1>
               <p>
-                Eirmod sed ipsum dolor sit rebum labore magna erat. Tempor ut
-                dolore lorem kasd vero ipsum sit eirmod sit diam justo sed rebum.
+               Text
               </p>
             </div>
           </div>
@@ -155,7 +155,7 @@ const Property = () => {
           </div>
         </div>
         <div className="tab-content">
-          <div id="tab-1" className="tab-pane fade show p-0 active">
+          <div id="tab-1" className="tab-pane fade show shadow-sm p-0 shadow-sm active">
             <div className="row g-4">
               <div
                 className="col-lg-4 col-md-6 wow fadeInUp"
@@ -173,9 +173,7 @@ const Property = () => {
                     <div className="bg-primary rounded text-white position-absolute end-0 top-0 m-4 py-1 px-3">
                       Completed
                     </div>
-                    <div className="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3">
-                      Appartment
-                    </div>
+
                   </div>
                   <div className="p-4 pb-0">
                     <a className="d-block h5 mb-2" href="">
@@ -224,16 +222,14 @@ const Property = () => {
                     <a href="">
                       <Image
                         className="img-fluid"
-                        src={p6}
+                        src={p2}
                         alt=""
                       />
                     </a>
                     <div className="bg-primary rounded text-white position-absolute end-0 top-0 m-4 py-1 px-3">
                       Ongoing
                     </div>
-                    <div className="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3">
-                      Villa
-                    </div>
+
                   </div>
                   <div className="p-4 pb-0">
                     <a className="d-block h5 mb-2" href="">
@@ -282,16 +278,14 @@ const Property = () => {
                     <a href="">
                       <Image
                         className="img-fluid"
-                        src={p5}
+                        src={p3}
                         alt=""
                       />
                     </a>
                     <div className="bg-primary rounded text-white position-absolute end-0 top-0 m-4 py-1 px-3">
                       Ongoing
                     </div>
-                    <div className="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3">
-                      Office
-                    </div>
+
                   </div>
                   <div className="p-4 pb-0">
                     <a className="d-block h5 mb-2" href="">
@@ -340,16 +334,14 @@ const Property = () => {
                     <a href="">
                       <Image
                         className="img-fluid"
-                        src={p2}
+                        src={p4}
                         alt=""
                       />
                     </a>
                     <div className="bg-primary rounded text-white position-absolute end-0 top-0 m-4 py-1 px-3">
                       Ongoing
                     </div>
-                    <div className="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3">
-                      Building
-                    </div>
+
                   </div>
                   <div className="p-4 pb-0">
                     <a className="d-block h5 mb-2" href="">
@@ -398,16 +390,14 @@ const Property = () => {
                     <a href="">
                       <Image
                         className="img-fluid"
-                        src={p3}
+                        src={p5}
                         alt=""
                       />
                     </a>
                     <div className="bg-primary rounded text-white position-absolute end-0 top-0 m-4 py-1 px-3">
                       Ongoing
                     </div>
-                    <div className="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3">
-                      Home
-                    </div>
+
                   </div>
                   <div className="p-4 pb-0">
                     <a className="d-block h5 mb-2" href="">
@@ -456,16 +446,14 @@ const Property = () => {
                     <a href="">
                       <Image
                         className="img-fluid"
-                        src={p4}
+                        src={p6}
                         alt=""
                       />
                     </a>
                     <div className="bg-primary rounded text-white position-absolute end-0 top-0 m-4 py-1 px-3">
                       Ongoing
                     </div>
-                    <div className="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3">
-                      Shop
-                    </div>
+
                   </div>
                   <div className="p-4 pb-0">
                     <a className="d-block h5 mb-2" href="">
@@ -507,493 +495,344 @@ const Property = () => {
               </div>
             </div>
           </div>
-          <div id="tab-2" className="tab-pane fade show p-0">
+          <div id="tab-2" className="tab-pane fade show p-0 shadow-sm">
             <div className="row g-4">
-              <div className="col-lg-4 col-md-6">
+            <div
+                className="col-lg-4 col-md-6 wow fadeInUp"
+                data-wow-delay="0.3s"
+              >
                 <div className="property-item rounded overflow-hidden">
                   <div className="position-relative overflow-hidden">
                     <a href="">
-                      <img
+                      <Image
                         className="img-fluid"
-                        src="img/property-1.jpg"
+                        src={p2}
                         alt=""
                       />
                     </a>
-                    <div className="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">
-                      For Sell
+                    <div className="bg-primary rounded text-white position-absolute end-0 top-0 m-4 py-1 px-3">
+                      Ongoing
                     </div>
-                    <div className="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3">
-                      Appartment
-                    </div>
+
                   </div>
                   <div className="p-4 pb-0">
                     <a className="d-block h5 mb-2" href="">
-                      Golden Urban House For Sell
+                      KUHAASA RESIDENCY
                     </a>
                     <p>
                       <i className="fa fa-map-marker-alt text-primary me-2" />
-                      123 Street, New York, USA
+                      SHANKARPUR NAGPUR
                     </p>
+                    <a
+                      className=" btn btn-primary"
+                      data-bs-toggle="pill"
+                      href="#tab-3"
+                    >
+                      <i className="fa fa-eye me-2" />
+                      Know More
+                    </a>
+                    <a
+                      className=" btn btn-primary m-3"
+                      data-bs-toggle="pill"
+                      href="#tab-3"
+                    >
+                      <i className="fa fa-phone fa-rotate-90 me-2 " />
+                      Call us
+                    </a>
+                    <p />
                   </div>
                   <div className="d-flex border-top">
                     <small className="flex-fill text-center border-end py-2">
-                      <i className="fa fa-ruler-combined text-primary me-2" />
-                      1000 Sqft
+                      <i className="fa fa-ruler-combined text-primary me-2" />2
+                      Acres
                     </small>
                     <small className="flex-fill text-center border-end py-2">
-                      <i className="fa fa-bed text-primary me-2" />3 Bed
-                    </small>
-                    <small className="flex-fill text-center py-2">
-                      <i className="fa fa-bath text-primary me-2" />2 Bath
+                      <i className="fa fa-home text-primary me-2" />
+                      31 Plots
                     </small>
                   </div>
                 </div>
               </div>
-              <div className="col-lg-4 col-md-6">
+              <div
+                className="col-lg-4 col-md-6 wow fadeInUp"
+                data-wow-delay="0.5s"
+              >
                 <div className="property-item rounded overflow-hidden">
                   <div className="position-relative overflow-hidden">
                     <a href="">
-                      <img
+                      <Image
                         className="img-fluid"
-                        src="img/property-2.jpg"
+                        src={p3}
                         alt=""
                       />
                     </a>
-                    <div className="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">
-                      For Rent
+                    <div className="bg-primary rounded text-white position-absolute end-0 top-0 m-4 py-1 px-3">
+                      Ongoing
                     </div>
-                    <div className="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3">
-                      Villa
-                    </div>
+
                   </div>
                   <div className="p-4 pb-0">
                     <a className="d-block h5 mb-2" href="">
-                      Golden Urban House For Sell
+                      PRIVARA VIHAR – 3
                     </a>
                     <p>
                       <i className="fa fa-map-marker-alt text-primary me-2" />
-                      123 Street, New York, USA
+                      JAMTHA NAGPUR
                     </p>
+                    <a
+                      className=" btn btn-primary"
+                      data-bs-toggle="pill"
+                      href="#tab-3"
+                    >
+                      <i className="fa fa-eye me-2" />
+                      Know More
+                    </a>
+                    <a
+                      className=" btn btn-primary m-3"
+                      data-bs-toggle="pill"
+                      href="#tab-3"
+                    >
+                      <i className="fa fa-phone fa-rotate-90 me-2 " />
+                      Call us
+                    </a>
+                    <p />
                   </div>
                   <div className="d-flex border-top">
                     <small className="flex-fill text-center border-end py-2">
                       <i className="fa fa-ruler-combined text-primary me-2" />
-                      1000 Sqft
+                      2.5 Acres
                     </small>
                     <small className="flex-fill text-center border-end py-2">
-                      <i className="fa fa-bed text-primary me-2" />3 Bed
-                    </small>
-                    <small className="flex-fill text-center py-2">
-                      <i className="fa fa-bath text-primary me-2" />2 Bath
+                      <i className="fa fa-home text-primary me-2" />
+                      24 Plots
                     </small>
                   </div>
                 </div>
               </div>
-              <div className="col-lg-4 col-md-6">
+              <div
+                className="col-lg-4 col-md-6 wow fadeInUp"
+                data-wow-delay="0.1s"
+              >
                 <div className="property-item rounded overflow-hidden">
                   <div className="position-relative overflow-hidden">
                     <a href="">
-                      <img
+                      <Image
                         className="img-fluid"
-                        src="img/property-3.jpg"
+                        src={p4}
                         alt=""
                       />
                     </a>
-                    <div className="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">
-                      For Sell
+                    <div className="bg-primary rounded text-white position-absolute end-0 top-0 m-4 py-1 px-3">
+                      Ongoing
                     </div>
-                    <div className="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3">
-                      Office
-                    </div>
+
                   </div>
                   <div className="p-4 pb-0">
                     <a className="d-block h5 mb-2" href="">
-                      Golden Urban House For Sell
+                      PRIVARA VIHAR – 4
                     </a>
                     <p>
                       <i className="fa fa-map-marker-alt text-primary me-2" />
-                      123 Street, New York, USA
+                      JAMTHA NAGPUR
                     </p>
+                    <a
+                      className=" btn btn-primary"
+                      data-bs-toggle="pill"
+                      href="#tab-3"
+                    >
+                      <i className="fa fa-eye me-2" />
+                      Know More
+                    </a>
+                    <a
+                      className=" btn btn-primary m-3"
+                      data-bs-toggle="pill"
+                      href="#tab-3"
+                    >
+                      <i className="fa fa-phone fa-rotate-90 me-2 " />
+                      Call us
+                    </a>
+                    <p />
                   </div>
                   <div className="d-flex border-top">
                     <small className="flex-fill text-center border-end py-2">
                       <i className="fa fa-ruler-combined text-primary me-2" />
-                      1000 Sqft
+                      3.9 Acres
                     </small>
                     <small className="flex-fill text-center border-end py-2">
-                      <i className="fa fa-bed text-primary me-2" />3 Bed
-                    </small>
-                    <small className="flex-fill text-center py-2">
-                      <i className="fa fa-bath text-primary me-2" />2 Bath
+                      <i className="fa fa-home text-primary me-2" />
+                      44 Plots
                     </small>
                   </div>
                 </div>
               </div>
-              <div className="col-lg-4 col-md-6">
+              <div
+                className="col-lg-4 col-md-6 wow fadeInUp"
+                data-wow-delay="0.3s"
+              >
                 <div className="property-item rounded overflow-hidden">
                   <div className="position-relative overflow-hidden">
                     <a href="">
-                      <img
+                      <Image
                         className="img-fluid"
-                        src="img/property-4.jpg"
+                        src={p5}
                         alt=""
                       />
                     </a>
-                    <div className="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">
-                      For Rent
+                    <div className="bg-primary rounded text-white position-absolute end-0 top-0 m-4 py-1 px-3">
+                      Ongoing
                     </div>
-                    <div className="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3">
-                      Building
-                    </div>
+
                   </div>
                   <div className="p-4 pb-0">
                     <a className="d-block h5 mb-2" href="">
-                      Golden Urban House For Sell
+                      PRIVARA VIHAR – 5
                     </a>
                     <p>
                       <i className="fa fa-map-marker-alt text-primary me-2" />
-                      123 Street, New York, USA
+                      TARODI NAGPUR
                     </p>
+                    <a
+                      className=" btn btn-primary"
+                      data-bs-toggle="pill"
+                      href="#tab-3"
+                    >
+                      <i className="fa fa-eye me-2" />
+                      Know More
+                    </a>
+                    <a
+                      className=" btn btn-primary m-3"
+                      data-bs-toggle="pill"
+                      href="#tab-3"
+                    >
+                      <i className="fa fa-phone fa-rotate-90 me-2 " />
+                      Call us
+                    </a>
+                    <p />
                   </div>
                   <div className="d-flex border-top">
                     <small className="flex-fill text-center border-end py-2">
                       <i className="fa fa-ruler-combined text-primary me-2" />
-                      1000 Sqft
+                      2.25 Acres
                     </small>
                     <small className="flex-fill text-center border-end py-2">
-                      <i className="fa fa-bed text-primary me-2" />3 Bed
-                    </small>
-                    <small className="flex-fill text-center py-2">
-                      <i className="fa fa-bath text-primary me-2" />2 Bath
+                      <i className="fa fa-home text-primary me-2" />
+                      36 Plots
                     </small>
                   </div>
                 </div>
               </div>
-              <div className="col-lg-4 col-md-6">
+              <div
+                className="col-lg-4 col-md-6 wow fadeInUp"
+                data-wow-delay="0.5s"
+              >
                 <div className="property-item rounded overflow-hidden">
                   <div className="position-relative overflow-hidden">
                     <a href="">
-                      <img
+                      <Image
                         className="img-fluid"
-                        src="img/property-5.jpg"
+                        src={p6}
                         alt=""
                       />
                     </a>
-                    <div className="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">
-                      For Sell
+                    <div className="bg-primary rounded text-white position-absolute end-0 top-0 m-4 py-1 px-3">
+                      Ongoing
                     </div>
-                    <div className="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3">
-                      Home
-                    </div>
+
                   </div>
                   <div className="p-4 pb-0">
                     <a className="d-block h5 mb-2" href="">
-                      Golden Urban House For Sell
+                      PRIVARA VIHAR – 6
                     </a>
                     <p>
                       <i className="fa fa-map-marker-alt text-primary me-2" />
-                      123 Street, New York, USA
+                      LONARA NAGPUR
                     </p>
+                    <a
+                      className=" btn btn-primary"
+                      data-bs-toggle="pill"
+                      href="#tab-3"
+                    >
+                      <i className="fa fa-eye me-2" />
+                      Know More
+                    </a>
+                    <a
+                      className=" btn btn-primary m-3"
+                      data-bs-toggle="pill"
+                      href="#tab-3"
+                    >
+                      <i className="fa fa-phone fa-rotate-90 me-2 " />
+                      Call us
+                    </a>
+                    <p />
                   </div>
                   <div className="d-flex border-top">
                     <small className="flex-fill text-center border-end py-2">
                       <i className="fa fa-ruler-combined text-primary me-2" />
-                      1000 Sqft
+                      2.6 ACRES
                     </small>
                     <small className="flex-fill text-center border-end py-2">
-                      <i className="fa fa-bed text-primary me-2" />3 Bed
-                    </small>
-                    <small className="flex-fill text-center py-2">
-                      <i className="fa fa-bath text-primary me-2" />2 Bath
+                      <i className="fa fa-home text-primary me-2" />
+                      49 Plots
                     </small>
                   </div>
                 </div>
-              </div>
-              <div className="col-lg-4 col-md-6">
-                <div className="property-item rounded overflow-hidden">
-                  <div className="position-relative overflow-hidden">
-                    <a href="">
-                      <img
-                        className="img-fluid"
-                        src="img/property-6.jpg"
-                        alt=""
-                      />
-                    </a>
-                    <div className="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">
-                      For Rent
-                    </div>
-                    <div className="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3">
-                      Shop
-                    </div>
-                  </div>
-                  <div className="p-4 pb-0">
-                    <a className="d-block h5 mb-2" href="">
-                      Golden Urban House For Sell
-                    </a>
-                    <p>
-                      <i className="fa fa-map-marker-alt text-primary me-2" />
-                      123 Street, New York, USA
-                    </p>
-                  </div>
-                  <div className="d-flex border-top">
-                    <small className="flex-fill text-center border-end py-2">
-                      <i className="fa fa-ruler-combined text-primary me-2" />
-                      1000 Sqft
-                    </small>
-                    <small className="flex-fill text-center border-end py-2">
-                      <i className="fa fa-bed text-primary me-2" />3 Bed
-                    </small>
-                    <small className="flex-fill text-center py-2">
-                      <i className="fa fa-bath text-primary me-2" />2 Bath
-                    </small>
-                  </div>
-                </div>
-              </div>
-              <div className="col-12 text-center">
-                <a className="btn btn-primary py-3 px-5" href="">
-                  Browse More Property
-                </a>
               </div>
             </div>
           </div>
-          <div id="tab-3" className="tab-pane fade show p-0">
+          <div id="tab-3" className="tab-pane fade show p-0 shadow-sm">
             <div className="row g-4">
-              <div className="col-lg-4 col-md-6">
+            <div
+                className="col-lg-4 col-md-6 wow fadeInUp"
+                data-wow-delay="0.1s"
+              >
                 <div className="property-item rounded overflow-hidden">
                   <div className="position-relative overflow-hidden">
                     <a href="">
-                      <img
+                      <Image
                         className="img-fluid"
-                        src="img/property-1.jpg"
+                        src={p1}
                         alt=""
                       />
                     </a>
-                    <div className="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">
-                      For Sell
+                    <div className="bg-primary rounded text-white position-absolute end-0 top-0 m-4 py-1 px-3">
+                      Completed
                     </div>
-                    <div className="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3">
-                      Appartment
-                    </div>
+
                   </div>
                   <div className="p-4 pb-0">
                     <a className="d-block h5 mb-2" href="">
-                      Golden Urban House For Sell
+                      KRISHNA NAGARI
                     </a>
                     <p>
                       <i className="fa fa-map-marker-alt text-primary me-2" />
-                      123 Street, New York, USA
+                      JAMTHA NAGPUR
                     </p>
+                    <a
+                      className=" btn btn-primary"
+                      data-bs-toggle="pill"
+                      href="#tab-3"
+                    >
+                      <i className="fa fa-eye me-2" />
+                      Know More
+                    </a>
+                    <a
+                      className=" btn btn-primary m-3"
+                      data-bs-toggle="pill"
+                      href="#tab-3"
+                    >
+                      <i className="fa fa-phone fa-rotate-90 me-2 " />
+                      Call us
+                    </a>
+                    <p />
                   </div>
                   <div className="d-flex border-top">
                     <small className="flex-fill text-center border-end py-2">
-                      <i className="fa fa-ruler-combined text-primary me-2" />
-                      1000 Sqft
+                      <i className="fa fa-ruler-combined text-primary me-2" /> 22
+                      Acres
                     </small>
                     <small className="flex-fill text-center border-end py-2">
-                      <i className="fa fa-bed text-primary me-2" />3 Bed
-                    </small>
-                    <small className="flex-fill text-center py-2">
-                      <i className="fa fa-bath text-primary me-2" />2 Bath
-                    </small>
-                  </div>
-                </div>
-              </div>
-              <div className="col-lg-4 col-md-6">
-                <div className="property-item rounded overflow-hidden">
-                  <div className="position-relative overflow-hidden">
-                    <a href="">
-                      <img
-                        className="img-fluid"
-                        src="img/property-2.jpg"
-                        alt=""
-                      />
-                    </a>
-                    <div className="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">
-                      For Rent
-                    </div>
-                    <div className="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3">
-                      Villa
-                    </div>
-                  </div>
-                  <div className="p-4 pb-0">
-                    <a className="d-block h5 mb-2" href="">
-                      Golden Urban House For Sell
-                    </a>
-                    <p>
-                      <i className="fa fa-map-marker-alt text-primary me-2" />
-                      123 Street, New York, USA
-                    </p>
-                  </div>
-                  <div className="d-flex border-top">
-                    <small className="flex-fill text-center border-end py-2">
-                      <i className="fa fa-ruler-combined text-primary me-2" />
-                      1000 Sqft
-                    </small>
-                    <small className="flex-fill text-center border-end py-2">
-                      <i className="fa fa-bed text-primary me-2" />3 Bed
-                    </small>
-                    <small className="flex-fill text-center py-2">
-                      <i className="fa fa-bath text-primary me-2" />2 Bath
-                    </small>
-                  </div>
-                </div>
-              </div>
-              <div className="col-lg-4 col-md-6">
-                <div className="property-item rounded overflow-hidden">
-                  <div className="position-relative overflow-hidden">
-                    <a href="">
-                      <img
-                        className="img-fluid"
-                        src="img/property-3.jpg"
-                        alt=""
-                      />
-                    </a>
-                    <div className="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">
-                      For Sell
-                    </div>
-                    <div className="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3">
-                      Office
-                    </div>
-                  </div>
-                  <div className="p-4 pb-0">
-                    <a className="d-block h5 mb-2" href="">
-                      Golden Urban House For Sell
-                    </a>
-                    <p>
-                      <i className="fa fa-map-marker-alt text-primary me-2" />
-                      123 Street, New York, USA
-                    </p>
-                  </div>
-                  <div className="d-flex border-top">
-                    <small className="flex-fill text-center border-end py-2">
-                      <i className="fa fa-ruler-combined text-primary me-2" />
-                      1000 Sqft
-                    </small>
-                    <small className="flex-fill text-center border-end py-2">
-                      <i className="fa fa-bed text-primary me-2" />3 Bed
-                    </small>
-                    <small className="flex-fill text-center py-2">
-                      <i className="fa fa-bath text-primary me-2" />2 Bath
-                    </small>
-                  </div>
-                </div>
-              </div>
-              <div className="col-lg-4 col-md-6">
-                <div className="property-item rounded overflow-hidden">
-                  <div className="position-relative overflow-hidden">
-                    <a href="">
-                      <img
-                        className="img-fluid"
-                        src="img/property-4.jpg"
-                        alt=""
-                      />
-                    </a>
-                    <div className="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">
-                      For Rent
-                    </div>
-                    <div className="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3">
-                      Building
-                    </div>
-                  </div>
-                  <div className="p-4 pb-0">
-                    <a className="d-block h5 mb-2" href="">
-                      Golden Urban House For Sell
-                    </a>
-                    <p>
-                      <i className="fa fa-map-marker-alt text-primary me-2" />
-                      123 Street, New York, USA
-                    </p>
-                  </div>
-                  <div className="d-flex border-top">
-                    <small className="flex-fill text-center border-end py-2">
-                      <i className="fa fa-ruler-combined text-primary me-2" />
-                      1000 Sqft
-                    </small>
-                    <small className="flex-fill text-center border-end py-2">
-                      <i className="fa fa-bed text-primary me-2" />3 Bed
-                    </small>
-                    <small className="flex-fill text-center py-2">
-                      <i className="fa fa-bath text-primary me-2" />2 Bath
-                    </small>
-                  </div>
-                </div>
-              </div>
-              <div className="col-lg-4 col-md-6">
-                <div className="property-item rounded overflow-hidden">
-                  <div className="position-relative overflow-hidden">
-                    <a href="">
-                      <img
-                        className="img-fluid"
-                        src="img/property-5.jpg"
-                        alt=""
-                      />
-                    </a>
-                    <div className="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">
-                      For Sell
-                    </div>
-                    <div className="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3">
-                      Home
-                    </div>
-                  </div>
-                  <div className="p-4 pb-0">
-                    <a className="d-block h5 mb-2" href="">
-                      Golden Urban House For Sell
-                    </a>
-                    <p>
-                      <i className="fa fa-map-marker-alt text-primary me-2" />
-                      123 Street, New York, USA
-                    </p>
-                  </div>
-                  <div className="d-flex border-top">
-                    <small className="flex-fill text-center border-end py-2">
-                      <i className="fa fa-ruler-combined text-primary me-2" />
-                      1000 Sqft
-                    </small>
-                    <small className="flex-fill text-center border-end py-2">
-                      <i className="fa fa-bed text-primary me-2" />3 Bed
-                    </small>
-                    <small className="flex-fill text-center py-2">
-                      <i className="fa fa-bath text-primary me-2" />2 Bath
-                    </small>
-                  </div>
-                </div>
-              </div>
-              <div className="col-lg-4 col-md-6">
-                <div className="property-item rounded overflow-hidden">
-                  <div className="position-relative overflow-hidden">
-                    <a href="">
-                      <img
-                        className="img-fluid"
-                        src="img/property-6.jpg"
-                        alt=""
-                      />
-                    </a>
-                    <div className="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">
-                      For Rent
-                    </div>
-                    <div className="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3">
-                      Shop
-                    </div>
-                  </div>
-                  <div className="p-4 pb-0">
-                    <a className="d-block h5 mb-2" href="">
-                      Golden Urban House For Sell
-                    </a>
-                    <p>
-                      <i className="fa fa-map-marker-alt text-primary me-2" />
-                      123 Street, New York, USA
-                    </p>
-                  </div>
-                  <div className="d-flex border-top">
-                    <small className="flex-fill text-center border-end py-2">
-                      <i className="fa fa-ruler-combined text-primary me-2" />
-                      1000 Sqft
-                    </small>
-                    <small className="flex-fill text-center border-end py-2">
-                      <i className="fa fa-bed text-primary me-2" />3 Bed
-                    </small>
-                    <small className="flex-fill text-center py-2">
-                      <i className="fa fa-bath text-primary me-2" />2 Bath
+                      <i className="fa fa-home text-primary me-2" />
+                      321 Plots{" "}
                     </small>
                   </div>
                 </div>

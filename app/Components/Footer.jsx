@@ -7,7 +7,7 @@ const Footer = () => {
     className="container-fluid bg-dark text-white-50 footer pt-5 mt-5 wow fadeIn"
     data-wow-delay="0.1s"
     >
-        <div className="container py-5">
+        <div className="container py-0">
         <div className="row g-5">
             <div className="col-lg-3 col-md-6">
             <h5 className="text-white mb-4">Get In Touch</h5>
@@ -96,13 +96,13 @@ const Footer = () => {
             <div className="col-md-6 text-center text-md-start mb-3 mb-md-0">
                 ©{" "}
                 <a className="border-bottom" href="#">
-                Your Site Name
+              Privara Infinite-Trust
                 </a>
                 , All Right Reserved.
                 {/*/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. *** /*/}
                 Designed By{" "}
-                <a className="border-bottom" href="https://htmlcodex.com">
-                HTML Codex &amp; Orange bits
+                <a className="border-bottom">
+                 Privara Devlopers
                 </a>
             </div>
             <div className="col-md-6 text-center text-md-end">

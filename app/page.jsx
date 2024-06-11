@@ -1,12 +1,16 @@
+
+import CallAction from './Components/CallAction';
 import './styles/bootstrap.min.css';
+import './styles/style.css'
 import './styles/common.css';
 
 
 export default function Home() {
   return (
+
 <>
   {/* Header Start */}
-  <div className="pad container-fluid header bg-white ">
+  <div className="pad container-fluid header bg-white p-2">
     <div className="row g-0 align-items-center flex-column-reverse flex-md-row">
       <div className="col-md-6 p-5 mt-lg-5">
         <h1 className="display-5 animated fadeIn mb-4">
@@ -21,136 +25,68 @@ export default function Home() {
         <p>
           <br />
         </p>
-        <div className="d-flex flex-row">
-          <a href="" className="btn btn-primary py-3 px-5 me-3 p-2 fadeIn">
-            Get Started
-          </a>
-          <a
-            href=""
-            className="btn btn-primary py-3 px-5 me-3 p-2 animated fadeIn"
-          >
-            Schedule Visit
-          </a>
-        </div>
+          <div className='header-button'>
+            <div className='p-2'>
+            <a href="" className="btn btn-primary py-3 px-4 me-3 p-2 fadeIn">
+              Get Started
+            </a>
+          </div>
+          <div className='p-2'>
+            <a href="" className="btn btn-primary py-3 px-4 me-3 p-2 fadeIn">
+              Schedule meeting
+            </a>
+          </div>
+          </div>
       </div>
       <div className="col-md-6 animated fadeIn">
         <div className="owl-carousel header-carousel">
-          <div className="owl-carousel-item">
-            <video width={720} height={345} autoPlay="" muted="">
-              <source src="videos/privara_video.mp4" type="video/mp4" />
-              Your browser does not support the video tag.
-            </video>
-          </div>
-          <div className="owl-carousel-item">
-            <img
-              className="img-fluid"
-              src="img/carousel-3.jpg"
-              width={720}
-              height={380}
-              alt=""
-            />
-          </div>
-          <div className="owl-carousel-item">
-            <img
-              className="img-fluid"
-              src="img/carousel-4.jpg"
-              width={720}
-              height={380}
-              alt=""
-            />
-          </div>
-          <div className="owl-carousel-item">
-            <img
-              className="img-fluid"
-              src="img/carousel-5.jpg"
-              width={720}
-              height={380}
-              alt=""
-            />
-          </div>
-          <div className="owl-carousel-item">
-            <img
-              className="img-fluid"
-              src="img/carousel-6.jpg"
-              width={720}
-              height={380}
-              alt=""
-            />
-          </div>
-          <div className="owl-carousel-item">
-            <img
-              className="img-fluid"
-              src="img/carousel-7.jpg"
-              width={720}
-              height={380}
-              alt=""
-            />
-          </div>
-          <div className="owl-carousel-item">
-            <img
-              className="img-fluid"
-              src="img/carousel-8.jpg"
-              width={720}
-              height={380}
-              alt=""
-            />
-          </div>
-          <div className="owl-carousel-item">
-            <img
-              className="img-fluid"
-              src="img/carousel-9.jpg"
-              width={720}
-              height={380}
-              alt=""
-            />
-          </div>
+        <div class="owl-carousel-item">
+            <img class="img-fluid" src="img/carousel-1.jpg" alt=""/>
+        </div>
+        <div class="owl-carousel-item">
+            <img class="img-fluid" src="img/carousel-2.jpg" alt=""/>
+        </div>
         </div>
       </div>
     </div>
   </div>
   {/* Header End */}
-  {/* Search Start */}
-  <div
-    className="container-fluid bg-light mb-5 wow fadeIn p-3 "
-    data-wow-delay="0.1s"
-    style={{ padding: 35 }}
-  >
-    <div className="container">
-      <div className="row g-3">
-        <div className="col-md-15">
-          <center>
-            <div className="d-flex justify-content-between ">
-              <div className="col-md-4 p-2 ">
-                <h4>7,500 Plot Sold</h4>
+
+   {/* Search Start */}
+  <div className='con'>
+    <div
+      className="container-fluid mb-5 wow fadeIn p-3 "
+      data-wow-delay="0.1s"
+      style={{ padding: 35 }}
+    >
+      <div className="container">
+        <div className="row g-3">
+          <div className="col-md-15">
+            <center>
+              <div className="section">
+                <div className="col-md-4 p-2 ">
+                  <h4 >7,500 Plot Sold</h4>
+                </div>
+                <div className='dash'></div>
+
+                <div className="col-md-4 p-2">
+                  <h4>15 Years Experience</h4>
+                </div>
+
+                <div className='dash'></div>
+
+                <div className="col-md-4 p-2">
+                  <h4> 395 Projects Completed</h4>
+                </div>
               </div>
-              <div
-                style={{
-                  borderLeft: "2px dotted rgb(0, 0, 0)",
-                  height: 40,
-                  margin: 10
-                }}
-              />
-              <div className="col-md-4 p-2">
-                <h4>15 Years Experience</h4>
-              </div>
-              <div
-                style={{
-                  borderLeft: "2px dotted rgb(0, 0, 0)",
-                  height: 40,
-                  margin: 10
-                }}
-              />
-              <div className="col-md-4 p-2">
-                <h4> 395 Projects Completed</h4>
-              </div>
-            </div>
-          </center>
+            </center>
+          </div>
         </div>
       </div>
     </div>
-  </div>
+    </div>
   {/* Search End */}
-  {/* Category Start */}
+    {/* Category Start */}
   <div className="container-xxl py-5">
     <div className="container">
       <div
@@ -171,7 +107,7 @@ export default function Home() {
           >
             <div className="jamtha p-4">
               <h6>Jamtha</h6>
-              <span>123 Properties</span>
+              <span>389 Plots</span>
             </div>
           </a>
         </div>
@@ -193,7 +129,7 @@ export default function Home() {
           >
             <div className=" p-4">
               <h6>Lonara</h6>
-              <span>123 Properties</span>
+              <span>49 Plots</span>
             </div>
           </a>
         </div>
@@ -235,85 +171,121 @@ export default function Home() {
             blend of modern luxury for thoughtfully planned community.{" "}
           </p>
           <div className="some-page-wrapper">
-            <div className="d-flex flex-row p-2 m-2">
-              <div className="column">
-                <div className="tick p-2 m-2">
-                  <a>
-                    <img
-                      src="./img/amenities1.png"
-                      height="28px"
-                      width="28px"
-                    />
-                    Entrance <br />
-                  </a>
-                  <a>
-                    <img
-                      src="./img/amenities2.png"
-                      height="28px"
-                      width="28px"
-                    />
-                    Tree Plantation <br />
-                  </a>
-                  <a>
-                    <img
-                      src="./img/amenities3.png"
-                      height="28px"
-                      width="28px"
-                    />
-                    Drainage Line <br />
-                  </a>
-                  <a>
-                    <img
-                      src="./img/amenities4.png"
-                      height="28px"
-                      width="28px"
-                    />
-                    Water Source <br />
-                  </a>
-                  <a>
-                    <img
-                      src="./img/amenities5.png"
-                      height="28px"
-                      width="28px"
-                    />
-                    Cement Road <br />
-                  </a>
+            <div className="section-flexer">
+              <div className="colum mx-4">
+                <div >
+                  <div className='d-flex flex-row'>
+                    <div className=''>
+                      <img
+                        src="./img/amenities1.png"
+                        height="28px"
+                        width="28px"
+                      />
+                    </div>
+                    <div className='mx-2 my-0'>
+                      <p>Entrance</p>
+                    </div>
+                  </div>
+                  <div className='d-flex flex-row'>
+                    <div className=''>
+                      <img
+                        src="./img/amenities2.png"
+                        height="28px"
+                        width="28px"
+                      />
+                    </div>
+                    <div className='mx-2 my-0'>
+                      <p>Tree Plantation</p>
+                    </div>
+                  </div>
+                  <div className='d-flex flex-row'>
+                    <div className=''>
+                      <img
+                        src="./img/amenities3.png"
+                        height="28px"
+                        width="28px"
+                      />
+                    </div>
+                    <div className='mx-2 my-0'>
+                      <p>Drainage Line</p>
+                    </div>
+                  </div>
+                  <div className='d-flex flex-row'>
+                    <div className=''>
+                      <img
+                        src="./img/amenities4.png"
+                        height="28px"
+                        width="28px"
+                      />
+                    </div>
+                    <div className='mx-2 my-0'>
+                      <p>Water Source</p>
+                    </div>
+                  </div>
+                  <div className='d-flex flex-row'>
+                    <div className=''>
+                      <img
+                        src="./img/amenities5.png"
+                        height="28px"
+                        width="28px"
+                      />
+                    </div>
+                    <div className='mx-2 my-0'>
+                      <p>Cement Road</p>
+                    </div>
+                  </div>
                 </div>
               </div>
-              <div className="column">
-                <div className="tick p-2 m-2">
-                  <a>
-                    <img
-                      src="./img/amenities6.png"
-                      height="28px"
-                      width="28px"
-                    />
-                    Sewerline <br />
-                  </a>
-                  <a>
-                    <img
-                      src="./img/amenities7.png"
-                      height="28px"
-                      width="28px"
-                    />
-                    Fencing <br />
-                  </a>
-                  <a>
-                    <img
-                      src="./img/amenities8.png"
-                      height="28px"
-                      width="28px"
-                    />
-                    Electrification <br />
-                  </a>
-                  <a>
-                    <img
-                      src="./img/amenities9.png"
-                      height="28px"
-                      width="28px"
-                    />
-                    Playground
-                  </a>
+              <div className="column mx-4">
+                <div >
+                  <div className='d-flex flex-row'>
+                    <div className=''>
+                      <img
+                        src="./img/amenities6.png"
+                        height="28px"
+                        width="28px"
+                      />
+                    </div>
+                    <div className='mx-2 my-0'>
+                      <p>Sewerline</p>
+                    </div>
+                  </div>
+                  <div className='d-flex flex-row'>
+                    <div className=''>
+                      <img
+                        src="./img/amenities7.png"
+                        height="28px"
+                        width="28px"
+                      />
+                    </div>
+                    <div className='mx-2 my-0'>
+                      <p>Fencing</p>
+                    </div>
+                  </div>
+                  <div className='d-flex flex-row'>
+                    <div className=''>
+                      <img
+                        src="./img/amenities8.png"
+                        height="28px"
+                        width="28px"
+                      />
+                    </div>
+                    <div className='mx-2 my-0'>
+                      <p>Electrification</p>
+                    </div>
+                  </div>
+                  <div className='d-flex flex-row'>
+                    <div className=''>
+                      <img
+                        src="./img/amenities9.png"
+                        height="28px"
+                        width="28px"
+                      />
+                    </div>
+                    <div className='mx-2 my-0'>
+                      <p>Playground</p>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -326,6 +298,7 @@ export default function Home() {
     </div>
   </div>
   {/* About End */}
+  <CallAction />
   {/* Testimonial Start */}
   <div className="container-xxl py-5">
     <div className="container">
@@ -407,7 +380,8 @@ export default function Home() {
     </div>
   </div>
   {/* Testimonial End */}
-</>
+  </>
+
 
   );
 }

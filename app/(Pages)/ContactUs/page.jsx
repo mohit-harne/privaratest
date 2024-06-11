@@ -3,6 +3,7 @@ import Image from 'next/image';
 import Header from '../../../public/img/header.jpg'
 import C9 from '../../../public/img/carousel-9.jpg'
 import '../../styles/bootstrap.min.css';
+import '../../styles/style.css';
 import '../../styles/common.css';
 
 const ContactUs = () => {

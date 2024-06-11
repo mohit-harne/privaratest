@@ -6,6 +6,7 @@ import Pd1 from "../../../public/img/pd1.png"
 import Pd2 from "../../../public/img/privara-dev.jpeg"
 import CallAction from '../../Components/CallAction';
 import '../../styles/bootstrap.min.css';
+import '../../styles/style.css';
 import '../../styles/common.css';
 
 const KnowOurFounder = () => {
@@ -120,22 +121,7 @@ const KnowOurFounder = () => {
                         </p>
                     </div>
                     <div className="d-flex justify-content-center">
-                        <div className="child1">
-                        <center>
-                            <Image
-                            className="img-fluid rounded w-50"
-                            src={Pd2}
-                            alt=""
-                            />
-                            <h4 className="p-2">Mr.Manoj Kamale</h4>
-                            <hr />
-                            <strong>
-                            <b>Senior Sales Director</b>
-                            </strong>
-                            <p>Privara Devlopers</p>
-                        </center>
-                        </div>
-                        <div className="child2">
+                    <div className="child2">
                         <center>
                             <Image
                             className="img-fluid rounded w-50"
@@ -144,14 +130,30 @@ const KnowOurFounder = () => {
                             weight="10px"
                             alt=""
                             />
-                            <h4 className="p-2">Lalit Tekade</h4>
-                            <hr />
+                            <h4 className="p-2">add</h4>
+                         
                             <strong>
                             <b>Senior Sales Director</b>
                             </strong>
                             <p>Privara Devlopers</p>
                         </center>
                         </div>
+                        <div className="child1">
+                        <center>
+                            <Image
+                            className="img-fluid rounded w-50"
+                            src={Pd2}
+                            alt=""
+                            />
+                            <h4 className="p-2">Mr.Manoj Kamale</h4>
+                       
+                            <strong>
+                            <b>Senior Sales Director</b>
+                            </strong>
+                            <p>Privara Devlopers</p>
+                        </center>
+                        </div>
+
                     </div>
                     </div>
                 </div>
