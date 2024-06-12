@@ -1,22 +1,22 @@
 import React from 'react'
 import Image from 'next/image'
-import Header from '../../../../public/img/header.jpg'
-import p1 from '../../../../public/img/carousel-7.jpg'
-import p2 from '../../../../public/img/carousel-8.jpg'
-import am1 from "../../../../public/img/amenities1.png";
-import am2 from "../../../../public/img/amenities2.png";
-import am3 from "../../../../public/img/amenities3.png";
-import am4 from "../../../../public/img/amenities4.png";
-import am5 from "../../../../public/img/amenities5.png";
-import am6 from "../../../../public/img/amenities6.png";
-import am7 from "../../../../public/img/amenities7.png";
-import am8 from "../../../../public/img/amenities8.png";
-import am9 from "../../../../public/img/amenities9.png";
-import Slideshow from "../../../Components/Slideshow";
-import Rera from '../../../../public/img/RERA/Krishna Nagri 42-1-A RERA CODE.png';
-import '../../../styles/bootstrap.min.css';
-import '../../../styles/style.css';
-import '../../../styles/common.css';
+import Header from '../../../../../public/img/header.jpg'
+import p1 from '../../../../../public/img/carousel-7.jpg'
+import p2 from '../../../../../public/img/carousel-8.jpg'
+import am1 from "../../../../../public/img/amenities1.png";
+import am2 from "../../../../../public/img/amenities2.png";
+import am3 from "../../../../../public/img/amenities3.png";
+import am4 from "../../../../../public/img/amenities4.png";
+import am5 from "../../../../../public/img/amenities5.png";
+import am6 from "../../../../../public/img/amenities6.png";
+import am7 from "../../../../../public/img/amenities7.png";
+import am8 from "../../../../../public/img/amenities8.png";
+import am9 from "../../../../../public/img/amenities9.png";
+import Slideshow from "../../../../Components/Slideshow";
+import Rera from '../../../../../public/img/RERA/Krishna Nagri 42-1-A RERA CODE.png';
+import '../../../../styles/bootstrap.min.css';
+import '../../../../styles/style.css';
+import '../../../../styles/common.css';
 
 
 
