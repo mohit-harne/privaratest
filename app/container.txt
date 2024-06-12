@@ -1,42 +1,13 @@
-          <div className="some-page-wrapper py-2">
-            <div className="section-flexer py-2">
-              <div className="colum mx-4">
-                <div>
-                  <div className='d-flex flex-row'>
-                    <div className='mx-2 my-0'>
-                      <p>NCI – 1 Km</p>
+    {/* QRTab Start */}
+                    <div className='QRtab'>
+                      <a href="" className="btn btn-primary px-3 me-2">
+                        <i className="fa fa-phone-alt me-2" />
+                        Make A Call
+                      </a>
+                      <div className='d-flex flex columb px-4'>
+                        <a href="#">
+                          <Image src={Rera} alt="Image" /> 
+                        </a>
+                      </div>
                     </div>
-                  </div>
-                  <div className='d-flex flex-row'>
-                    <div className='mx-2 my-0'>
-                      <p>AIIMS - 1km</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="column mx-4">
-                <div>
-                  <div className='d-flex flex-row'>
-                    <div className='mx-2 my-0'>
-                      <p>IIM’S – 1 km</p>
-                    </div>
-                  </div>
-                  <div className='d-flex flex-row'>
-                    <div className='mx-2 my-0'>
-                      <p>VCA stadium – 1 KM</p>
-                    </div>
-                  </div>
-
-                </div>
-              </div>
-              <div className="column mx-4">
-                <div>
-                  <div className='d-flex flex-row'>
-                    <div className='mx-2 my-0'>
-                      <p>Samruddhi Express Way – 2.5 km</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+                    {/* QRTab End */}

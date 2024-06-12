@@ -1,18 +1,24 @@
-import Slideshow from "../../Components/Slideshow";
-import p1 from "../../../public/img/carousel-7.jpg"
+// pages/Page1.js
 
-export default function Home() {
-  const slides = [
-    {
-      image: p1,
-      caption: "Caption Text"
-    },
+import PhotoPopup from '../../Components/PhotoPopup.jsx';
+import p1 from '../../../public/img/property-1.jpg';
+const test = () => {
+    const pages = [
+        {name:p1}
+        // Add more pages as needed
+    ];
+    return (
+        <>
+        <div>
+            {pages.map(page => (
+                <div key={page.name}>
+                    <h2>{page.name}</h2>
+                    <PhotoPopup imageSrc={page.imageSrc} />
+                </div>
+            ))}
+        </div>
+        </>
+    );
+};
 
-  ];
-
-  return (
-    <div>
-      <Slideshow slides={slides} />
-    </div>
-  );
-}
+export default test;

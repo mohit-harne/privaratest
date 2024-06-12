@@ -1,7 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
 import '../../styles/bootstrap.min.css'
-import '../../styles/style.css'
 import '../../styles/common.css'
 import p1 from '../../../public/img/carousel-7.jpg'
 import p2 from '../../../public/img/KUHASA VIEW 1.jpg'
