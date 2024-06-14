@@ -182,11 +182,11 @@ const Property = () => {
                       <i className="fa fa-map-marker-alt text-primary me-2" />
                       JAMTHA NAGPUR
                     </p>
-                    <a  href="/Property/Locations">
+                    <a  href="/Property/Locations/KrishnaNagari">
                     <button
                       className=" btn btn-primary"
                       data-bs-toggle="pill"
-                      href=""
+                      href="#tab-3"
                     >
                           
                       <i className="fa fa-eye me-2" />
