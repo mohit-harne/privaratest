@@ -22,7 +22,7 @@ const Property = () => {
           <nav aria-label="breadcrumb animated fadeIn">
             <ol className="breadcrumb text-uppercase">
               <li className="breadcrumb-item">
-                <a href="#">Home</a>
+                <a href="/">Home</a>
               </li>
               <li className="breadcrumb-item">
                       <a href="#">Pages</a>
@@ -182,7 +182,7 @@ const Property = () => {
                       <i className="fa fa-map-marker-alt text-primary me-2" />
                       JAMTHA NAGPUR
                     </p>
-                    <a  href="/Property/Locations/KrishnaNagari">
+                    <a  href="Property/KrishnaNagari">
                     <button
                       className=" btn btn-primary"
                       data-bs-toggle="pill"
@@ -242,13 +242,17 @@ const Property = () => {
                       <i className="fa fa-map-marker-alt text-primary me-2" />
                       SHANKARPUR NAGPUR
                     </p>
-                    <a
+                    <a  href="Property/KuhaasaResidency">
+                    <button
                       className=" btn btn-primary"
                       data-bs-toggle="pill"
                       href="#tab-3"
                     >
+                          
                       <i className="fa fa-eye me-2" />
                       Know More
+                      
+                    </button>
                     </a>
                     <a
                       className=" btn btn-primary m-3"
@@ -354,13 +358,17 @@ const Property = () => {
                       <i className="fa fa-map-marker-alt text-primary me-2" />
                       JAMTHA NAGPUR
                     </p>
-                    <a
+                    <a  href="Property/PrivaraVihar4">
+                    <button
                       className=" btn btn-primary"
                       data-bs-toggle="pill"
                       href="#tab-3"
                     >
+                          
                       <i className="fa fa-eye me-2" />
                       Know More
+                      
+                    </button>
                     </a>
                     <a
                       className=" btn btn-primary m-3"
@@ -410,13 +418,17 @@ const Property = () => {
                       <i className="fa fa-map-marker-alt text-primary me-2" />
                       TARODI NAGPUR
                     </p>
-                    <a
+                    <a  href="Property/PrivaraVihar5">
+                    <button
                       className=" btn btn-primary"
                       data-bs-toggle="pill"
                       href="#tab-3"
                     >
+                          
                       <i className="fa fa-eye me-2" />
                       Know More
+                      
+                    </button>
                     </a>
                     <a
                       className=" btn btn-primary m-3"
@@ -466,13 +478,17 @@ const Property = () => {
                       <i className="fa fa-map-marker-alt text-primary me-2" />
                       LONARA NAGPUR
                     </p>
-                    <a
+                    <a  href="Property/PrivaraVihar6">
+                    <button
                       className=" btn btn-primary"
                       data-bs-toggle="pill"
                       href="#tab-3"
                     >
+                          
                       <i className="fa fa-eye me-2" />
                       Know More
+                      
+                    </button>
                     </a>
                     <a
                       className=" btn btn-primary m-3"
@@ -526,13 +542,17 @@ const Property = () => {
                       <i className="fa fa-map-marker-alt text-primary me-2" />
                       SHANKARPUR NAGPUR
                     </p>
-                    <a
+                    <a  href="Property/KuhaasaResidency">
+                    <button
                       className=" btn btn-primary"
                       data-bs-toggle="pill"
                       href="#tab-3"
                     >
+                          
                       <i className="fa fa-eye me-2" />
                       Know More
+                      
+                    </button>
                     </a>
                     <a
                       className=" btn btn-primary m-3"

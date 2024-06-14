@@ -171,6 +171,19 @@
   background-color: #49b2d9;
 }
 
+
+
+.gradeimg{
+  width: 100%;
+  height: 800px;
+  object-fit: cover;
+
+}
+
+.buttond{
+  margin-top: 100px;
+}
+
 /* WhatApp's*/
 .whatapp {
   position: fixed;
