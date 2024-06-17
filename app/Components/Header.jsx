@@ -24,7 +24,7 @@ const Header = () => {
                   <p style={{color:'grey'}}>
                     If you don’t own a home, buy one. If you own a home, buy another one. If you <br /> own two homes buy a third. And lend your relatives the money to buy a home.
                   </p>
-                  <p className="pt-3"> - John Paulson</p>
+                  <p className="pt-3" style={{color:'grey'}}> - John Paulson</p>
                 </div>
               </div>
               <div className="d-flex flex-row py-4 my-2">
