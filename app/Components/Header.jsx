@@ -11,7 +11,7 @@ const Header = () => {
       <div className="container-full header bg-white position-relative">
         <div className="row g-0 align-items-center flex-column-reverse flex-md-row">
           <div className="bg-white">
-            <div className="position-absolute w-100 h-100 mt-4 pt-4 mx-4 px-4 d-flex flex-column text-black" style={{ zIndex: 2 }}>
+            <div className="position-absolute w-100 h-100 mt-4 pt-4 mx-4 px-4 d-flex flex-column text-black" style={{ zIndex: 2}}>
               <div className="my-2" />
               <div className="col-md-6 p-1 mt-lg-5 py-4 my-4">
                 <div className="pt-4 mt-4">
@@ -21,7 +21,7 @@ const Header = () => {
                   </h1>
                 </div>
                 <div className="pt-3 p-2">
-                  <p>
+                  <p style={{color:'grey'}}>
                     If you don’t own a home, buy one. If you own a home, buy another one. If you <br /> own two homes buy a third. And lend your relatives the money to buy a home.
                   </p>
                   <p className="pt-3"> - John Paulson</p>
