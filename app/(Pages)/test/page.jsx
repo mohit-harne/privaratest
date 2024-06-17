@@ -1,4 +1,6 @@
-import Script from 'next/script';
+import React from 'react';
+import Image from 'next/image';
+import Header from '../../Components/Header';
 import CallAction from '../../Components/CallAction';
 import '../../styles/bootstrap.min.css';
 import '../../styles/style.css'
@@ -9,61 +11,12 @@ export default function Home() {
   return (
 
 <>
+
+    
+    
   {/* Header Start */}
-  <div className="container-fluid header bg-white">
-  <div className="row g-0 align-items-center flex-column-reverse flex-md-row">
-    <div className="bg-white dark:bg-white">
-      <div className="d-flex flex-row position-relative">
-        <img src="./img/white image.png" />
-        <img
-          src="./img/carousel-3 copy.jpg"
-          alt="Background Image"
-          className="gradeimg"
-        />
-        <div
-          className="absolute inset-0 bg-gradient-to-r from-white to-transparent p-8 flex flex-col text-black dark:text-black"
-          style={{
-            backgroundImage:
-              "linear-gradient(90deg, rgba(251,251,249,1) 22%, rgba(248,248,246,1) 24%, rgba(255,255,255,0) 45%)"
-          }}
-        >
-          <div className="my-2" />
-          <div className="col-md-6 p-1 mt-lg-5 py-4 my-4">
-            <div className="pt-4 mt-4">
-              <h1 className="display-5 animated fadeIn mb-2 pt-3">
-                Find A <span className="text-primary">Perfect Home</span> To{" "}
-                <br />
-                Live With Your Family
-              </h1>
-            </div>
-            <div className="p-2">
-              <br className="animated fadeIn text-dark" />
-              If you don’t own a home, buy one. If you own a home, buy another
-              one. If you <br /> own two homes buy a third. And lend your
-              relatives the money to buy a home.
-              <p />
-              <p className="pt-3"> - John Paulson</p>
-            </div>
-          </div>
-          <div className="buttond d-flex flex-row py-5">
-            <a href="" className="btn btn-primary py-3 px-5 me-3 p-2 fadeIn">
-              Get Started
-            </a>
-            <a
-              href=""
-              className="btn btn-primary py-3 px-5 me-3 p-2 animated fadeIn"
-            >
-              Schedule meeting
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
+  <Header/>
   {/* Header End */}
-
    {/* Search Start */}
   <div className='con'>
     <div
@@ -392,7 +345,7 @@ export default function Home() {
     </div>
   </div>
   {/* Testimonial End */}
-  <Script src="https://cdn.tailwindcss.com"></Script>
+ 
   </>
 
 
