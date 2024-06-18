@@ -1,6 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import ab from '../../public/img/RERA/home page.png'
+import h2 from '../../public/img/RERA/hb2.png'
 
 import { Inter, Roboto } from 'next/font/google'
 
@@ -45,7 +46,11 @@ const Header = () => {
                     {height: '800px'}
                 } />
               </div>
-
+              <div className="owl-carousel-item">
+                <Image className="img-flex" src={h2} alt="Carousel" style={
+                    {height: '800px'}
+                } />
+              </div>
             </div>
           </div>
         </div>

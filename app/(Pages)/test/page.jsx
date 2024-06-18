@@ -1,6 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import Header from '../../Components/Header';
+import PropCard from '../../Components/propcards';
 import CallAction from '../../Components/CallAction';
 import '../../styles/bootstrap.min.css';
 import '../../styles/style.css'
@@ -17,6 +18,7 @@ export default function Home() {
   {/* Header Start */}
   <Header/>
   {/* Header End */}
+
    {/* Search Start */}
   <div className='con'>
     <div
@@ -51,6 +53,9 @@ export default function Home() {
     </div>
     </div>
   {/* Search End */}
+    {/* Property Start */}
+    <PropCard/>
+  {/* Property End */}
     {/* Category Start */}
   <div className="container-xxl py-5">
     <div className="container">

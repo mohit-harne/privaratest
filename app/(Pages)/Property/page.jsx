@@ -104,7 +104,7 @@ const Property = () => {
     </div>
   </div>
 
-    <div className="container-xxl py-5">
+    <div className="container-fluid py-5">
       <div className="container">
         <div className="row g-0 gx-5 align-items-end">
           <div className="col-lg-6">
