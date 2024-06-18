@@ -12,7 +12,7 @@ const NavBar = () => {
 
   return (
     <div className="container-fluid nav-bar bg-transparent">
-    <nav className="navbar navbar-expand-lg bg-white navbar-light py-0 px-4">
+    <nav className="navbar navbar-expand-lg bg-white navbar-light py-0 px-3">
       <a
         href="/"
         className="navbar-brand d-flex align-items-center text-center"
@@ -34,7 +34,7 @@ const NavBar = () => {
         <span className="navbar-toggler-icon" />
       </button>
       <div className="collapse navbar-collapse" id="navbarCollapse">
-        <div className="navbar-nav ms-auto">
+        <div className="navbar-nav ms-auto align-items-center">
           <a href="/" className="nav-item nav-link active">
             Home
           </a>
