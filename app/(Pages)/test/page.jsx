@@ -57,7 +57,7 @@ export default function Home() {
     <PropCard/>
   {/* Property End */}
     {/* Category Start */}
-  <div className="container-xxl py-5">
+  <div className="container-fluid py-5">
     <div className="container">
       <div
         className="text-center mx-auto mb-5 wow fadeInUp"
@@ -119,7 +119,7 @@ export default function Home() {
   </div>
   {/* Category End */}
   {/* About Start */}
-  <div className="container-xxl py-5">
+  <div className="container-fluid py-5">
     <div className="container">
       <div className="row g-5 align-items-center">
         <div className="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
@@ -268,7 +268,7 @@ export default function Home() {
     </div>
   </div>
   {/* About End */}
-  <CallAction />
+
   {/* Testimonial Start */}
   <div className="container-xxl py-5">
     <div className="container">

@@ -14,7 +14,7 @@ const propcards = () => {
     <>
 
     <div className="container-fluid py-5">
-    <div className="container">
+    <div className="container-sl p-4">
     <div
         className="text-center mx-auto mb-5 wow fadeInUp"
         data-wow-delay="0.1s"
@@ -26,7 +26,7 @@ const propcards = () => {
         <hr />
       </div>
       <div className="tab-content">
-        <div id="tab-1" className="tab-pane fade show shadow-sm p-0 shadow-sm active">
+        <div id="tab-1" className="tab-pane fade show shadow-sm p-0 shadow-sm active ">
           <div className="row g-4">
             <div
               className="col-lg-4 col-md-6 wow fadeInUp"
@@ -39,6 +39,7 @@ const propcards = () => {
                       className="img-fluid"
                       src={p1}
                       alt=""
+
                     />
                   </a>
                   <div className="bg-primary rounded text-white position-absolute end-0 top-0 m-4 py-1 px-3">
@@ -54,26 +55,7 @@ const propcards = () => {
                     <i className="fa fa-map-marker-alt text-primary me-2" />
                     JAMTHA NAGPUR
                   </p>
-                  <a  href="Property/KrishnaNagari">
-                  <button
-                    className=" btn btn-primary"
-                    data-bs-toggle="pill"
-                    href="#tab-3"
-                  >
-                        
-                    <i className="fa fa-eye me-2" />
-                    Know More
-                    
-                  </button>
-                  </a>
-                  <a
-                    className=" btn btn-primary m-3"
-                    data-bs-toggle="pill"
-                    href="#tab-3"
-                  >
-                    <i className="fa fa-phone fa-rotate-90 me-2 " />
-                    Call us
-                  </a>
+
                   <p />
                 </div>
                 <div className="d-flex border-top">
@@ -114,26 +96,7 @@ const propcards = () => {
                     <i className="fa fa-map-marker-alt text-primary me-2" />
                     SHANKARPUR NAGPUR
                   </p>
-                  <a  href="Property/KuhaasaResidency">
-                  <button
-                    className=" btn btn-primary"
-                    data-bs-toggle="pill"
-                    href="#tab-3"
-                  >
-                        
-                    <i className="fa fa-eye me-2" />
-                    Know More
-                    
-                  </button>
-                  </a>
-                  <a
-                    className=" btn btn-primary m-3"
-                    data-bs-toggle="pill"
-                    href="#tab-3"
-                  >
-                    <i className="fa fa-phone fa-rotate-90 me-2 " />
-                    Call us
-                  </a>
+                 
                   <p />
                 </div>
                 <div className="d-flex border-top">
@@ -174,22 +137,7 @@ const propcards = () => {
                     <i className="fa fa-map-marker-alt text-primary me-2" />
                     JAMTHA NAGPUR
                   </p>
-                  <a
-                    className=" btn btn-primary"
-                    data-bs-toggle="pill"
-                    href="#tab-3"
-                  >
-                    <i className="fa fa-eye me-2" />
-                    Know More
-                  </a>
-                  <a
-                    className=" btn btn-primary m-3"
-                    data-bs-toggle="pill"
-                    href="#tab-3"
-                  >
-                    <i className="fa fa-phone fa-rotate-90 me-2 " />
-                    Call us
-                  </a>
+                
                   <p />
                 </div>
                 <div className="d-flex border-top">
@@ -222,7 +170,7 @@ const propcards = () => {
                   </div>
 
                 </div>
-                <div className="p-4 pb-0">
+                <div className="p-4 pb-0 text-center">
                   <a className="d-block h5 mb-2" href="">
                     PRIVARA VIHAR – 4
                   </a>
@@ -230,26 +178,7 @@ const propcards = () => {
                     <i className="fa fa-map-marker-alt text-primary me-2" />
                     JAMTHA NAGPUR
                   </p>
-                  <a  href="Property/PrivaraVihar4">
-                  <button
-                    className=" btn btn-primary"
-                    data-bs-toggle="pill"
-                    href="#tab-3"
-                  >
-                        
-                    <i className="fa fa-eye me-2" />
-                    Know More
-                    
-                  </button>
-                  </a>
-                  <a
-                    className=" btn btn-primary m-3"
-                    data-bs-toggle="pill"
-                    href="#tab-3"
-                  >
-                    <i className="fa fa-phone fa-rotate-90 me-2 " />
-                    Call us
-                  </a>
+                 
                   <p />
                 </div>
                 <div className="d-flex border-top">
@@ -282,7 +211,7 @@ const propcards = () => {
                   </div>
 
                 </div>
-                <div className="p-4 pb-0">
+                <div className="p-4 pb-0 text-center">
                   <a className="d-block h5 mb-2" href="">
                     PRIVARA VIHAR – 5
                   </a>
@@ -290,26 +219,7 @@ const propcards = () => {
                     <i className="fa fa-map-marker-alt text-primary me-2" />
                     TARODI NAGPUR
                   </p>
-                  <a  href="Property/PrivaraVihar5">
-                  <button
-                    className=" btn btn-primary"
-                    data-bs-toggle="pill"
-                    href="#tab-3"
-                  >
-                        
-                    <i className="fa fa-eye me-2" />
-                    Know More
-                    
-                  </button>
-                  </a>
-                  <a
-                    className=" btn btn-primary m-3"
-                    data-bs-toggle="pill"
-                    href="#tab-3"
-                  >
-                    <i className="fa fa-phone fa-rotate-90 me-2 " />
-                    Call us
-                  </a>
+                  
                   <p />
                 </div>
                 <div className="d-flex border-top">
@@ -342,7 +252,7 @@ const propcards = () => {
                   </div>
 
                 </div>
-                <div className="p-4 pb-0">
+                <div className="p-4 pb-0 text-center">
                   <a className="d-block h5 mb-2" href="">
                     PRIVARA VIHAR – 6
                   </a>
@@ -350,26 +260,7 @@ const propcards = () => {
                     <i className="fa fa-map-marker-alt text-primary me-2" />
                     LONARA NAGPUR
                   </p>
-                  <a  href="Property/PrivaraVihar6">
-                  <button
-                    className=" btn btn-primary"
-                    data-bs-toggle="pill"
-                    href="#tab-3"
-                  >
-                        
-                    <i className="fa fa-eye me-2" />
-                    Know More
-                    
-                  </button>
-                  </a>
-                  <a
-                    className=" btn btn-primary m-3"
-                    data-bs-toggle="pill"
-                    href="#tab-3"
-                  >
-                    <i className="fa fa-phone fa-rotate-90 me-2 " />
-                    Call us
-                  </a>
+                 
                   <p />
                 </div>
                 <div className="d-flex border-top">
