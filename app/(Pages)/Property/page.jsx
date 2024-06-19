@@ -43,7 +43,7 @@ const Property = () => {
           </div>
         </div>
         <div className="flex animated fadeIn"  >
-          <Image className="pbanner img-fluid" src={header} alt="" />
+          <Image className="pbanner img-fluid" src={header} alt="" style={{}}/>
         </div>
       </div>
     </div>
@@ -67,7 +67,7 @@ const Property = () => {
             </div>
             <div className="col-md-4">
               <select className="form-select border-0 py-3">
-                <option selected="">Property Type</option>
+                <option selected="">Plots</option>
                 <option value={1}>Property Type 1</option>
                 <option value={2}>Property Type 2</option>
                 <option value={3}>Property Type 3</option>
@@ -76,7 +76,7 @@ const Property = () => {
             <div className="col-md-4">
               <select className="form-select border-0 py-3">
                 <option selected="">Location</option>
-                <option value={1}>Location 1</option>
+                <option value={1}>Jamtha</option>
                 <option value={2}>Location 2</option>
                 <option value={3}>Location 3</option>
               </select>
