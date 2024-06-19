@@ -2,6 +2,7 @@ import React from 'react'
 import Image from 'next/image';
 import Header from '../../../public/img/header.jpg'
 import C9 from '../../../public/img/carousel-9.jpg'
+import header from '../../../public/img/pbanner.png'
 import '../../styles/bootstrap.min.css';
 import '../../styles/style.css';
 import '../../styles/common.css';
@@ -9,47 +10,28 @@ import '../../styles/common.css';
 const ContactUs = () => {
   return (
     <>
-            {/* Header Start */}
-            <div className="container-fluid header bg-white p-0">
-            <div className="row g-0 align-items-center flex-column-reverse flex-md-row">
-              <div className="col-md-6 p-5 mt-lg-5">
-                <h1 className="display-5 animated fadeIn mb-4">Contact Us </h1>
-                <nav aria-label="breadcrumb animated fadeIn">
-                  <ol className="breadcrumb text-uppercase">
-                    <li className="breadcrumb-item">
-                      <a href="#">Home</a>
-                    </li>
-                    <li className="breadcrumb-item">
-                      <a href="#">Pages</a>
-                    </li>
-                    <li
-                      className="breadcrumb-item text-body active"
-                      aria-current="page"
-                    >
-                     Contact Us
-                    </li>
-                  </ol>
-                </nav>
-              </div>
-              <div className="col-md-6 animated fadeIn">
-                <Image className="img-fluid" src={Header} alt="" />
-              </div>
-            </div>
-          </div>
-          {/* Header End */}
-    <div className="container-xxl py-5">
-    <div className="container">
-      <div
-        className="text-center mx-auto mb-5 wow fadeInUp"
+               {/* Header Start */}
+    <div className="container-fluid header bg-white p-0" >
+      <div className="row g-0 align-items-center flex-column-reverse flex-md-row ">
+        <div className="breadbox mt-4 pt-4"  style={{ textAlign: 'center'}}>
+        <div
+        className="text-center mx-auto m-3 wow fadeInUp"
         data-wow-delay="0.1s"
         style={{ maxWidth: 600 }}
       >
-        <h1 className="mb-3">
-          Contact Us
+        <h1 className="pb-3 text-white">
+         Contact Us
           <hr />
         </h1>
       </div>
+        </div>
+        <div className="flex animated fadeIn"  >
+          <Image className="pbanner img-fluid" src={header} alt=""/>
+        </div>
+      </div>
     </div>
+    {/* Header End */}
+    <div className="container-xxl py-5">
     <div className="row g-4">
       <div className="col-12">
         <div className="row gy-4">

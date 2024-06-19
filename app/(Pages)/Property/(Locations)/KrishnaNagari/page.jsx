@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import Header from "../../../../../public/img/header.jpg";
+import header from '../../../../../public/img/pbanner.png'
 import p1 from "../../../../../public/img/carousel-7.jpg";
 import p2 from "../../../../../public/img/carousel-8.jpg";
 import p3 from "../../../../../public/img/nk.png";
@@ -24,53 +24,41 @@ function property1() {
   const slides = [
     {
       image: p1,
-      caption: "Caption Text",
+  
     },
     {
       image: p2,
-      caption: "Caption Text",
+  
     },
     {
     image: p3,
-    caption: "Caption Text",
+
   },
   ];
 
   return (
-    <div className="container-xxl bg-white">
-      {/* Header Start */}
-      <div className="container-fluid header bg-white p-0">
-        <div className="row g-0 align-items-center flex-column-reverse flex-md-row">
-          <div className="col-md-6 p-5 mt-lg-5">
-            <h1 className="display-5 animated fadeIn mb-4">
-              Known Your Founder
-            </h1>
-            <nav aria-label="breadcrumb animated fadeIn">
-              <ol className="breadcrumb text-uppercase">
-                <li className="breadcrumb-item">
-                  <a href="#">Home</a>
-                </li>
-                <li className="breadcrumb-item">
-                  <a href="#">Pages</a>
-                </li>
-                <li className="breadcrumb-item">
-                  <a href="#">Property</a>
-                </li>
-                <li
-                  className="breadcrumb-item text-body active"
-                  aria-current="page"
-                >
-                  Krishna Nagari
-                </li>
-              </ol>
-            </nav>
-          </div>
-          <div className="col-md-6 animated fadeIn">
-            <Image className="img-fluid" src={Header} alt="" />
-          </div>
+    <div >
+     {/* Header Start */}
+    <div className="container-fluid header bg-white p-0" >
+      <div className="row g-0 align-items-center flex-column-reverse flex-md-row ">
+        <div className="breadbox mt-4 pt-4"  style={{ textAlign: 'center'}}>
+        <div
+        className="text-center mx-auto m-3 wow fadeInUp"
+        data-wow-delay="0.1s"
+        style={{ maxWidth: 600 }}
+      >
+        <h1 className="pb-3 text-white mt-4 pt-4">
+         KRISHNA NAGARI
+          <hr />
+        </h1>
+      </div>
+        </div>
+        <div className="flex animated fadeIn"  >
+          <Image className="img-fluid" src={header} alt="" style={{height:"350px"}}/>
         </div>
       </div>
-      {/* Header End */}
+    </div>
+    {/* Header End */}
       {/* Search Start */}
       <div className="con">
         <div
@@ -107,7 +95,7 @@ function property1() {
       {/* Search End */}
 
       {/* About Start */}
-      <div className="container-xxl py-3">
+      <div className="container-fluid py-3">
         <div className="container">
           <div className="row g-5">
             <div className="col-lg-6 wow fadeIn py-2" data-wow-delay="0.1s">

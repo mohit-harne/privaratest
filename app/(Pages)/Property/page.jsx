@@ -18,27 +18,16 @@ const Property = () => {
     <div className="container-fluid header bg-white p-0" >
       <div className="row g-0 align-items-center flex-column-reverse flex-md-row ">
         <div className="breadbox mt-4 pt-4"  style={{ textAlign: 'center'}}>
-          <div>
-          <h1 className="display-5 text-white animated fadeIn mt-4 pt-4">Properties </h1>
-          <hr className='dash1'/>
-          {/* <nav aria-label="breadcrumb animated fadeIn ">
-            <ol className="breadcrumb text-uppercase">
-              <li className="breadcrumb-item">
-                <a className='text-white' href="/">Home</a>
-              </li>
-              <li className="breadcrumb-item">
-                      <a className='text-white' href="#">Pages</a>
-                    </li>
-              <li
-                className="breadcrumb-item text-body active " 
-                aria-current="page"
-                
-              >
-                 <a className='text-white' href="#">Property List</a>
-              </li>
-            </ol>
-          </nav> */}
-          </div>
+        <div
+        className="text-center mx-auto mb-5 wow fadeInUp text-white mt-4 pt-4"
+        data-wow-delay="0.1s"
+        style={{ maxWidth: 600 }}
+      >
+        <div style={{ justifyContent: "flex" }} />
+        <h1 className="mb-0 pb-2 text-white mt-4 pt-4">Property Location</h1>
+        <span className="txt text-white"> EXPLORE PROJECTS IN YOUR DESIRED LOCATIONS</span>
+        <hr />
+      </div>
         </div>
         <div className="flex animated fadeIn"  >
           <Image className="pbanner img-fluid" src={header} alt=""/>
@@ -96,7 +85,7 @@ const Property = () => {
     {/* Category Start */}
     <div className="container-xxl py-5">
     <div className="container">
-      <div
+      {/* <div
         className="text-center mx-auto mb-5 wow fadeInUp"
         data-wow-delay="0.1s"
         style={{ maxWidth: 600 }}
@@ -105,7 +94,7 @@ const Property = () => {
         <h1 className="mb-0 pb-2">Property Location</h1>
         <span className="txt"> EXPLORE PROJECTS IN YOUR DESIRED LOCATIONS</span>
         <hr />
-      </div>
+      </div> */}
       <div className="row g-4">
         <div className="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
           <a

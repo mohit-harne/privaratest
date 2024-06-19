@@ -7,5 +7,5 @@
     --light: #EFFDFD;
     --dark: #0E2E50;
 
-    
+    .text-justify{text-align:justify !important;}
 }

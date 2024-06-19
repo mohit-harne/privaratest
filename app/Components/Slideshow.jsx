@@ -24,7 +24,7 @@ const Slideshow = ({ slides }) => {
             className={`${styles.mySlides} ${styles.fade}`}
             style={{ display: slideIndex === index ? "block" : "none" }}
           >
-            <div className={styles.numbertext}>{index + 1} / {slides.length}</div>
+          
             <Image src={slide.image} className={styles.propimage} alt={`Slide ${index + 1}`} />
           </div>
         ))}

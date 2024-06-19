@@ -6,7 +6,11 @@
     bottom: 45px;
     z-index: 99;
 }
-
+.justy p{
+    text-align: justify; 
+    text-justify: inter-word;
+  }
+  
 
 /*** Spinner ***/
 #spinner {

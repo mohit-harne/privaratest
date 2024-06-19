@@ -5,58 +5,40 @@ import Director from '../../../public/img/director.png'
 import Pd1 from "../../../public/img/pd1.png"
 import Pd2 from "../../../public/img/privara-dev.jpeg"
 import CallAction from '../../Components/CallAction';
+import header from '../../../public/img/pbanner.png'
 import '../../styles/bootstrap.min.css';
 import '../../styles/style.css';
 import '../../styles/common.css';
 
 const KnowOurFounder = () => {
   return (
-    <div class="container-xxl bg-white">
- {/* Header Start */}
- <div className="container-fluid header bg-white p-0">
-            <div className="row g-0 align-items-center flex-column-reverse flex-md-row">
-              <div className="col-md-6 p-5 mt-lg-5">
-                <h1 className="display-5 animated fadeIn mb-4">Known Your Founder</h1>
-                <nav aria-label="breadcrumb animated fadeIn">
-                  <ol className="breadcrumb text-uppercase">
-                    <li className="breadcrumb-item">
-                      <a href="#">Home</a>
-                    </li>
-                    <li className="breadcrumb-item">
-                      <a href="#">Pages</a>
-                    </li>
-                    <li
-                      className="breadcrumb-item text-body active"
-                      aria-current="page"
-                    >
-                    Known Your Founder
-                    </li>
-                  </ol>
-                </nav>
-              </div>
-              <div className="col-md-6 animated fadeIn">
-                <Image className="img-fluid" src={Header} alt="" />
-              </div>
-            </div>
-            
-          </div>
-          {/* Header End */}
-          
-
-    {/* Call to Action Start */}
-    <div className="container-xxl py-5">
-    <div className="container pb-3">
-      <div
+    <div>
+    {/* Header Start */}
+    <div className="container-fluid header bg-white p-0" >
+      <div className="row g-0 align-items-center flex-column-reverse flex-md-row ">
+        <div className="breadbox mt-4 pt-4"  style={{ textAlign: 'center'}}>
+        <div
         className="text-center mx-auto m-3 wow fadeInUp"
         data-wow-delay="0.1s"
         style={{ maxWidth: 600 }}
       >
-        <h1 className="pb-3">
+        <h1 className="pb-3 text-white">
          Known Your Founder
           <hr />
         </h1>
       </div>
+        </div>
+        <div className="flex animated fadeIn"  >
+          <Image className="pbanner img-fluid" src={header} alt=""/>
+        </div>
+      </div>
     </div>
+    {/* Header End */}
+          
+
+    {/* Call to Action Start */}
+    <div className="container-xxl py-5">
+
         <div className="container">
         <div className="bg-light rounded p-3">
             <div
@@ -83,7 +65,7 @@ const KnowOurFounder = () => {
                 <div className="mb-4">
                     <h1>We are Privara</h1>
                     <p>We help you leverage real estate to build wealth.</p>
-                    <p>
+                    <p className='justy'>
                     We are a prominent real estate firm situated in the most
                     highly growing city of India — Nagpur. Driven by the purpose
                     of building “Infinite Trust” among our customers and dealers,
