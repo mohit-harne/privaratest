@@ -13,7 +13,7 @@ import am7 from "../../../../../public/img/amenities7.png";
 import am8 from "../../../../../public/img/amenities8.png";
 import am9 from "../../../../../public/img/amenities9.png";
 import Slideshow from "../../../../Components/Slideshow";
-import Rera from "../../../../../public/img/RERA/Krishna Nagri 42-1-A RERA CODE.png";
+import Rera from "../../../../../public/img/RERA/Privara Vihar 6 QR Code.png";
 import "../../../../styles/bootstrap.min.css";
 import "../../../../styles/style.css";
 import "../../../../styles/common.css";
@@ -55,7 +55,7 @@ function property1() {
                   className="breadcrumb-item text-body active"
                   aria-current="page"
                 >
-                  Krishna Nagari
+                 Privara Vihar-6
                 </li>
               </ol>
             </nav>
@@ -204,7 +204,7 @@ function property1() {
             <div className="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
               <div className="como">
                 <div className="Child1">
-                  <h1 className="text-dark p-2">Krishna Nagari</h1>
+                  <h1 className="text-dark p-2">Privara Vihar-6</h1>
 
                   <a className="tex-primary">
                     <svg
@@ -227,17 +227,17 @@ function property1() {
                         d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z"
                       />
                     </svg>
-                    <strong m-2>JAMTHA NAGPUR</strong>
+                    <strong m-2>LONARA NAGPUR</strong>
                   </a>
                   <div className="d-flex flex text-dark column mt-3">
                     <div className="">
                       <p>
-                        <b>Plot Area:</b> 22 ACRES
+                        <b>Plot Area:</b> 2.6 ACRES
                       </p>
                     </div>
                     <div className="px-2">
                       <p>
-                        <b>Number Of Plots: </b> 321{" "}
+                        <b>Number Of Plots: </b> 49{" "}
                       </p>
                     </div>
                   </div>
@@ -251,16 +251,7 @@ function property1() {
                 </div>
               </div>
               <p className="text-dark mb-2">
-                Welcome to our Krishna Nagari, an idyllic community thoughtfully
-                designed for modern living. Spread across 22 acres, Krishna
-                Nagari boasts meticulously planned spaces, ensuring a perfect
-                balance between Luxury and Affordability Conveniently located
-                Opposite to NCI, Krishna Nagari offers easy access to Samruddhi
-                Expressway, educational institutions(IIM, DPS), healthcare
-                facilities(AIIMS, NCI), and Recreational Centers (VCA Stadium),
-                making it an ideal place to call home. Krishna Nagari welcomes
-                you to experience the perfect harmony of modern living in a
-                community that truly feels comfort, connectivity, and serenity.{" "}
+              Welcome to Privara Vihar-6, an exquisite residential Layout nestled in the heart of Lonara, Nagpur. Privara Vihar-6 offers a harmonious blend of modern luxury for thoughtfully planned community. Conveniently located near Central RTO & State Rural RTO, educational institutions (Central Institute of Pharmacy & MBA College) , and amusement hubs (Lonara Lake), Privara Vihar-6 offers the perfect balance between urban convenience and suburban serenity. Experience the epitome of luxury living at Privara Vihar-6. {" "}
               </p>
 
               <div className=" pt-2">
@@ -268,13 +259,13 @@ function property1() {
                   <b>Near By</b>
                 </p>
                 <ul className="list-inline ">
-                  <li className="list-inline-item">{`1. NCI – 1 Km`}</li>
-                  <li className="list-inline-item px-3">{`3. IIM’S – 1 km`}</li>
-                  <li className="list-inline-item px-3">{`4. VCA stadium – 1 KM`}</li>
+                  <li className="list-inline-item">{`1. Central RTO – 100 Mtr`}</li>
+                  <li className="list-inline-item px-3">{`2.State Rural RTO – 100 Mtr`}</li>
+                  <li className="list-inline-item px-3">{`3. Outer Ring Road – 1.5 Km`}</li>
                 </ul>
                 <ul className="list-inline">
-                  <li className="list-inline-item">{`2. AIIMS - 1km`}</li>
-                  <li className="list-inline-item px-3">{`5. Samruddhi Express Way – 2.5 km`}</li>
+                  <li className="list-inline-item">{`4. Central Institute of Pharmacy - 50 Mtr`}</li>
+                  <li className="list-inline-item px-3">{`5.Podar International School  – 1.5 Km`}</li>
                 </ul>
               </div>
               <div className=" p-2">
