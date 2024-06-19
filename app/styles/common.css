@@ -525,6 +525,7 @@
 
 
 .pbanner{
+  max-height: 350px;
   position: relative;
   object-fit: cover;
   z-index: -1;

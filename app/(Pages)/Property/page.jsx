@@ -16,12 +16,10 @@ const Property = () => {
     <>
     {/* Header Start */}
     <div className="container-fluid header bg-white p-0" >
-      <div className="row g-0 align-items-center flex-column-reverse flex-md-row">
-        <div className="breadbox"  style={{ textAlign: 'center',
-         
-        }}>
+      <div className="row g-0 align-items-center flex-column-reverse flex-md-row ">
+        <div className="breadbox mt-4 pt-4"  style={{ textAlign: 'center'}}>
           <div>
-          <h1 className="display-5 text-white animated fadeIn mb-4">Properties </h1>
+          <h1 className="display-5 text-white animated fadeIn mt-4 pt-4">Properties </h1>
           <hr className='dash1'/>
           {/* <nav aria-label="breadcrumb animated fadeIn ">
             <ol className="breadcrumb text-uppercase">
@@ -43,7 +41,7 @@ const Property = () => {
           </div>
         </div>
         <div className="flex animated fadeIn"  >
-          <Image className="pbanner img-fluid" src={header} alt="" style={{}}/>
+          <Image className="pbanner img-fluid" src={header} alt=""/>
         </div>
       </div>
     </div>
@@ -68,17 +66,21 @@ const Property = () => {
             <div className="col-md-4">
               <select className="form-select border-0 py-3">
                 <option selected="">Plots</option>
-                <option value={1}>Property Type 1</option>
-                <option value={2}>Property Type 2</option>
-                <option value={3}>Property Type 3</option>
+                <option value={1}>KRISHNA NAGARI</option>
+                <option value={2}>KUHAASA RESIDENCY</option>
+                <option value={3}>PRIVARA VIHAR – 3</option>
+                <option value={3}>PRIVARA VIHAR – 4</option>
+                <option value={3}>PRIVARA VIHAR – 5</option>
+                <option value={3}>PRIVARA VIHAR – 6</option>
               </select>
             </div>
             <div className="col-md-4">
               <select className="form-select border-0 py-3">
                 <option selected="">Location</option>
                 <option value={1}>Jamtha</option>
-                <option value={2}>Location 2</option>
-                <option value={3}>Location 3</option>
+                <option value={2}>Shankarpur</option>
+                <option value={3}>Lonara</option>
+                <option value={4}>Tarodi</option>
               </select>
             </div>
           </div>
