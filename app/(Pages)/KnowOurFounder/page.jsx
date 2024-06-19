@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import Header from '../../../public/img/header.jpg'
+import Header from '../../../public/img/header/krishna nagari/1_Photo - 1_Photo - 1.jpg'
 import Director from '../../../public/img/director.png'
 import Pd1 from "../../../public/img/pd1.png"
 import Pd2 from "../../../public/img/privara-dev.jpeg"

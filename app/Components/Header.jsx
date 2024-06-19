@@ -7,6 +7,7 @@ import { Inter, Roboto } from 'next/font/google'
 
 const Header = () => {
   return (
+    
     <>
  {/* Header Start */}
       <div className="container-full header bg-white position-relative">
@@ -17,8 +18,8 @@ const Header = () => {
               <div className="col-md-6 p-1 mt-lg-5 py-4 my-4">
                 <div className="pt-4 mt-4">
                   <h1 className="display-5 animated fadeIn mb-4">
-                    Find A <span className="text-primary">Perfect Home</span> To Live <br />
-                    With Your Family
+                    Find A <span className="text-primary">Perfect Plot</span> To <br />
+                    Build Your Home
                   </h1>
                 </div>
                 <div className="pt-3 p-2">

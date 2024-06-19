@@ -2,42 +2,48 @@ import React from 'react'
 import Image from 'next/image'
 import '../../styles/bootstrap.min.css'
 import '../../styles/common.css'
-import p1 from '../../../public/img/carousel-7.jpg'
-import p2 from '../../../public/img/KUHASA VIEW 1.jpg'
-import p3 from '../../../public/img/p3.jpg'
-import p4 from '../../../public/img/carousel-4.jpg'
-import p5 from '../../../public/img/PV 5 VIEW_Photo - 1.jpg'
-import p6 from '../../../public/img/PRIVARA VIHAR 6 ENTRY GATE.jpg'
-import header from '../../../public/img/header.jpg'
+import p1 from '../../../public/img/nk.png'
+import p2 from '../../../public/img/nku.png'
+import p3 from '../../../public/img/np3.png'
+import p4 from '../../../public/img/np4.png'
+import p5 from '../../../public/img/np5.png'
+import p6 from '../../../public/img/np6.png'
+import header from '../../../public/img/pbanner.png'
 
 const Property = () => {
   return (
 
     <>
     {/* Header Start */}
-    <div className="container-fluid header bg-white p-0">
+    <div className="container-fluid header bg-white p-0" >
       <div className="row g-0 align-items-center flex-column-reverse flex-md-row">
-        <div className="col-md-6 p-5 mt-lg-5">
-          <h1 className="display-5 animated fadeIn mb-4">Properties </h1>
-          <nav aria-label="breadcrumb animated fadeIn">
+        <div className="breadbox"  style={{ textAlign: 'center',
+         
+        }}>
+          <div>
+          <h1 className="display-5 text-white animated fadeIn mb-4">Properties </h1>
+          <hr className='dash1'/>
+          {/* <nav aria-label="breadcrumb animated fadeIn ">
             <ol className="breadcrumb text-uppercase">
               <li className="breadcrumb-item">
-                <a href="/">Home</a>
+                <a className='text-white' href="/">Home</a>
               </li>
               <li className="breadcrumb-item">
-                      <a href="#">Pages</a>
+                      <a className='text-white' href="#">Pages</a>
                     </li>
               <li
-                className="breadcrumb-item text-body active"
+                className="breadcrumb-item text-body active " 
                 aria-current="page"
+                
               >
-                Property List
+                 <a className='text-white' href="#">Property List</a>
               </li>
             </ol>
-          </nav>
+          </nav> */}
+          </div>
         </div>
-        <div className="col-md-6 animated fadeIn">
-          <Image className="img-fluid" src={header} alt="" />
+        <div className="flex animated fadeIn"  >
+          <Image className="pbanner img-fluid" src={header} alt="" />
         </div>
       </div>
     </div>

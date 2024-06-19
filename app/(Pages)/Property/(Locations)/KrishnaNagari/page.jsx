@@ -3,6 +3,7 @@ import Image from "next/image";
 import Header from "../../../../../public/img/header.jpg";
 import p1 from "../../../../../public/img/carousel-7.jpg";
 import p2 from "../../../../../public/img/carousel-8.jpg";
+import p3 from "../../../../../public/img/nk.png";
 import am1 from "../../../../../public/img/amenities1.png";
 import am2 from "../../../../../public/img/amenities2.png";
 import am3 from "../../../../../public/img/amenities3.png";
@@ -29,6 +30,10 @@ function property1() {
       image: p2,
       caption: "Caption Text",
     },
+    {
+    image: p3,
+    caption: "Caption Text",
+  },
   ];
 
   return (

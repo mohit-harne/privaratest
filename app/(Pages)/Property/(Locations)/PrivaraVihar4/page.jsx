@@ -18,7 +18,6 @@ import "../../../../styles/bootstrap.min.css";
 import "../../../../styles/style.css";
 import "../../../../styles/common.css";
 
-
 function property1() {
   const slides = [
     {

@@ -523,6 +523,27 @@
   background-color: #4caf50;
 }
 
+
+.pbanner{
+  position: relative;
+  object-fit: cover;
+  z-index: -1;
+}
+.breadbox{
+  position: absolute;
+  z-index: 2;
+
+  color: #000;
+  
+}
+
+.dash1{
+  border: 0.5px solid rgb(255, 255, 255);
+  width: 50px;
+
+  justify-content: center;
+
+}
 /* Keyframes for fadeInUp animation */
 @keyframes fadeInUp {
   from {
