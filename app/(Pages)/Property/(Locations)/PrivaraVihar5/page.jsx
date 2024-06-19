@@ -13,7 +13,7 @@ import am7 from "../../../../../public/img/amenities7.png";
 import am8 from "../../../../../public/img/amenities8.png";
 import am9 from "../../../../../public/img/amenities9.png";
 import Slideshow from "../../../../Components/Slideshow";
-import Rera from "../../../../../public/img/RERA/Krishna Nagri 42-1-A RERA CODE.png";
+import Rera from "../../../../../public/img/RERA/Privara Vihar 5 QR Code.jpeg.jpg";
 import "../../../../styles/bootstrap.min.css";
 import "../../../../styles/style.css";
 import "../../../../styles/common.css";
@@ -55,7 +55,7 @@ function property1() {
                   className="breadcrumb-item text-body active"
                   aria-current="page"
                 >
-                  Krishna Nagari
+                  Privara Vihar-5
                 </li>
               </ol>
             </nav>
@@ -204,7 +204,7 @@ function property1() {
             <div className="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
               <div className="como">
                 <div className="Child1">
-                  <h1 className="text-dark p-2">Krishna Nagari</h1>
+                  <h1 className="text-dark p-2">Privara Vihar-5</h1>
 
                   <a className="tex-primary">
                     <svg
@@ -227,17 +227,17 @@ function property1() {
                         d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z"
                       />
                     </svg>
-                    <strong m-2>JAMTHA NAGPUR</strong>
+                    <strong m-2>TARODI NAGPUR</strong>
                   </a>
                   <div className="d-flex flex text-dark column mt-3">
                     <div className="">
                       <p>
-                        <b>Plot Area:</b> 22 ACRES
+                        <b>Plot Area:</b> 2.25 ACRES
                       </p>
                     </div>
                     <div className="px-2">
                       <p>
-                        <b>Number Of Plots: </b> 321{" "}
+                        <b>Number Of Plots: </b> 36{" "}
                       </p>
                     </div>
                   </div>
@@ -251,16 +251,7 @@ function property1() {
                 </div>
               </div>
               <p className="text-dark mb-2">
-                Welcome to our Krishna Nagari, an idyllic community thoughtfully
-                designed for modern living. Spread across 22 acres, Krishna
-                Nagari boasts meticulously planned spaces, ensuring a perfect
-                balance between Luxury and Affordability Conveniently located
-                Opposite to NCI, Krishna Nagari offers easy access to Samruddhi
-                Expressway, educational institutions(IIM, DPS), healthcare
-                facilities(AIIMS, NCI), and Recreational Centers (VCA Stadium),
-                making it an ideal place to call home. Krishna Nagari welcomes
-                you to experience the perfect harmony of modern living in a
-                community that truly feels comfort, connectivity, and serenity.{" "}
+              Discover the essence of harmonious living at Privara Vihar 5 in Tarodi, Nagpur. This exclusive residential enclave features 36 strategically positioned plots. Privara Vihar-5 enjoys a prime location which is just a stone's throw away from Symbiosis College and located just adjacent to Outer ring Road. The enclave is equipped with state-of-the-art amenities to enhance the quality of life for its residents. These include landscaped parks, jogging tracks, a community center, and children's play areas.{" "}
               </p>
 
               <div className=" pt-2">
@@ -268,14 +259,11 @@ function property1() {
                   <b>Near By</b>
                 </p>
                 <ul className="list-inline ">
-                  <li className="list-inline-item">{`1. NCI – 1 Km`}</li>
-                  <li className="list-inline-item px-3">{`3. IIM’S – 1 km`}</li>
-                  <li className="list-inline-item px-3">{`4. VCA stadium – 1 KM`}</li>
+                  <li className="list-inline-item">{`1. PM Awas Yojana – 1 Km`}</li>
+                  <li className="list-inline-item px-3">{`2. Symbiosis University – 1.5 km`}</li>
+                  <li className="list-inline-item px-3">{`3. Shri Swaminarayan Mandir – 5.2 KM`}</li>
                 </ul>
-                <ul className="list-inline">
-                  <li className="list-inline-item">{`2. AIIMS - 1km`}</li>
-                  <li className="list-inline-item px-3">{`5. Samruddhi Express Way – 2.5 km`}</li>
-                </ul>
+                
               </div>
               <div className=" p-2">
                 <a href="" className="btn btn-primary py-2 px-3 me-2">
