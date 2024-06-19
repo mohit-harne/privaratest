@@ -12,7 +12,7 @@ const NavBar = () => {
 
   return (
     <div className="container-fluid nav-bar bg-transparent">
-    <nav className="navbar navbar-expand-lg bg-white navbar-light py-0 px-3">
+    <nav className="navbar navbar-expand-lg bg-white rounded navbar-light py-0 px-3">
       <a
         href="/"
         className="navbar-brand d-flex align-items-center text-center"

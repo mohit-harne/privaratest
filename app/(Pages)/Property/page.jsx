@@ -3,8 +3,8 @@ import Image from 'next/image'
 import '../../styles/bootstrap.min.css'
 import '../../styles/common.css'
 import p1 from '../../../public/img/nk.png'
-import p2 from '../../../public/img/nku.png'
-import p3 from '../../../public/img/np3.png'
+import p2 from '../../../public/img/nku2.png'
+import p3 from '../../../public/img/nnp3.png'
 import p4 from '../../../public/img/np4.png'
 import p5 from '../../../public/img/np5.png'
 import p6 from '../../../public/img/np6.png'
@@ -209,10 +209,8 @@ const Property = () => {
                         alt=""
                       />
                     </a>
-                    <div className="bg-primary rounded text-white position-absolute end-0 top-0 m-4 py-1 px-3">
-                      Completed
-                    </div>
 
+                    <div class="bg-primary bg-white rounded-top  text-primary  position-absolute end-0 bottom-0 mx-4 pt-1 px-3">Completed</div>
                   </div>
                   <div className="p-4 pb-0">
                     <a className="d-block h5 mb-2" href="">
@@ -269,10 +267,8 @@ const Property = () => {
                         alt=""
                       />
                     </a>
-                    <div className="bg-primary rounded text-white position-absolute end-0 top-0 m-4 py-1 px-3">
-                      Ongoing
-                    </div>
 
+        
                   </div>
                   <div className="p-4 pb-0">
                     <a className="d-block h5 mb-2" href="">
@@ -312,6 +308,10 @@ const Property = () => {
                     <small className="flex-fill text-center border-end py-2">
                       <i className="fa fa-home text-primary me-2" />
                       31 Plots
+                    </small>
+                    <small className="flex-fill text-center border-end py-2">
+                      <i className="fa fa-flag text-primary me-2" />
+                      Ongoing
                     </small>
                   </div>
                 </div>
@@ -613,6 +613,7 @@ const Property = () => {
                       <i className="fa fa-home text-primary me-2" />
                       31 Plots
                     </small>
+
                   </div>
                 </div>
               </div>
