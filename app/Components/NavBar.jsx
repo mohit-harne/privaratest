@@ -11,8 +11,8 @@ const NavBar = () => {
   const currentPath = usePathname();
 
   return (
-    <div className="container-fluid nav-bar bg-transparent">
-    <nav className="navbar navbar-expand-lg bg-white rounded navbar-light py-0 px-3">
+    <div className=" nav-bar bg-transparent">
+    <nav className="navbar navbar-expand-lg bg-white navbar-light py-0 px-4">
       <a
         href="/"
         className="navbar-brand d-flex align-items-center text-center"

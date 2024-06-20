@@ -21,8 +21,9 @@
     $(window).scroll(function () {
         if ($(this).scrollTop() > 45) {
             $('.nav-bar').addClass('sticky-top');
-        } else {
-            $('.nav-bar').removeClass('sticky-top');
+        // } else {
+        //     $('.nav-bar').removeClass('sticky-top');
+        // 
         }
     });
     

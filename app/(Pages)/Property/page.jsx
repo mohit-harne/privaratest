@@ -226,9 +226,7 @@ const Property = () => {
                         <Image className="img-fluid" src={p1} alt="" />
                       </a>
 
-                      <div class="bg-primary bg-white rounded-top  text-primary  position-absolute end-0 bottom-0 mx-4 pt-1 px-3">
-                        Completed
-                      </div>
+                     
                     </div>
                     <div className="p-4 pb-0">
                       <a className="d-block h5 mb-2" href="">
@@ -259,13 +257,17 @@ const Property = () => {
                       <p />
                     </div>
                     <div className="d-flex border-top">
-                      <small className="flex-fill text-center border-end py-2">
-                        <i className="fa fa-ruler-combined text-primary me-2" />{" "}
-                        22 Acres
+                    <small className="flex-fill text-center border-end py-2">
+                        <i className="fa fa-ruler-combined text-primary me-2" />
+                        2 Acres
                       </small>
                       <small className="flex-fill text-center border-end py-2">
                         <i className="fa fa-home text-primary me-2" />
-                        321 Plots{" "}
+                        31 Plots
+                      </small>
+                      <small className="flex-fill text-center border-end py-2">
+                        <i className="fa fa-flag text-primary me-2" />
+                        Completed
                       </small>
                     </div>
                   </div>
@@ -345,11 +347,7 @@ const Property = () => {
                             PRIVARA VIHAR – 3
                           </a>
                         </div>
-                        <div className='mx-4 px-4'>
-                          <div className="buttonx bg-primary rounded text-white position-absolute py-1 px-3">
-                            Ongoing
-                          </div>
-                        </div>
+           
                       </div>
 
                       <p>
@@ -376,13 +374,17 @@ const Property = () => {
                       <p />
                     </div>
                     <div className="d-flex border-top">
-                      <small className="flex-fill text-center border-end py-2">
+                    <small className="flex-fill text-center border-end py-2">
                         <i className="fa fa-ruler-combined text-primary me-2" />
-                        2.5 Acres
+                        2 Acres
                       </small>
                       <small className="flex-fill text-center border-end py-2">
                         <i className="fa fa-home text-primary me-2" />
-                        24 Plots
+                        31 Plots
+                      </small>
+                      <small className="flex-fill text-center border-end py-2">
+                        <i className="fa fa-flag text-primary me-2" />
+                        Ongoing
                       </small>
                     </div>
                   </div>
@@ -426,13 +428,17 @@ const Property = () => {
                       <p />
                     </div>
                     <div className="d-flex border-top">
-                      <small className="flex-fill text-center border-end py-2">
+                    <small className="flex-fill text-center border-end py-2">
                         <i className="fa fa-ruler-combined text-primary me-2" />
-                        3.9 Acres
+                        2 Acres
                       </small>
                       <small className="flex-fill text-center border-end py-2">
                         <i className="fa fa-home text-primary me-2" />
-                        44 Plots
+                        31 Plots
+                      </small>
+                      <small className="flex-fill text-center border-end py-2">
+                        <i className="fa fa-flag text-primary me-2" />
+                        Ongoing
                       </small>
                     </div>
                   </div>
@@ -446,9 +452,7 @@ const Property = () => {
                       <a href="">
                         <Image className="img-fluid" src={p5} alt="" />
                       </a>
-                      <div className="bg-primary rounded text-white position-absolute end-0 top-0 m-4 py-1 px-3">
-                        Ongoing
-                      </div>
+
                     </div>
                     <div className="p-4 pb-0">
                       <a className="d-block h5 mb-2" href="">
@@ -479,13 +483,17 @@ const Property = () => {
                       <p />
                     </div>
                     <div className="d-flex border-top">
-                      <small className="flex-fill text-center border-end py-2">
+                    <small className="flex-fill text-center border-end py-2">
                         <i className="fa fa-ruler-combined text-primary me-2" />
-                        2.25 Acres
+                        2 Acres
                       </small>
                       <small className="flex-fill text-center border-end py-2">
                         <i className="fa fa-home text-primary me-2" />
-                        36 Plots
+                        31 Plots
+                      </small>
+                      <small className="flex-fill text-center border-end py-2">
+                        <i className="fa fa-flag text-primary me-2" />
+                        Ongoing
                       </small>
                     </div>
                   </div>
@@ -499,9 +507,7 @@ const Property = () => {
                       <a href="">
                         <Image className="img-fluid" src={p6} alt="" />
                       </a>
-                      <div className="bg-primary rounded text-white position-absolute end-0 top-0 m-4 py-1 px-3">
-                        Ongoing
-                      </div>
+
                     </div>
                     <div className="p-4 pb-0">
                       <a className="d-block h5 mb-2" href="">
@@ -532,13 +538,17 @@ const Property = () => {
                       <p />
                     </div>
                     <div className="d-flex border-top">
-                      <small className="flex-fill text-center border-end py-2">
+                    <small className="flex-fill text-center border-end py-2">
                         <i className="fa fa-ruler-combined text-primary me-2" />
-                        2.6 ACRES
+                        2 Acres
                       </small>
                       <small className="flex-fill text-center border-end py-2">
                         <i className="fa fa-home text-primary me-2" />
-                        49 Plots
+                        31 Plots
+                      </small>
+                      <small className="flex-fill text-center border-end py-2">
+                        <i className="fa fa-flag text-primary me-2" />
+                        Ongoing
                       </small>
                     </div>
                   </div>
@@ -556,9 +566,7 @@ const Property = () => {
                       <a href="">
                         <Image className="img-fluid" src={p2} alt="" />
                       </a>
-                      <div className="bg-primary rounded text-white position-absolute end-0 top-0 m-4 py-1 px-3">
-                        Ongoing
-                      </div>
+
                     </div>
                     <div className="p-4 pb-0">
                       <a className="d-block h5 mb-2" href="">
@@ -589,13 +597,17 @@ const Property = () => {
                       <p />
                     </div>
                     <div className="d-flex border-top">
-                      <small className="flex-fill text-center border-end py-2">
+                    <small className="flex-fill text-center border-end py-2">
                         <i className="fa fa-ruler-combined text-primary me-2" />
                         2 Acres
                       </small>
                       <small className="flex-fill text-center border-end py-2">
                         <i className="fa fa-home text-primary me-2" />
                         31 Plots
+                      </small>
+                      <small className="flex-fill text-center border-end py-2">
+                        <i className="fa fa-flag text-primary me-2" />
+                        Ongoing
                       </small>
                     </div>
                   </div>
@@ -609,9 +621,7 @@ const Property = () => {
                       <a href="">
                         <Image className="img-fluid" src={p3} alt="" />
                       </a>
-                      <div className="bg-primary rounded text-white position-absolute end-0 top-0 m-4 py-1 px-3">
-                        Ongoing
-                      </div>
+ 
                     </div>
                     <div className="p-4 pb-0">
                       <a className="d-block h5 mb-2" href="">
@@ -640,13 +650,17 @@ const Property = () => {
                       <p />
                     </div>
                     <div className="d-flex border-top">
-                      <small className="flex-fill text-center border-end py-2">
+                    <small className="flex-fill text-center border-end py-2">
                         <i className="fa fa-ruler-combined text-primary me-2" />
-                        2.5 Acres
+                        2 Acres
                       </small>
                       <small className="flex-fill text-center border-end py-2">
                         <i className="fa fa-home text-primary me-2" />
-                        24 Plots
+                        31 Plots
+                      </small>
+                      <small className="flex-fill text-center border-end py-2">
+                        <i className="fa fa-flag text-primary me-2" />
+                        Ongoing
                       </small>
                     </div>
                   </div>
@@ -660,9 +674,7 @@ const Property = () => {
                       <a href="">
                         <Image className="img-fluid" src={p4} alt="" />
                       </a>
-                      <div className="bg-primary rounded text-white position-absolute end-0 top-0 m-4 py-1 px-3">
-                        Ongoing
-                      </div>
+
                     </div>
                     <div className="p-4 pb-0">
                       <a className="d-block h5 mb-2" href="">
@@ -691,13 +703,17 @@ const Property = () => {
                       <p />
                     </div>
                     <div className="d-flex border-top">
-                      <small className="flex-fill text-center border-end py-2">
+                    <small className="flex-fill text-center border-end py-2">
                         <i className="fa fa-ruler-combined text-primary me-2" />
-                        3.9 Acres
+                        2 Acres
                       </small>
                       <small className="flex-fill text-center border-end py-2">
                         <i className="fa fa-home text-primary me-2" />
-                        44 Plots
+                        31 Plots
+                      </small>
+                      <small className="flex-fill text-center border-end py-2">
+                        <i className="fa fa-flag text-primary me-2" />
+                        Ongoing
                       </small>
                     </div>
                   </div>
@@ -711,9 +727,7 @@ const Property = () => {
                       <a href="">
                         <Image className="img-fluid" src={p5} alt="" />
                       </a>
-                      <div className="bg-primary rounded text-white position-absolute end-0 top-0 m-4 py-1 px-3">
-                        Ongoing
-                      </div>
+
                     </div>
                     <div className="p-4 pb-0">
                       <a className="d-block h5 mb-2" href="">
@@ -742,13 +756,17 @@ const Property = () => {
                       <p />
                     </div>
                     <div className="d-flex border-top">
-                      <small className="flex-fill text-center border-end py-2">
+                    <small className="flex-fill text-center border-end py-2">
                         <i className="fa fa-ruler-combined text-primary me-2" />
-                        2.25 Acres
+                        2 Acres
                       </small>
                       <small className="flex-fill text-center border-end py-2">
                         <i className="fa fa-home text-primary me-2" />
-                        36 Plots
+                        31 Plots
+                      </small>
+                      <small className="flex-fill text-center border-end py-2">
+                        <i className="fa fa-flag text-primary me-2" />
+                        Ongoing
                       </small>
                     </div>
                   </div>
@@ -762,9 +780,7 @@ const Property = () => {
                       <a href="">
                         <Image className="img-fluid" src={p6} alt="" />
                       </a>
-                      <div className="bg-primary rounded text-white position-absolute end-0 top-0 m-4 py-1 px-3">
-                        Ongoing
-                      </div>
+
                     </div>
                     <div className="p-4 pb-0">
                       <a className="d-block h5 mb-2" href="">
@@ -793,13 +809,17 @@ const Property = () => {
                       <p />
                     </div>
                     <div className="d-flex border-top">
-                      <small className="flex-fill text-center border-end py-2">
+                    <small className="flex-fill text-center border-end py-2">
                         <i className="fa fa-ruler-combined text-primary me-2" />
-                        2.6 ACRES
+                        2 Acres
                       </small>
                       <small className="flex-fill text-center border-end py-2">
                         <i className="fa fa-home text-primary me-2" />
-                        49 Plots
+                        31 Plots
+                      </small>
+                      <small className="flex-fill text-center border-end py-2">
+                        <i className="fa fa-flag text-primary me-2" />
+                        Ongoing
                       </small>
                     </div>
                   </div>
@@ -817,9 +837,7 @@ const Property = () => {
                       <a href="">
                         <Image className="img-fluid" src={p1} alt="" />
                       </a>
-                      <div className="bg-primary rounded text-white position-absolute end-0 top-0 m-4 py-1 px-3">
-                        Completed
-                      </div>
+
                     </div>
                     <div className="p-4 pb-0">
                       <a className="d-block h5 mb-2" href="">
@@ -848,13 +866,17 @@ const Property = () => {
                       <p />
                     </div>
                     <div className="d-flex border-top">
-                      <small className="flex-fill text-center border-end py-2">
-                        <i className="fa fa-ruler-combined text-primary me-2" />{" "}
-                        22 Acres
+                    <small className="flex-fill text-center border-end py-2">
+                        <i className="fa fa-ruler-combined text-primary me-2" />
+                        2 Acres
                       </small>
                       <small className="flex-fill text-center border-end py-2">
                         <i className="fa fa-home text-primary me-2" />
-                        321 Plots{" "}
+                        31 Plots
+                      </small>
+                      <small className="flex-fill text-center border-end py-2">
+                        <i className="fa fa-flag text-primary me-2" />
+                        Ongoing
                       </small>
                     </div>
                   </div>
