@@ -28,7 +28,10 @@ const KnowOurFounder = () => {
         </h1>
       </div>
         </div>
-        <div className="flex animated fadeIn"  >
+        <div className="flex animated fadeIn"  style={{}} >
+          <div className='gradient'>
+
+          </div>
           <Image className="pbanner img-fluid" src={header} alt=""/>
         </div>
       </div>

@@ -82,6 +82,11 @@
   padding: 0 3rem;
   transition: 0.5s;
   z-index: 9999;
+
+
+
+
+
 }
 
 .nav-bar.sticky-top {
@@ -202,7 +207,9 @@
 .buttond{
   margin-top: 100px;
 }
-
+.buttonx{
+  right: 350px;
+}
 /* WhatApp's*/
 .whatapp {
   position: fixed;
@@ -527,11 +534,21 @@
   background-color: #4caf50;
 }
 
+.gradient{
+  background: linear-gradient(90deg, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.5) 35%, rgba(0,0,0,0.5) 100%);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 350px;
+  z-index: 1;
 
+}
 .pbanner{
   max-height: 350px;
   position: relative;
   object-fit: cover;
+ 
   z-index: -1;
 }
 .breadbox{

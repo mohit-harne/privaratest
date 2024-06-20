@@ -3,7 +3,7 @@ import "./globals.css"
 import './styles/common.css'
 import Script from "next/script"
 import { Inter, Roboto } from "next/font/google"
-import NavBar from "./Components/NavBar"
+import NavBar from "./Components/NavBart"
 import Header from "./Components/Header"
 import Whatsapp from "./Components/whatsapp"
 import Footer from "./Components/Footer"
