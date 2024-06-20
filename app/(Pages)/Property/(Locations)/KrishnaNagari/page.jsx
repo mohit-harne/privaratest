@@ -16,7 +16,7 @@ import am9 from "../../../../../public/img/amenities9.png";
 import Slideshow from "../../../../Components/Slideshow";
 import Rera from "../../../../../public/img/RERA/Krishna Nagri 42-1-A RERA CODE.png";
 import "../../../../styles/bootstrap.min.css";
-import "../../../../styles/style.css";
+
 import "../../../../styles/common.css";
 
 
@@ -54,7 +54,8 @@ function property1() {
       </div>
         </div>
         <div className="flex animated fadeIn"  >
-          <Image className="img-fluid" src={header} alt="" style={{height:"350px"}}/>
+        <div className="gradient"></div>
+          <Image className="img-fluid" src={header} alt="" style={{height:"305px"}}/>
         </div>
       </div>
     </div>
