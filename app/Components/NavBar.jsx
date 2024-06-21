@@ -17,7 +17,7 @@ const NavBar = () => {
         href="/"
         className="navbar-brand d-flex align-items-center text-center"
       >
-        <div className="">
+        <div className=" ">
           <Image
             className="logo"
             src= {Logo}

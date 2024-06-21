@@ -96,6 +96,16 @@ function property1() {
       {/* About Start */}
       <div className="container-fluid py-3">
         <div className="container">
+        <div
+              className="text-center mx-auto m-3 wow fadeInUp"
+              data-wow-delay="0.1s"
+              style={{ maxWidth: 600 }}
+            >
+              <h1 className="pb-3 text-dark mt-4 pt-4">
+                KRISHNA NAGARI
+                <hr />
+              </h1>
+            </div>
           <div className="row g-5">
             <div className="col-lg-6 wow fadeIn py-2" data-wow-delay="0.1s">
               <div className="">
