@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import header from '../../../../../public/img/pbanner.png'
+import header from "../../../../../public/img/pbanner.png";
 import p1 from "../../../../../public/img/carousel-7.jpg";
 import p2 from "../../../../../public/img/carousel-8.jpg";
 import p3 from "../../../../../public/img/nk.png";
@@ -15,51 +15,49 @@ import am8 from "../../../../../public/img/amenities8.png";
 import am9 from "../../../../../public/img/amenities9.png";
 import Slideshow from "../../../../Components/Slideshow";
 import Rera from "../../../../../public/img/RERA/Krishna Nagri 42-1-A RERA CODE.png";
+import Ams from "../../../../Components/Amslider";
 import "../../../../styles/bootstrap.min.css";
-
 import "../../../../styles/common.css";
-
 
 function property1() {
   const slides = [
     {
       image: p1,
-  
     },
     {
       image: p2,
-  
     },
-    {
-    image: p3,
-
-  },
   ];
 
   return (
-    <div >
-     {/* Header Start */}
-    <div className="container-fluid header bg-white p-0" >
-      <div className="row g-0 align-items-center flex-column-reverse flex-md-row ">
-        <div className="breadbox mt-4 pt-4"  style={{ textAlign: 'center'}}>
-        <div
-        className="text-center mx-auto m-3 wow fadeInUp"
-        data-wow-delay="0.1s"
-        style={{ maxWidth: 600 }}
-      >
-        <h1 className="pb-3 text-white mt-4 pt-4">
-         KRISHNA NAGARI
-          <hr />
-        </h1>
-      </div>
+    <div>
+      {/* Header Start */}
+      <div className="container-fluid header bg-white p-0">
+        <div className="row g-0 align-items-center flex-column-reverse flex-md-row ">
+          <div className="breadbox mt-4 pt-4" style={{ textAlign: "center" }}>
+            <div
+              className="text-center mx-auto m-3 wow fadeInUp"
+              data-wow-delay="0.1s"
+              style={{ maxWidth: 600 }}
+            >
+              <h1 className="pb-3 text-white mt-4 pt-4">
+                KRISHNA NAGARI
+                <hr />
+              </h1>
+            </div>
+          </div>
+          <div className="flex animated fadeIn">
+            <div className="gradient"></div>
+            <Image
+              className="img-fluid"
+              src={header}
+              alt=""
+              style={{ height: "305px" }}
+            />
+          </div>
         </div>
-        <div className="flex animated fadeIn"  >
-        <div className="gradient"></div>
-          <Image className="img-fluid" src={header} alt="" style={{height:"305px"}}/>
-        </div>
       </div>
-    </div>
-    {/* Header End */}
+      {/* Header End */}
       {/* Search Start */}
       <div className="con">
         <div
@@ -103,95 +101,6 @@ function property1() {
               <div className="">
                 <div className="propslider">
                   <Slideshow slides={slides} />
-                </div>
-
-                <div className="some-page-wrapper pt-4">
-                  <div className="section-flexer py-2">
-                    <div className="colum mx-4">
-                      <div>
-                        <div className="d-flex flex-row">
-                          <div>
-                            <Image src={am1} height={28} width={28} />
-                          </div>
-                          <div className="mx-2 my-0">
-                            <p>Entrance</p>
-                          </div>
-                        </div>
-                        <div className="d-flex flex-row">
-                          <div>
-                            <Image src={am9} height={28} width={28} />
-                          </div>
-                          <div className="mx-2 my-0">
-                            <p>Playground</p>
-                          </div>
-                        </div>
-                        <div className="d-flex flex-row">
-                          <div>
-                            <Image src={am3} height={28} width={28} />
-                          </div>
-                          <div className="mx-2 my-0">
-                            <p>Drainage Line</p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="column mx-4">
-                      <div>
-                        <div className="d-flex flex-row">
-                          <div>
-                            <Image src={am6} height={28} width={28} />
-                          </div>
-                          <div className="mx-2 my-0">
-                            <p>Sewerline</p>
-                          </div>
-                        </div>
-                        <div className="d-flex flex-row">
-                          <div>
-                            <Image src={am7} height={28} width={28} />
-                          </div>
-                          <div className="mx-2 my-0">
-                            <p>Fencing</p>
-                          </div>
-                        </div>
-                        <div className="d-flex flex-row">
-                          <div>
-                            <Image src={am8} height={28} width={28} />
-                          </div>
-                          <div className="mx-2 my-0">
-                            <p>Electrification</p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="column mx-4">
-                      <div>
-                        <div className="d-flex flex-row">
-                          <div>
-                            <Image src={am4} height={28} width={28} />
-                          </div>
-                          <div className="mx-2 my-0">
-                            <p>Water Source</p>
-                          </div>
-                        </div>
-                        <div className="d-flex flex-row">
-                          <div>
-                            <Image src={am5} height={28} width={28} />
-                          </div>
-                          <div className="mx-2 my-0">
-                            <p>Cement Road</p>
-                          </div>
-                        </div>
-                        <div className="d-flex flex-row">
-                          <div>
-                            <Image src={am2} height={28} width={28} />
-                          </div>
-                          <div className="mx-2 my-0">
-                            <p>Tree Plantation</p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
                 </div>
               </div>
             </div>
@@ -271,21 +180,44 @@ function property1() {
                   <li className="list-inline-item px-3">{`5. Samruddhi Express Way – 2.5 km`}</li>
                 </ul>
               </div>
-              <div className=" p-2">
-                <a href="" className="btn btn-primary py-2 px-3 me-2">
-                  <i className="fa fa-phone-alt me-2" />
-                  Make A Call
-                </a>
-                <a href="" className="btn btn-dark py-2 px-3">
-                  <i className="fa fa-calendar-alt me-2" />
-                  Get Appoinment
-                </a>
-              </div>
             </div>
           </div>
         </div>
       </div>
       {/* About End */}
+      <div className="">
+        <Ams />
+      </div>
+      
+      <div className="m-4 p-2 d-flex justify-content-center align-items-center">
+        <a href="" className="btn btn-primary py-2 px-3 me-2">
+          <i className="fa fa-phone-alt me-2" />
+          Make A Call
+        </a>
+        <a href="" className="btn btn-primary py-2 px-3 me-2">
+          <i className="fa fa-download-alt me-2" />
+          Download Brochure
+        </a>
+        <a href="" className="btn btn-dark py-2 px-3">
+          <i className="fa fa-calendar-alt me-2" />
+          Get Appoinment
+        </a>
+      </div>
+      
+      <div className="d-flex justify-content-center align-items-center pt-2">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3724.288959010053!2d79.025224!3d21.021120999999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjHCsDAxJzE2LjAiTiA3OcKwMDEnMzAuOCJF!5e0!3m2!1sen!2sin!4v1718886190684!5m2!1sen!2sin"
+          width={1200}
+          height={300}
+          style={{
+            boxShadow: "0 4px 8px 0 rgba(17, 157, 212, 0.2), 0 6px 20px 0 rgba(17, 157, 212, 0.19)",
+          }}
+          allowFullScreen=""
+          loading="lazy"
+          referrerPolicy="no-referrer-when-downgrade"
+        />
+      </div>
+      
     </div>
   );
 }

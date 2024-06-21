@@ -3,6 +3,7 @@ import Image from 'next/image';
 import Header from '../../Components/Header';
 import PropCard from '../../Components/propcards';
 import CallAction from '../../Components/CallAction';
+
 import '../../styles/bootstrap.min.css';
 import '../../styles/style.css'
 import '../../styles/common.css';
@@ -350,7 +351,7 @@ export default function Home() {
     </div>
   </div>
   {/* Testimonial End */}
- 
+                
   </>
 
 

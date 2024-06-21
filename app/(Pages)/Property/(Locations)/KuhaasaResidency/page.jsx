@@ -273,6 +273,10 @@ function property1() {
                   <i className="fa fa-phone-alt me-2" />
                   Make A Call
                 </a>
+                <a href="" className="btn btn-primary py-2 px-3 me-2">
+                  <i className="fa fa-download-alt me-2" />
+                  Download Brochure
+                </a>
                 <a href="" className="btn btn-dark py-2 px-3">
                   <i className="fa fa-calendar-alt me-2" />
                   Get Appoinment
