@@ -435,7 +435,7 @@
 }
 
 .property-item {
-  box-shadow: 0 0 30px rgba(0, 0, 0, 0.08);
+  box-shadow: 8px 8px 4px rgb(220, 237, 243);
 }
 
 .property-item img {
