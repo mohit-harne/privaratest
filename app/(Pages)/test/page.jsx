@@ -74,7 +74,7 @@ export default function Home() {
                 className=" col-lg-4 col-md-6  wow fadeInUp"
                 data-wow-delay="0.1s"
               >
-               <div className="property-item rounded overflow-hidden" style={{boxShadow: "6px 6px 3px #E4F8FF", backgroundColor: "#FBFEFF"}}>
+              <div className="property-item rounded overflow-hidden" style={{boxShadow: "0px 0px 10px 4px #A8A8A8" , backgroundColor:"#F5F5F5"}}>
                   <div className="position-relative overflow-hidden">
                     <a href="">
                       <Image className="img-fluid" src={p1} alt="" />
@@ -128,7 +128,7 @@ export default function Home() {
                 className="col-lg-4 col-md-6 wow fadeInUp"
                 data-wow-delay="0.3s"
               >
-                <div className="property-item rounded overflow-hidden" style={{boxShadow: "6px 6px 3px  #D2F3FF", backgroundColor: "#F8FDFF"}}>
+             <div className="property-item rounded overflow-hidden" style={{boxShadow: "0px 0px 10px 4px #A8A8A8" , backgroundColor:"#F5F5F5"}}>
                   <div className="position-relative overflow-hidden">
                     <a href="">
                       <Image className="img-fluid" src={p2} alt="" />
@@ -182,7 +182,7 @@ export default function Home() {
                 className="col-lg-4 col-md-6 wow fadeInUp"
                 data-wow-delay="0.5s"
               >
-             <div className="property-item rounded overflow-hidden" style={{boxShadow: "6px 6px 3px rgb(220, 237, 243)"}}>
+           <div className="property-item rounded overflow-hidden" style={{boxShadow: "0px 0px 10px 4px #A8A8A8" , backgroundColor:"#F5F5F5"}}>
                   <div className="position-relative overflow-hidden">
                     <a href="">
                       <Image className="img-fluid" src={p3} alt="" />
@@ -244,7 +244,7 @@ export default function Home() {
                 className="col-lg-4 col-md-6 wow fadeInUp"
                 data-wow-delay="0.1s"
               >
-           <div className="property-item rounded overflow-hidden" style={{boxShadow: "6px 6px 10px 3px lightblue" , backgroundColor:"#fff"}}>
+       <div className="property-item rounded overflow-hidden" style={{boxShadow: "0px 0px 10px 4px #A8A8A8" , backgroundColor:"#F5F5F5"}}>
                   <div className="position-relative overflow-hidden">
                     <a href="">
                       <Image className="img-fluid" src={p4} alt="" />
@@ -298,7 +298,7 @@ export default function Home() {
                 className="col-lg-4 col-md-6 wow fadeInUp"
                 data-wow-delay="0.3s"
               >
-             <div className="property-item rounded overflow-hidden" style={{boxShadow: "6px 6px 10px 1px grey" , backgroundColor:"#F5F5F5"}}>
+             <div className="property-item rounded overflow-hidden" style={{boxShadow: "6px 6px 9px 4px lightgrey" , backgroundColor:"#F5F5F5"}}>
                   <div className="position-relative overflow-hidden">
                     <a href="">
                       <Image className="img-fluid" src={p5} alt="" />
@@ -352,7 +352,7 @@ export default function Home() {
                 className="col-lg-4 col-md-6 wow fadeInUp"
                 data-wow-delay="0.5s"
               >
-               <div className="property-item rounded overflow-hidden" style={{boxShadow: "6px 6px 10px 1px grey" , backgroundColor:"#fff"}}>
+              <div className="property-item rounded overflow-hidden" style={{boxShadow: "0px 0px 10px 4px #A8A8A8" , backgroundColor:"#F5F5F5"}}>
                   <div className="position-relative overflow-hidden">
                     <a href="">
                       <Image className="img-fluid" src={p6} alt="" />
