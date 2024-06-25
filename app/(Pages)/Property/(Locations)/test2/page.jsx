@@ -17,6 +17,7 @@ import Slideshow from "../../../../Components/Slideshow";
 import Rera from "../../../../../public/img/RERA/Krishna Nagri 42-1-A RERA CODE.png";
 import Ams from "../../../../Components/Amslider";
 import "../../../../styles/bootstrap.min.css";
+import "../../../../styles/tabStyle.css";
 import "../../../../styles/common.css";
 
 function property1() {
@@ -101,18 +102,22 @@ function property1() {
               data-wow-delay="0.1s"
               style={{ maxWidth: 600 }}
             >
-
+              <h1 className="pb-3 text-dark mt-4 pt-4">
+               Krishna Nagari
+                <hr />
+              </h1>
             </div>
           <div className="row g-5">
             <div className="col-lg-6 wow fadeIn py-2" data-wow-delay="0.1s">
+                
               <div className="">
-                <div className="propslider">
+                <div className="propslider mt-4 pt-4">
                   <Slideshow slides={slides} />
                 </div>
               </div>
             </div>
             <div className="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
-              <div className="como">
+              {/* <div className="como">
                 <div className="Child1">
                   <h1 className="text-dark p-2">Krishna Nagari</h1>
 
@@ -159,34 +164,136 @@ function property1() {
                     </a>
                   </div>
                 </div>
+              </div> */}
+              <div className="pb-2">
+                   <div className="page">
+                {/* tabs */}
+                <div className="pcss3t pcss3t-effect-scale pcss3t-theme-1">
+                  <input
+                    type="radio"
+                    name="pcss3t"
+                    defaultChecked=""
+                    id="tab1"
+                    className="tab-content-first"
+                  />
+                  <label htmlFor="tab1">
+                    <i className="icon-bolt" />
+                    Introduction
+                  </label>
+                  <input
+                    type="radio"
+                    name="pcss3t"
+                    id="tab2"
+                    className="tab-content-2"
+                  />
+                  <label htmlFor="tab2">
+                    <i className="icon-globe" />
+                    Proxmity
+                  </label>
+                  <input
+                    type="radio"
+                    name="pcss3t"
+                    id="tab3"
+                    className="tab-content-last"
+                  />
+                  <label htmlFor="tab3">
+                    <i className="icon-picture" />
+                    RERA QR
+                  </label>
+                  <ul>
+                    <li className="tab-content tab-content-first typography">
+                    
+                      <a classname="tex-primary">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="none"
+                          viewBox="0 0 24 24"
+                          strokeWidth="1.5"
+                          stroke="currentColor"
+                          width="25px"
+                          height="25px"
+                        >
+                          <path
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"
+                          />
+                          <path
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z"
+                          />
+                        </svg>
+                        <strong m-2="">JAMTHA NAGPUR</strong>
+                      </a>
+                      <div classname="d-flex flex text-dark column mt-3">
+                        <div classname="">
+                          <p>
+                            <b>Plot Area:</b> 22 ACRES
+                          </p>
+                        </div>
+                        <div classname="">
+                          <p>
+                            <b>Number Of Plots: </b> 321
+                          </p>
+                        </div>
+                      </div>
+                      <p className="text-dark mb-2" style={{ textAlign: "justify" }}>
+                        Welcome to our Krishna Nagari, an idyllic community
+                        thoughtfully designed for modern living. Spread across
+                        22 acres, Krishna Nagari boasts meticulously planned
+                        spaces, ensuring a perfect balance between Luxury and
+                        Affordability Conveniently located Opposite to NCI,
+                        Krishna Nagari offers easy access to Samruddhi
+                        Expressway, educational institutions(IIM, DPS),
+                        healthcare facilities(AIIMS, NCI), and Recreational
+                        Centers (VCA Stadium), making it an ideal place to call
+                        home. Krishna Nagari welcomes you to experience the
+                        perfect harmony of modern living in a community that
+                        truly feels comfort, connectivity, and serenity.
+                      </p>
+                    </li>
+                    <li className="tab-content tab-content-2 typography">
+                      <h1>Proxmity</h1>
+                      <div classname=" pt-2">
+                        <p classname="card-title text-dark top_heading pt-2">
+                          <b>Near By</b>
+                        </p>
+                        <ul classname="list-inline ">
+                          <li classname="list-inline-item">
+                            {"{"}`1. NCI – 1 Km`{"}"}
+                          </li>
+                          <li classname="list-inline-item px-3">
+                            {"{"}`3. IIM’S – 1 km`{"}"}
+                          </li>
+                          <li classname="list-inline-item px-3">
+                            {"{"}`4. VCA stadium – 1 KM`{"}"}
+                          </li>
+                        </ul>
+                        <ul classname="list-inline">
+                          <li classname="list-inline-item">
+                            {"{"}`2. AIIMS - 1km`{"}"}
+                          </li>
+                          <li classname="list-inline-item px-3">
+                            {"{"}`5. Samruddhi Express Way – 2.5 km`{"}"}
+                          </li>
+                        </ul>
+                      </div>
+                    </li>
+                    <li className="tab-content tab-content-3 typography">
+                      <h1>RERA QR</h1>
+                      <div>
+                        <a href="#">
+                          <Image className="" src={Rera} alt="Image" />
+                        </a>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+                {/*/ tabs */}
               </div>
-              <p className="text-dark mb-2">
-                Welcome to our Krishna Nagari, an idyllic community thoughtfully
-                designed for modern living. Spread across 22 acres, Krishna
-                Nagari boasts meticulously planned spaces, ensuring a perfect
-                balance between Luxury and Affordability Conveniently located
-                Opposite to NCI, Krishna Nagari offers easy access to Samruddhi
-                Expressway, educational institutions(IIM, DPS), healthcare
-                facilities(AIIMS, NCI), and Recreational Centers (VCA Stadium),
-                making it an ideal place to call home. Krishna Nagari welcomes
-                you to experience the perfect harmony of modern living in a
-                community that truly feels comfort, connectivity, and serenity.{" "}
-              </p>
-
-              <div className=" pt-2">
-                <p className="card-title text-dark top_heading pt-2">
-                  <b>Near By</b>
-                </p>
-                <ul className="list-inline ">
-                  <li className="list-inline-item">{`1. NCI – 1 Km`}</li>
-                  <li className="list-inline-item px-3">{`3. IIM’S – 1 km`}</li>
-                  <li className="list-inline-item px-3">{`4. VCA stadium – 1 KM`}</li>
-                </ul>
-                <ul className="list-inline">
-                  <li className="list-inline-item">{`2. AIIMS - 1km`}</li>
-                  <li className="list-inline-item px-3">{`5. Samruddhi Express Way – 2.5 km`}</li>
-                </ul>
               </div>
+           
             </div>
           </div>
         </div>
@@ -195,7 +302,7 @@ function property1() {
       <div className="">
         <Ams />
       </div>
-      
+
       <div className="m-4 p-2 d-flex justify-content-center align-items-center">
         <a href="" className="btn btn-primary py-2 px-3 me-2">
           <i className="fa fa-phone-alt me-2" />
@@ -210,21 +317,21 @@ function property1() {
           Get Appoinment
         </a>
       </div>
-      
+
       <div className="d-flex justify-content-center align-items-center pt-2">
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3724.288959010053!2d79.025224!3d21.021120999999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjHCsDAxJzE2LjAiTiA3OcKwMDEnMzAuOCJF!5e0!3m2!1sen!2sin!4v1718886190684!5m2!1sen!2sin"
           width={1200}
           height={300}
           style={{
-            boxShadow: "0 4px 8px 0 rgba(17, 157, 212, 0.2), 0 6px 20px 0 rgba(17, 157, 212, 0.19)",
+            boxShadow:
+              "0 4px 8px 0 rgba(17, 157, 212, 0.2), 0 6px 20px 0 rgba(17, 157, 212, 0.19)",
           }}
           allowFullScreen=""
           loading="lazy"
           referrerPolicy="no-referrer-when-downgrade"
         />
       </div>
-      
     </div>
   );
 }

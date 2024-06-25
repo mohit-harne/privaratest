@@ -16,7 +16,7 @@ const Slideshow = ({ slides }) => {
   }, [slides.length]);
 
   return (
-    <div>
+    <div className="contain">
       <div className={styles.slideshowContainer}>
         {slides.map((slide, index) => (
           <div

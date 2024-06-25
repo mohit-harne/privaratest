@@ -160,31 +160,32 @@ function property1() {
                   </div>
                 </div>
               </div>
-              <p className="text-dark mb-2">
-                Welcome to our Krishna Nagari, an idyllic community thoughtfully
-                designed for modern living. Spread across 22 acres, Krishna
-                Nagari boasts meticulously planned spaces, ensuring a perfect
-                balance between Luxury and Affordability Conveniently located
-                Opposite to NCI, Krishna Nagari offers easy access to Samruddhi
-                Expressway, educational institutions(IIM, DPS), healthcare
-                facilities(AIIMS, NCI), and Recreational Centers (VCA Stadium),
-                making it an ideal place to call home. Krishna Nagari welcomes
-                you to experience the perfect harmony of modern living in a
-                community that truly feels comfort, connectivity, and serenity.{" "}
-              </p>
+              <p className="text-dark mb-2" style={{ textAlign: "justify" }}>
+                        Welcome to our Krishna Nagari, an idyllic community thoughtfully
+                        designed for modern living. Spread across 22 acres, Krishna Nagari
+                        boasts meticulously planned spaces, ensuring a perfect balance between
+                        Luxury and Affordability Conveniently located Opposite to NCI, Krishna
+                        Nagari offers easy access to Samruddhi Expressway, educational
+                        institutions(IIM, DPS), healthcare facilities(AIIMS, NCI), and
+                        Recreational Centers (VCA Stadium), making it an ideal place to call
+                        home. Krishna Nagari welcomes you to experience the perfect harmony of
+                        modern living in a community that truly feels comfort, connectivity,
+                        and serenity.{" "}
+                    </p>
 
               <div className=" pt-2">
                 <p className="card-title text-dark top_heading pt-2">
-                  <b>Near By</b>
+                  <b>Proximity </b>
                 </p>
                 <ul className="list-inline ">
                   <li className="list-inline-item">{`1. NCI – 1 Km`}</li>
                   <li className="list-inline-item px-3">{`3. IIM’S – 1 km`}</li>
-                  <li className="list-inline-item px-3">{`4. VCA stadium – 1 KM`}</li>
+                 <li className="list-inline-item px-3">{`5. Samruddhi Express Way – 2.5 km`}</li>
                 </ul>
                 <ul className="list-inline">
                   <li className="list-inline-item">{`2. AIIMS - 1km`}</li>
-                  <li className="list-inline-item px-3">{`5. Samruddhi Express Way – 2.5 km`}</li>
+                  <li className="list-inline-item px-3">{`4. VCA stadium – 1 KM`}</li>
+                
                 </ul>
               </div>
             </div>
