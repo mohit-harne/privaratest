@@ -22,7 +22,7 @@ import "../../../../styles/bootstrap.min.css";
 
 import "../../../../styles/common.css";
 
-function property5() {
+function property6() {
   const slides = [
     {
       image: p1,
@@ -263,4 +263,4 @@ function property5() {
   );
 }
 
-export default property5;
+export default property6;
