@@ -355,13 +355,15 @@ const Property = () => {
                         JAMTHA NAGPUR
                       </p>
 
-                      <a
-                        className=" btn btn-primary"
-                        data-bs-toggle="pill"
-                        href="#tab-3"
-                      >
-                        <i className="fa fa-eye me-2" />
-                        Know More
+                      <a href="Property/PrivaraVihar3">
+                        <button
+                          className=" btn btn-primary"
+                          data-bs-toggle="pill"
+                          href="#tab-3"
+                        >
+                          <i className="fa fa-eye me-2" />
+                          Know More
+                        </button>
                       </a>
                       <a
                         className=" btn btn-primary m-3"

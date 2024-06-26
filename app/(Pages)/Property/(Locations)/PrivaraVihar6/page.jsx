@@ -1,8 +1,9 @@
 import React from "react";
 import Image from "next/image";
-import Header from "../../../../../public/img/header.jpg";
+import header from "../../../../../public/img/pbanner.png";
 import p1 from "../../../../../public/img/carousel-7.jpg";
 import p2 from "../../../../../public/img/carousel-8.jpg";
+import p3 from "../../../../../public/img/nk.png";
 import am1 from "../../../../../public/img/amenities1.png";
 import am2 from "../../../../../public/img/amenities2.png";
 import am3 from "../../../../../public/img/amenities3.png";
@@ -13,55 +14,135 @@ import am7 from "../../../../../public/img/amenities7.png";
 import am8 from "../../../../../public/img/amenities8.png";
 import am9 from "../../../../../public/img/amenities9.png";
 import Slideshow from "../../../../Components/Slideshow";
-import Rera from "../../../../../public/img/RERA/Privara Vihar 6 QR Code.png";
+import Rera from "../../../../../public/img/RERA/Krishna Nagri 42-1-A RERA CODE.png";
+import Ams from "../../../../Components/Amslider";
+import Qr from "@mui/icons-material/QrCode2";
+import TabsBox from "../../../../Components/TabsBox";
 import "../../../../styles/bootstrap.min.css";
-import "../../../../styles/style.css";
+
 import "../../../../styles/common.css";
 
-
-function property1() {
+function property5() {
   const slides = [
     {
       image: p1,
-      caption: "Caption Text",
     },
     {
       image: p2,
-      caption: "Caption Text",
+    },
+  ];
+  const tabs = [
+    {
+      label: "Introduction",
+      content: (
+        <div className="Child1">
+          <h3>Krishna Nagari</h3>
+          <a className="tex-primary">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              strokeWidth="1.5"
+              stroke="currentColor"
+              width="25px"
+              height="25px"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"
+              />
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z"
+              />
+            </svg>
+            <strong m-2>JAMTHA NAGPUR</strong>
+          </a>
+          <div className="d-flex flex text-dark column mt-3">
+            <div className="">
+              <p>
+                <b>Plot Area:</b> 22 ACRES
+              </p>
+            </div>
+            <div className="px-2">
+              <p>
+                <b>Number Of Plots: </b> 321{" "}
+              </p>
+            </div>
+          </div>
+          <p className="text-dark mb-2 text-align-justify">
+            Welcome to our Krishna Nagari, an idyllic community thoughtfully
+            designed for modern living. Spread across 22 acres, Krishna Nagari
+            boasts meticulously planned spaces, ensuring a perfect balance
+            between Luxury and Affordability Conveniently located Opposite to
+            NCI, Krishna Nagari offers easy access to Samruddhi Expressway,
+            educational institutions(IIM, DPS), healthcare facilities(AIIMS,
+            NCI), and Recreational Centers (VCA Stadium), making it an ideal
+            place to call home. Krishna Nagari welcomes you to experience the
+            perfect harmony of modern living in a community that truly feels
+            comfort, connectivity, and serenity.{" "}
+          </p>
+        </div>
+      ),
+    },
+    {
+      label: "Proximity",
+      content: (
+        <div className="pt-2">
+          <p className="card-title text-dark top_heading pt-2">
+            <b>Proximity</b>
+            <br />
+          </p>
+          <ol className="list-outline">
+            <li>{` NCI – 1 Km`}</li>
+            <li>{` AIIMS - 1km`}</li>
+            <li>{`IIM’S – 1 km`}</li>
+            <li>{`VCA stadium – 1 KM`}</li>
+            <li>{`Samruddhi Express Way – 2.5 km`}</li>
+          </ol>
+        </div>
+      ),
+    },
+    {
+      label: "RERA Code",
+      icon: <Qr />,
+      content: (
+        <div className="d-flex justify-content-center">
+          <a href="#">
+            <Image className="item-align-center" src={Rera} alt="Image" />
+          </a>
+        </div>
+      ),
     },
   ];
 
   return (
-    <div className="container-xxl bg-white">
+    <div>
       {/* Header Start */}
       <div className="container-fluid header bg-white p-0">
-        <div className="row g-0 align-items-center flex-column-reverse flex-md-row">
-          <div className="col-md-6 p-5 mt-lg-5">
-            <h1 className="display-5 animated fadeIn mb-4">
-              Known Your Founder
-            </h1>
-            <nav aria-label="breadcrumb animated fadeIn">
-              <ol className="breadcrumb text-uppercase">
-                <li className="breadcrumb-item">
-                  <a href="#">Home</a>
-                </li>
-                <li className="breadcrumb-item">
-                  <a href="#">Pages</a>
-                </li>
-                <li className="breadcrumb-item">
-                  <a href="#">Property</a>
-                </li>
-                <li
-                  className="breadcrumb-item text-body active"
-                  aria-current="page"
-                >
-                 Privara Vihar-6
-                </li>
-              </ol>
-            </nav>
+        <div className="row g-0 align-items-center flex-column-reverse flex-md-row ">
+          <div className="breadbox mt-4 pt-4" style={{ textAlign: "center" }}>
+            <div
+              className="text-center mx-auto m-3 wow fadeInUp"
+              data-wow-delay="0.1s"
+              style={{ maxWidth: 600 }}
+            >
+              <h1 className="pb-3 text-white mt-4 pt-4">
+                Properties
+                <hr />
+              </h1>
+            </div>
           </div>
-          <div className="col-md-6 animated fadeIn">
-            <Image className="img-fluid" src={Header} alt="" />
+          <div className="flex animated fadeIn">
+            <div className="gradient"></div>
+            <Image
+              className="img-fluid"
+              src={header}
+              alt=""
+              style={{ height: "350px" }}
+            />
           </div>
         </div>
       </div>
@@ -102,176 +183,56 @@ function property1() {
       {/* Search End */}
 
       {/* About Start */}
-      <div className="container-xxl py-3">
+      <div className="container-fluid py-3">
         <div className="container">
-          <div className="row g-5">
-            <div className="col-lg-6 wow fadeIn py-2" data-wow-delay="0.1s">
-              <div className="">
-                <div className="propslider">
-                  <Slideshow slides={slides} />
-                </div>
-
-                <div className="some-page-wrapper pt-4">
-                  <div className="section-flexer py-2">
-                    <div className="colum mx-4">
-                      <div>
-                        <div className="d-flex flex-row">
-                          <div>
-                            <Image src={am1} height={28} width={28} />
-                          </div>
-                          <div className="mx-2 my-0">
-                            <p>Entrance</p>
-                          </div>
-                        </div>
-                        <div className="d-flex flex-row">
-                          <div>
-                            <Image src={am9} height={28} width={28} />
-                          </div>
-                          <div className="mx-2 my-0">
-                            <p>Playground</p>
-                          </div>
-                        </div>
-                        <div className="d-flex flex-row">
-                          <div>
-                            <Image src={am3} height={28} width={28} />
-                          </div>
-                          <div className="mx-2 my-0">
-                            <p>Drainage Line</p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="column mx-4">
-                      <div>
-                        <div className="d-flex flex-row">
-                          <div>
-                            <Image src={am6} height={28} width={28} />
-                          </div>
-                          <div className="mx-2 my-0">
-                            <p>Sewerline</p>
-                          </div>
-                        </div>
-                        <div className="d-flex flex-row">
-                          <div>
-                            <Image src={am7} height={28} width={28} />
-                          </div>
-                          <div className="mx-2 my-0">
-                            <p>Fencing</p>
-                          </div>
-                        </div>
-                        <div className="d-flex flex-row">
-                          <div>
-                            <Image src={am8} height={28} width={28} />
-                          </div>
-                          <div className="mx-2 my-0">
-                            <p>Electrification</p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="column mx-4">
-                      <div>
-                        <div className="d-flex flex-row">
-                          <div>
-                            <Image src={am4} height={28} width={28} />
-                          </div>
-                          <div className="mx-2 my-0">
-                            <p>Water Source</p>
-                          </div>
-                        </div>
-                        <div className="d-flex flex-row">
-                          <div>
-                            <Image src={am5} height={28} width={28} />
-                          </div>
-                          <div className="mx-2 my-0">
-                            <p>Cement Road</p>
-                          </div>
-                        </div>
-                        <div className="d-flex flex-row">
-                          <div>
-                            <Image src={am2} height={28} width={28} />
-                          </div>
-                          <div className="mx-2 my-0">
-                            <p>Tree Plantation</p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
-              <div className="como">
-                <div className="Child1">
-                  <h1 className="text-dark p-2">Privara Vihar-6</h1>
-
-                  <a className="tex-primary">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke-width="1.5"
-                      stroke="currentColor"
-                      width="25px"
-                      height="25px"
-                    >
-                      <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"
-                      />
-                      <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z"
-                      />
-                    </svg>
-                    <strong m-2>LONARA NAGPUR</strong>
-                  </a>
-                  <div className="d-flex flex text-dark column mt-3">
+          <div
+            className=" text-center mx-auto m-3 wow fadeInUp"
+            data-wow-delay="0.1s"
+            style={{ maxWidth: 600 }}
+          >
+            <h1 className="pb-3 text-dark mt-4 pt-4">
+              Krishna Nagari
+              <hr />
+            </h1>
+          </div>
+          {/* <div className="bg-light rounded p-4">
+            <div
+              className="bg-white rounded"
+              style={{ border: "1px dashed rgba(0, 185, 142, .3)" }}
+            > */}
+          <div>
+            <div>
+              <div className="m-3">
+                <div className="row g-5 ">
+                  <div
+                    className="col-lg-6 wow fadeIn py-2"
+                    data-wow-delay="0.1s"
+                  >
                     <div className="">
-                      <p>
-                        <b>Plot Area:</b> 2.6 ACRES
-                      </p>
-                    </div>
-                    <div className="px-2">
-                      <p>
-                        <b>Number Of Plots: </b> 49{" "}
-                      </p>
+                      <div className="propslider mt-4 pt-4">
+                        <Slideshow slides={slides} />
+                      </div>
                     </div>
                   </div>
-                </div>
-                <div className="Child2">
-                  <div className="QRtab">
-                    <a href="#">
-                      <Image className="QRimage" src={Rera} alt="Image" />
-                    </a>
+                  <div className="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+                    <div className="pb-2">
+                      <TabsBox tabs={tabs} />
+                    </div>
                   </div>
                 </div>
               </div>
-              <p className="text-dark mb-2">
-              Welcome to Privara Vihar-6, an exquisite residential Layout nestled in the heart of Lonara, Nagpur. Privara Vihar-6 offers a harmonious blend of modern luxury for thoughtfully planned community. Conveniently located near Central RTO & State Rural RTO, educational institutions (Central Institute of Pharmacy & MBA College) , and amusement hubs (Lonara Lake), Privara Vihar-6 offers the perfect balance between urban convenience and suburban serenity. Experience the epitome of luxury living at Privara Vihar-6. {" "}
-              </p>
+              <div className="">
+                <Ams />
+              </div>
 
-              <div className=" pt-2">
-                <p className="card-title text-dark top_heading pt-2">
-                  <b>Near By</b>
-                </p>
-                <ul className="list-inline ">
-                  <li className="list-inline-item">{`1. Central RTO – 100 Mtr`}</li>
-                  <li className="list-inline-item px-3">{`2.State Rural RTO – 100 Mtr`}</li>
-                  <li className="list-inline-item px-3">{`3. Outer Ring Road – 1.5 Km`}</li>
-                </ul>
-                <ul className="list-inline">
-                  <li className="list-inline-item">{`4. Central Institute of Pharmacy - 50 Mtr`}</li>
-                  <li className="list-inline-item px-3">{`5.Podar International School  – 1.5 Km`}</li>
-                </ul>
-              </div>
-              <div className=" p-2">
+              <div className="m-4 p-2 d-flex justify-content-center align-items-center">
                 <a href="" className="btn btn-primary py-2 px-3 me-2">
                   <i className="fa fa-phone-alt me-2" />
                   Make A Call
+                </a>
+                <a href="" className="btn btn-primary py-2 px-3 me-2">
+                  <i className="fa fa-download-alt me-2" />
+                  Download Brochure
                 </a>
                 <a href="" className="btn btn-dark py-2 px-3">
                   <i className="fa fa-calendar-alt me-2" />
@@ -283,8 +244,23 @@ function property1() {
         </div>
       </div>
       {/* About End */}
+
+      <div className="d-flex justify-content-center align-items-center pt-2">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3724.288959010053!2d79.025224!3d21.021120999999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjHCsDAxJzE2LjAiTiA3OcKwMDEnMzAuOCJF!5e0!3m2!1sen!2sin!4v1718886190684!5m2!1sen!2sin"
+          width={1200}
+          height={300}
+          style={{
+            boxShadow:
+              "0 4px 8px 0 rgba(17, 157, 212, 0.2), 0 6px 20px 0 rgba(17, 157, 212, 0.19)",
+          }}
+          allowFullScreen=""
+          loading="lazy"
+          referrerPolicy="no-referrer-when-downgrade"
+        />
+      </div>
     </div>
   );
 }
 
-export default property1;
+export default property5;
