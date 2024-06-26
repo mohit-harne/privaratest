@@ -9,7 +9,11 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.5",
     "@fortawesome/fontawesome-svg-core": "^6.5.2",
+    "@mui/icons-material": "^5.15.20",
+    "@mui/material": "^5.15.20",
     "bootstrap": "^5.3.3",
     "classname": "^0.0.0",
     "lovely-whatsapp-fab": "^1.0.2",
@@ -18,7 +22,6 @@
     "react": "^18",
     "react-bootstrap": "^2.10.2",
     "react-dom": "^18",
-    
     "react-responsive-carousel": "^3.2.23",
     "sharp": "^0.33.4"
   }

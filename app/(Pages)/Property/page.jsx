@@ -213,7 +213,7 @@ const Property = () => {
           <div className="tab-content">
             <div
               id="tab-1"
-              className="tab-pane fade show shadow-sm p-0 shadow-sm active"
+              className="tab-pane fade show p-0 active"
             >
               <div className="row g-4">
                 <div

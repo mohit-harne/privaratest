@@ -16,8 +16,9 @@ import am9 from "../../../../../public/img/amenities9.png";
 import Slideshow from "../../../../Components/Slideshow";
 import Rera from "../../../../../public/img/RERA/Krishna Nagri 42-1-A RERA CODE.png";
 import Ams from "../../../../Components/Amslider";
+import Tabs from "../../../../Components/TabsBox";
 import "../../../../styles/bootstrap.min.css";
-import "../../../../styles/tabStyle.css";
+
 import "../../../../styles/common.css";
 
 function property1() {
@@ -166,132 +167,7 @@ function property1() {
                 </div>
               </div> */}
               <div className="pb-2">
-                   <div className="page">
-                {/* tabs */}
-                <div className="pcss3t pcss3t-effect-scale pcss3t-theme-1">
-                  <input
-                    type="radio"
-                    name="pcss3t"
-                    defaultChecked=""
-                    id="tab1"
-                    className="tab-content-first"
-                  />
-                  <label htmlFor="tab1">
-                    <i className="icon-bolt" />
-                    Introduction
-                  </label>
-                  <input
-                    type="radio"
-                    name="pcss3t"
-                    id="tab2"
-                    className="tab-content-2"
-                  />
-                  <label htmlFor="tab2">
-                    <i className="icon-globe" />
-                    Proxmity
-                  </label>
-                  <input
-                    type="radio"
-                    name="pcss3t"
-                    id="tab3"
-                    className="tab-content-last"
-                  />
-                  <label htmlFor="tab3">
-                    <i className="icon-picture" />
-                    RERA QR
-                  </label>
-                  <ul>
-                    <li className="tab-content tab-content-first typography">
-                    
-                      <a classname="tex-primary">
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          fill="none"
-                          viewBox="0 0 24 24"
-                          strokeWidth="1.5"
-                          stroke="currentColor"
-                          width="25px"
-                          height="25px"
-                        >
-                          <path
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                            d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"
-                          />
-                          <path
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                            d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z"
-                          />
-                        </svg>
-                        <strong m-2="">JAMTHA NAGPUR</strong>
-                      </a>
-                      <div classname="d-flex flex text-dark column mt-3">
-                        <div classname="">
-                          <p>
-                            <b>Plot Area:</b> 22 ACRES
-                          </p>
-                        </div>
-                        <div classname="">
-                          <p>
-                            <b>Number Of Plots: </b> 321
-                          </p>
-                        </div>
-                      </div>
-                      <p className="text-dark mb-2" style={{ textAlign: "justify" }}>
-                        Welcome to our Krishna Nagari, an idyllic community
-                        thoughtfully designed for modern living. Spread across
-                        22 acres, Krishna Nagari boasts meticulously planned
-                        spaces, ensuring a perfect balance between Luxury and
-                        Affordability Conveniently located Opposite to NCI,
-                        Krishna Nagari offers easy access to Samruddhi
-                        Expressway, educational institutions(IIM, DPS),
-                        healthcare facilities(AIIMS, NCI), and Recreational
-                        Centers (VCA Stadium), making it an ideal place to call
-                        home. Krishna Nagari welcomes you to experience the
-                        perfect harmony of modern living in a community that
-                        truly feels comfort, connectivity, and serenity.
-                      </p>
-                    </li>
-                    <li className="tab-content tab-content-2 typography">
-                      <h1>Proxmity</h1>
-                      <div classname=" pt-2">
-                        <p classname="card-title text-dark top_heading pt-2">
-                          <b>Near By</b>
-                        </p>
-                        <ul classname="list-inline ">
-                          <li classname="list-inline-item">
-                            {"{"}`1. NCI – 1 Km`{"}"}
-                          </li>
-                          <li classname="list-inline-item px-3">
-                            {"{"}`3. IIM’S – 1 km`{"}"}
-                          </li>
-                          <li classname="list-inline-item px-3">
-                            {"{"}`4. VCA stadium – 1 KM`{"}"}
-                          </li>
-                        </ul>
-                        <ul classname="list-inline">
-                          <li classname="list-inline-item">
-                            {"{"}`2. AIIMS - 1km`{"}"}
-                          </li>
-                          <li classname="list-inline-item px-3">
-                            {"{"}`5. Samruddhi Express Way – 2.5 km`{"}"}
-                          </li>
-                        </ul>
-                      </div>
-                    </li>
-                    <li className="tab-content tab-content-3 typography">
-                      <h1>RERA QR</h1>
-                      <div>
-                        <a href="#">
-                          <Image className="" src={Rera} alt="Image" />
-                        </a>
-                      </div>
-                    </li>
-                  </ul>
-                </div>
-                {/*/ tabs */}
-              </div>
+                <Tabs />
               </div>
            
             </div>

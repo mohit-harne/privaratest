@@ -1,5 +1,13 @@
 
-import CallAction from './Components/CallAction';
+import React from "react";
+import Image from "next/image";
+import Header from "./Components/Header";
+import p1 from "../public/img/nk.png";
+import p2 from "../public/img/nku.png";
+import p3 from "../public/img/np3.png";
+import p4 from "../public/img/np4.png";
+import p5 from "../public/img/np5.png";
+import p6 from "../public/img/np6.png";
 import './styles/bootstrap.min.css';
 import './styles/style.css'
 import './styles/common.css';
@@ -7,55 +15,9 @@ import './styles/common.css';
 
 export default function Home() {
   return (
-    <>
-      {/* Header Start */}
-      <div className="pad container-fluid header bg-white p-2">
-        <div className="row g-0 align-items-center flex-column-reverse flex-md-row">
-          <div className="col-md-6 p-5 mt-lg-5">
-            <h1 className="display-5 animated fadeIn mb-4">
-              Find A <span className="text-primary">Perfect Home</span> To Live
-              With Your Family
-            </h1>
-            <br className="animated fadeIn mb-4 pb-2" />
-            {`If you don’t own a home, buy one. If you own a home, buy another one. If
-        you own two homes buy a third. And lend your relatives the money to buy
-        a home.`}
-            <p />
-            <p> - John Paulson</p>
-            <p>
-              <br />
-            </p>
-            <div className="header-button">
-              <div className="p-2">
-                <a
-                  href=""
-                  className="btn btn-primary py-3 px-4 me-3 p-2 fadeIn"
-                >
-                  Get Started
-                </a>
-              </div>
-              <div className="p-2">
-                <a
-                  href=""
-                  className="btn btn-primary py-3 px-4 me-3 p-2 fadeIn"
-                >
-                  Schedule meeting
-                </a>
-              </div>
-            </div>
-          </div>
-          <div className="col-md-6 animated fadeIn">
-            <div className="owl-carousel header-carousel">
-              <div class="owl-carousel-item">
-                <img class="img-fluid" src="img/carousel-1.jpg" alt="" />
-              </div>
-              <div class="owl-carousel-item">
-                <img class="img-fluid" src="img/carousel-2.jpg" alt="" />
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+    <>     
+    {/* Header Start */}
+    <Header />
       {/* Header End */}
 
       {/* Search Start */}
@@ -92,11 +54,363 @@ export default function Home() {
         </div>
       </div>
       {/* Search End */}
+      {/* Property Start */}
+      <div className="container py-5">
+        <div
+          className="text-center mx-auto mb-5 wow fadeInUp"
+          data-wow-delay="0.1s"
+          style={{ maxWidth: 600 }}
+        >
+          <div style={{ justifyContent: "flex" }} />
+          <h1 className="mb-0 pb-2">Property Location</h1>
+          <span className="txt">
+            {" "}
+            EXPLORE PROJECTS IN YOUR DESIRED LOCATIONS
+          </span>
+          <hr />
+        </div>
+        <div className="tab-contain">
+          <div className=" tab-pane fade show p-0 active">
+            <div className="row g-4">
+              <div
+                className=" col-lg-4 col-md-6  wow fadeInUp"
+                data-wow-delay="0.1s"
+              >
+              <div className="property-item rounded overflow-hidden" style={{boxShadow: "0px 0px 10px 4px #A8A8A8" , backgroundColor:"#F5F5F5"}}>
+                  <div className="position-relative overflow-hidden">
+                    <a href="">
+                      <Image className="img-fluid" src={p1} alt="" />
+                    </a>
+                  </div>
+                  <div className="p-4 pb-0">
+                    <a className="d-block h5 mb-2" href="">
+                      KRISHNA NAGARI
+                    </a>
+                    <p>
+                      <i className="fa fa-map-marker-alt text-primary me-2" />
+                      JAMTHA NAGPUR
+                    </p>
+                    <a href="Property/KrishnaNagari">
+                      <button
+                        className=" btn btn-primary"
+                        data-bs-toggle="pill"
+                        href="#tab-3"
+                      >
+                        <i className="fa fa-eye me-2" />
+                        Know More
+                      </button>
+                    </a>
+                    <a
+                      className=" btn btn-primary m-3"
+                      data-bs-toggle="pill"
+                      href="#tab-3"
+                    >
+                      <i className="fa fa-phone fa-rotate-90 me-2 " />
+                      Call us
+                    </a>
+                    <p />
+                  </div>
+                  <div className="d-flex border-top">
+                    <small className="flex-fill text-center border-end py-2">
+                      <i className="fa fa-ruler-combined text-primary me-2" />2
+                      Acres
+                    </small>
+                    <small className="flex-fill text-center border-end py-2">
+                      <i className="fa fa-home text-primary me-2" />
+                      31 Plots
+                    </small>
+                    <small className="flex-fill text-center border-end py-2">
+                      <i className="fa fa-flag text-primary me-2" />
+                      Completed
+                    </small>
+                  </div>
+                </div>
+              </div>
+              <div
+                className="col-lg-4 col-md-6 wow fadeInUp"
+                data-wow-delay="0.3s"
+              >
+             <div className="property-item rounded overflow-hidden" style={{boxShadow: "0px 0px 10px 4px #A8A8A8" , backgroundColor:"#F5F5F5"}}>
+                  <div className="position-relative overflow-hidden">
+                    <a href="">
+                      <Image className="img-fluid" src={p2} alt="" />
+                    </a>
+                  </div>
+                  <div className="p-4 pb-0">
+                    <a className="d-block h5 mb-2" href="">
+                      KUHAASA RESIDENCY
+                    </a>
+                    <p>
+                      <i className="fa fa-map-marker-alt text-primary me-2" />
+                      SHANKARPUR NAGPUR
+                    </p>
+                    <a href="Property/KuhaasaResidency">
+                      <button
+                        className=" btn btn-primary"
+                        data-bs-toggle="pill"
+                        href="#tab-3"
+                      >
+                        <i className="fa fa-eye me-2" />
+                        Know More
+                      </button>
+                    </a>
+                    <a
+                      className=" btn btn-primary m-3"
+                      data-bs-toggle="pill"
+                      href="#tab-3"
+                    >
+                      <i className="fa fa-phone fa-rotate-90 me-2 " />
+                      Call us
+                    </a>
+                    <p />
+                  </div>
+                  <div className="d-flex border-top">
+                    <small className="flex-fill text-center border-end py-2">
+                      <i className="fa fa-ruler-combined text-primary me-2" />2
+                      Acres
+                    </small>
+                    <small className="flex-fill text-center border-end py-2">
+                      <i className="fa fa-home text-primary me-2" />
+                      31 Plots
+                    </small>
+                    <small className="flex-fill text-center border-end py-2">
+                      <i className="fa fa-flag text-primary me-2" />
+                      Ongoing
+                    </small>
+                  </div>
+                </div>
+              </div>
+              <div
+                className="col-lg-4 col-md-6 wow fadeInUp"
+                data-wow-delay="0.5s"
+              >
+           <div className="property-item rounded overflow-hidden" style={{boxShadow: "0px 0px 10px 4px #A8A8A8" , backgroundColor:"#F5F5F5"}}>
+                  <div className="position-relative overflow-hidden">
+                    <a href="">
+                      <Image className="img-fluid" src={p3} alt="" />
+                    </a>
+                  </div>
 
+                  <div className="p-4 pb-0 ">
+                    <div className="d-flex flex-row ">
+                      <div>
+                        <a
+                          className="d-block h5 mb-2 position-relative"
+                          href=""
+                        >
+                          PRIVARA VIHAR – 3
+                        </a>
+                      </div>
+                    </div>
 
+                    <p>
+                      <i className="fa fa-map-marker-alt text-primary me-2" />
+                      JAMTHA NAGPUR
+                    </p>
 
+                    <a
+                      className=" btn btn-primary"
+                      data-bs-toggle="pill"
+                      href="#tab-3"
+                    >
+                      <i className="fa fa-eye me-2" />
+                      Know More
+                    </a>
+                    <a
+                      className=" btn btn-primary m-3"
+                      data-bs-toggle="pill"
+                      href="#tab-3"
+                    >
+                      <i className="fa fa-phone fa-rotate-90 me-2 " />
+                      Call us
+                    </a>
+                    <p />
+                  </div>
+                  <div className="d-flex border-top">
+                    <small className="flex-fill text-center border-end py-2">
+                      <i className="fa fa-ruler-combined text-primary me-2" />2
+                      Acres
+                    </small>
+                    <small className="flex-fill text-center border-end py-2">
+                      <i className="fa fa-home text-primary me-2" />
+                      31 Plots
+                    </small>
+                    <small className="flex-fill text-center border-end py-2">
+                      <i className="fa fa-flag text-primary me-2" />
+                      Ongoing
+                    </small>
+                  </div>
+                </div>
+              </div>
+              <div
+                className="col-lg-4 col-md-6 wow fadeInUp"
+                data-wow-delay="0.1s"
+              >
+       <div className="property-item rounded overflow-hidden" style={{boxShadow: "0px 0px 10px 4px #A8A8A8" , backgroundColor:"#F5F5F5"}}>
+                  <div className="position-relative overflow-hidden">
+                    <a href="">
+                      <Image className="img-fluid" src={p4} alt="" />
+                    </a>
+                  </div>
+                  <div className="p-4 pb-0">
+                    <a className="d-block h5 mb-2" href="">
+                      PRIVARA VIHAR – 4
+                    </a>
+                    <p>
+                      <i className="fa fa-map-marker-alt text-primary me-2" />
+                      JAMTHA NAGPUR
+                    </p>
+                    <a href="Property/PrivaraVihar4">
+                      <button
+                        className=" btn btn-primary"
+                        data-bs-toggle="pill"
+                        href="#tab-3"
+                      >
+                        <i className="fa fa-eye me-2" />
+                        Know More
+                      </button>
+                    </a>
+                    <a
+                      className=" btn btn-primary m-3"
+                      data-bs-toggle="pill"
+                      href="#tab-3"
+                    >
+                      <i className="fa fa-phone fa-rotate-90 me-2 " />
+                      Call us
+                    </a>
+                    <p />
+                  </div>
+                  <div className="d-flex border-top">
+                    <small className="flex-fill text-center border-end py-2">
+                      <i className="fa fa-ruler-combined text-primary me-2" />2
+                      Acres
+                    </small>
+                    <small className="flex-fill text-center border-end py-2">
+                      <i className="fa fa-home text-primary me-2" />
+                      31 Plots
+                    </small>
+                    <small className="flex-fill text-center border-end py-2">
+                      <i className="fa fa-flag text-primary me-2" />
+                      Ongoing
+                    </small>
+                  </div>
+                </div>
+              </div>
+              <div
+                className="col-lg-4 col-md-6 wow fadeInUp"
+                data-wow-delay="0.3s"
+              >
+             <div className="property-item rounded overflow-hidden" style={{boxShadow: "6px 6px 9px 4px lightgrey" , backgroundColor:"#F5F5F5"}}>
+                  <div className="position-relative overflow-hidden">
+                    <a href="">
+                      <Image className="img-fluid" src={p5} alt="" />
+                    </a>
+                  </div>
+                  <div className="p-4 pb-0">
+                    <a className="d-block h5 mb-2" href="">
+                      PRIVARA VIHAR – 5
+                    </a>
+                    <p>
+                      <i className="fa fa-map-marker-alt text-primary me-2" />
+                      TARODI NAGPUR
+                    </p>
+                    <a href="Property/PrivaraVihar5">
+                      <button
+                        className=" btn btn-primary"
+                        data-bs-toggle="pill"
+                        href="#tab-3"
+                      >
+                        <i className="fa fa-eye me-2" />
+                        Know More
+                      </button>
+                    </a>
+                    <a
+                      className=" btn btn-primary m-3"
+                      data-bs-toggle="pill"
+                      href="#tab-3"
+                    >
+                      <i className="fa fa-phone fa-rotate-90 me-2 " />
+                      Call us
+                    </a>
+                    <p />
+                  </div>
+                  <div className="d-flex border-top">
+                    <small className="flex-fill text-center border-end py-2">
+                      <i className="fa fa-ruler-combined text-primary me-2" />2
+                      Acres
+                    </small>
+                    <small className="flex-fill text-center border-end py-2">
+                      <i className="fa fa-home text-primary me-2" />
+                      31 Plots
+                    </small>
+                    <small className="flex-fill text-center border-end py-2">
+                      <i className="fa fa-flag text-primary me-2" />
+                      Ongoing
+                    </small>
+                  </div>
+                </div>
+              </div>
+              <div
+                className="col-lg-4 col-md-6 wow fadeInUp"
+                data-wow-delay="0.5s"
+              >
+              <div className="property-item rounded overflow-hidden" style={{boxShadow: "0px 0px 10px 4px #A8A8A8" , backgroundColor:"#F5F5F5"}}>
+                  <div className="position-relative overflow-hidden">
+                    <a href="">
+                      <Image className="img-fluid" src={p6} alt="" />
+                    </a>
+                  </div>
+                  <div className="p-4 pb-0">
+                    <a className="d-block h5 mb-2" href="">
+                      PRIVARA VIHAR – 6
+                    </a>
+                    <p>
+                      <i className="fa fa-map-marker-alt text-primary me-2" />
+                      LONARA NAGPUR
+                    </p>
+                    <a href="Property/PrivaraVihar6">
+                      <button
+                        className=" btn btn-primary"
+                        data-bs-toggle="pill"
+                        href="#tab-3"
+                      >
+                        <i className="fa fa-eye me-2" />
+                        Know More
+                      </button>
+                    </a>
+                    <a
+                      className=" btn btn-primary m-3"
+                      data-bs-toggle="pill"
+                      href="#tab-3"
+                    >
+                      <i className="fa fa-phone fa-rotate-90 me-2 " />
+                      Call us
+                    </a>
+                    <p />
+                  </div>
+                  <div className="d-flex border-top">
+                    <small className="flex-fill text-center border-end py-2">
+                      <i className="fa fa-ruler-combined text-primary me-2" />2
+                      Acres
+                    </small>
+                    <small className="flex-fill text-center border-end py-2">
+                      <i className="fa fa-home text-primary me-2" />
+                      31 Plots
+                    </small>
+                    <small className="flex-fill text-center border-end py-2">
+                      <i className="fa fa-flag text-primary me-2" />
+                      Ongoing
+                    </small>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* Property End */}
       {/* Category Start */}
-      <div className="container-xxl py-5">
+      <div className="container-fluid py-5">
         <div className="container">
           <div
             className="text-center mx-auto mb-5 wow fadeInUp"
@@ -173,7 +487,7 @@ export default function Home() {
       </div>
       {/* Category End */}
       {/* About Start */}
-      <div className="container-xxl py-5">
+      <div className="container-fluid py-5">
         <div className="container">
           <div className="row g-5 align-items-center">
             <div className="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
@@ -328,7 +642,7 @@ export default function Home() {
         </div>
       </div>
       {/* About End */}
-      <CallAction />
+
       {/* Testimonial Start */}
       <div className="container-xxl py-5">
         <div className="container">
