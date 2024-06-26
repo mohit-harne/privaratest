@@ -8,7 +8,9 @@
     max-height: 800px;
     position: absolute;
     margin: auto;
-  
+
+      box-shadow:"0 4px 8px 0 rgba(17, 157, 212, 0.2), 0 6px 20px 0 rgba(17, 157, 212, 0.19)",
+ 
   }
   
 .propimage{

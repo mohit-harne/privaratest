@@ -5,8 +5,8 @@ import PropTypes from "prop-types";
 import Tabs from "@mui/material/Tabs";
 import Tab from "@mui/material/Tab";
 import Box from "@mui/material/Box";
-import Info from "@mui/icons-material/info";
-import Near from "@mui/icons-material/radar";
+// import Info from "@mui/icons-material/info";
+// import Near from "@mui/icons-material/radar";
 import Qr from "@mui/icons-material/QrCode2";
 import Rera from "../../public/img/RERA/Krishna Nagri 42-1-A RERA CODE.png";
 import { QrCode } from "@mui/icons-material";
@@ -58,13 +58,13 @@ export default function BasicTabs() {
                 aria-label="basic tabs example"
               >
                 <Tab
-                  icon={<Info />}
+                  // icon={<Info />}
                   iconPosition="start"
                   label="Introduction"
                   {...a11yProps(0)}
                 />
                 <Tab
-                  icon={<Near />}
+                  // icon={<Near />}
                   iconPosition="start"
                   label="Proximity"
                   {...a11yProps(1)}
