@@ -6,7 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "server": "cd ./server/ && node server.js",
+    "server": "cd C:./app/(Pages)/ContactUs/api & node server.js",
     "lint": "next lint"
   },
   "dependencies": {

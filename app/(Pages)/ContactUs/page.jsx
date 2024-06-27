@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 import Image from "next/image";
 import header from "../../../public/img/pbanner.png";
-import '../../../server/server.js';
+
 import "../../styles/bootstrap.min.css";
 import "../../styles/style.css";
 import "../../styles/common.css";
