@@ -76,7 +76,6 @@ jobs:
         #Init Server
       - name: Run server
         run: npm run server
-        background: true
       - name: Build with Next.js
         run: ${{ steps.detect-package-manager.outputs.runner }} next build
       - name: Upload artifact
