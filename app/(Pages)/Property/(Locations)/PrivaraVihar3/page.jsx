@@ -1,25 +1,14 @@
 import React from "react";
 import Image from "next/image";
 import header from "../../../../../public/img/pbanner.png";
-import p1 from "../../../../../public/img/carousel-7.jpg";
-import p2 from "../../../../../public/img/carousel-8.jpg";
-import p3 from "../../../../../public/img/nk.png";
-import am1 from "../../../../../public/img/amenities1.png";
-import am2 from "../../../../../public/img/amenities2.png";
-import am3 from "../../../../../public/img/amenities3.png";
-import am4 from "../../../../../public/img/amenities4.png";
-import am5 from "../../../../../public/img/amenities5.png";
-import am6 from "../../../../../public/img/amenities6.png";
-import am7 from "../../../../../public/img/amenities7.png";
-import am8 from "../../../../../public/img/amenities8.png";
-import am9 from "../../../../../public/img/amenities9.png";
+import p1 from "../../../../../public/img/np3.png";
+import p2 from "../../../../../public/img/nnp3.png";
 import Slideshow from "../../../../Components/Slideshow";
-import Rera from "../../../../../public/img/RERA/Krishna Nagri 42-1-A RERA CODE.png";
+import Rera from "../../../../../public/img/RERA/RERA CODE PV 3.jpeg.jpg";
 import Ams from "../../../../Components/Amslider";
 import Qr from "@mui/icons-material/QrCode2";
 import TabsBox from "../../../../Components/TabsBox";
 import "../../../../styles/bootstrap.min.css";
-
 import "../../../../styles/common.css";
 
 function property3() {
@@ -36,7 +25,7 @@ function property3() {
       label: "Introduction",
       content: (
         <div className="Child1">
-          <h3>Krishna Nagari</h3>
+          <h3>Privara Vihar 3</h3>
           <a className="tex-primary">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -63,26 +52,17 @@ function property3() {
           <div className="d-flex flex text-dark column mt-3">
             <div className="">
               <p>
-                <b>Plot Area:</b> 22 ACRES
+                <b>Plot Area:</b> 2.5 ACRES
               </p>
             </div>
             <div className="px-2">
               <p>
-                <b>Number Of Plots: </b> 321{" "}
+                <b>Number Of Plots: </b> 24{" "}
               </p>
             </div>
           </div>
           <p className="text-dark mb-2 text-align-justify">
-            Welcome to our Krishna Nagari, an idyllic community thoughtfully
-            designed for modern living. Spread across 22 acres, Krishna Nagari
-            boasts meticulously planned spaces, ensuring a perfect balance
-            between Luxury and Affordability Conveniently located Opposite to
-            NCI, Krishna Nagari offers easy access to Samruddhi Expressway,
-            educational institutions(IIM, DPS), healthcare facilities(AIIMS,
-            NCI), and Recreational Centers (VCA Stadium), making it an ideal
-            place to call home. Krishna Nagari welcomes you to experience the
-            perfect harmony of modern living in a community that truly feels
-            comfort, connectivity, and serenity.{" "}
+            Welcome to Privara Vihar-3, an exclusive residential layout nestled in the heart of Jamtha, right next to the prestigious VCA Stadium and adjacent to the flourishing Sandesh City. This meticulously planned and thoughtfully designed residential community offers an unparalleled living experience, convenience, and modernity. One of the standout features of Privara Vihar 3 is its direct access to a spacious 200 ft road and a grand 200 ft road leads you to a perfect harmony for you and your family. Whole Layout is Surrounded with 60 feet & 80 Feet road{" "}
           </p>
         </div>
       ),
@@ -96,11 +76,15 @@ function property3() {
             <br />
           </p>
           <ol className="list-outline">
-            <li>{` NCI – 1 Km`}</li>
-            <li>{` AIIMS - 1km`}</li>
-            <li>{`IIM’S – 1 km`}</li>
-            <li>{`VCA stadium – 1 KM`}</li>
-            <li>{`Samruddhi Express Way – 2.5 km`}</li>
+            <li>{` LUPIN – 3 KM`}</li>
+            <li>{` AIIMS - 1.5 KM`}</li>
+            <li>{` Wardha Road 700 m`}</li>
+            <li>{` VCA stadium – 1 KM`}</li>
+            <li>{` Samruddhi Express Way – 2.5 km`}</li>
+            <li>{` NCI – 1 KM`}</li>
+            <li>{` TCS – 3 KM`}</li>
+            <li>{` INFOSYS – 3 KM`}</li>
+            <li>{` HCL – 3 KM`}</li>
           </ol>
         </div>
       ),
@@ -111,7 +95,7 @@ function property3() {
       content: (
         <div className="d-flex justify-content-center">
           <a href="#">
-            <Image className="item-align-center" src={Rera} alt="Image" />
+            <Image className="item-align-center" src={Rera} alt="Image" height={300} width={300} />
           </a>
         </div>
       ),
@@ -191,7 +175,7 @@ function property3() {
             style={{ maxWidth: 600 }}
           >
             <h1 className="pb-3 text-dark mt-4 pt-4">
-              Krishna Nagari
+            Privara Vihar 3
               <hr />
             </h1>
           </div>

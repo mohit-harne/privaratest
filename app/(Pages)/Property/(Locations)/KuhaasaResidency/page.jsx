@@ -1,42 +1,27 @@
 import React from "react";
 import Image from "next/image";
 import header from "../../../../../public/img/pbanner.png";
-import p1 from "../../../../../public/img/carousel-7.jpg";
-import p2 from "../../../../../public/img/carousel-8.jpg";
-import p3 from "../../../../../public/img/nk.png";
-import am1 from "../../../../../public/img/amenities1.png";
-import am2 from "../../../../../public/img/amenities2.png";
-import am3 from "../../../../../public/img/amenities3.png";
-import am4 from "../../../../../public/img/amenities4.png";
-import am5 from "../../../../../public/img/amenities5.png";
-import am6 from "../../../../../public/img/amenities6.png";
-import am7 from "../../../../../public/img/amenities7.png";
-import am8 from "../../../../../public/img/amenities8.png";
-import am9 from "../../../../../public/img/amenities9.png";
+import p1 from "../../../../../public/img/ku.jpg";
 import Slideshow from "../../../../Components/Slideshow";
-import Rera from "../../../../../public/img/RERA/Krishna Nagri 42-1-A RERA CODE.png";
+import Rera from "../../../../../public/img/RERA/RERA CODE KUHHASA .jpeg.jpg";
 import Ams from "../../../../Components/Amslider";
 import Qr from "@mui/icons-material/QrCode2";
 import TabsBox from "../../../../Components/TabsBox";
 import "../../../../styles/bootstrap.min.css";
-
 import "../../../../styles/common.css";
 
 function property2() {
   const slides = [
     {
       image: p1,
-    },
-    {
-      image: p2,
-    },
+    }
   ];
   const tabs = [
     {
       label: "Introduction",
       content: (
         <div className="Child1">
-          <h3>Krishna Nagari</h3>
+          <h3>Kuhaasa Residency</h3>
           <a className="tex-primary">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -63,26 +48,17 @@ function property2() {
           <div className="d-flex flex text-dark column mt-3">
             <div className="">
               <p>
-                <b>Plot Area:</b> 22 ACRES
+                <b>Plot Area:</b> 2 ACRES
               </p>
             </div>
             <div className="px-2">
               <p>
-                <b>Number Of Plots: </b> 321{" "}
+                <b>Number Of Plots: </b> 31{" "}
               </p>
             </div>
           </div>
           <p className="text-dark mb-2 text-align-justify">
-            Welcome to our Krishna Nagari, an idyllic community thoughtfully
-            designed for modern living. Spread across 22 acres, Krishna Nagari
-            boasts meticulously planned spaces, ensuring a perfect balance
-            between Luxury and Affordability Conveniently located Opposite to
-            NCI, Krishna Nagari offers easy access to Samruddhi Expressway,
-            educational institutions(IIM, DPS), healthcare facilities(AIIMS,
-            NCI), and Recreational Centers (VCA Stadium), making it an ideal
-            place to call home. Krishna Nagari welcomes you to experience the
-            perfect harmony of modern living in a community that truly feels
-            comfort, connectivity, and serenity.{" "}
+          Kuhasa, a serene residential heaven nestled in the picturesque town of Shankarpur. Near Jupiter ayurvedic college Spread across 2 acres of lush landscapes, offering 31 plots Kuhaasa Residency offers a unique blend of peaceful and modern living, Residents of Kuhaasa Residency have access to a range of community amenities, including parks, walking trails, and recreational spaces. providing the perfect canvas for you to create your dream home. Secure your plot today and embark on a journey to craft your dream home at Kuhaasa Residency!{" "}
           </p>
         </div>
       ),
@@ -96,11 +72,10 @@ function property2() {
             <br />
           </p>
           <ol className="list-outline">
-            <li>{` NCI – 1 Km`}</li>
-            <li>{` AIIMS - 1km`}</li>
-            <li>{`IIM’S – 1 km`}</li>
-            <li>{`VCA stadium – 1 KM`}</li>
-            <li>{`Samruddhi Express Way – 2.5 km`}</li>
+            <li>{` Metro Station – 2 KM`}</li>
+            <li>{` Airport – 4 km`}</li>
+            <li>{` D mart - 2 Km`}</li>
+            <li>{` Wardha Road – 1.5 KM`}</li>
           </ol>
         </div>
       ),
@@ -111,7 +86,7 @@ function property2() {
       content: (
         <div className="d-flex justify-content-center">
           <a href="#">
-            <Image className="item-align-center" src={Rera} alt="Image" />
+            <Image className="item-align-center" src={Rera} alt="Image" height={200} width={200} />
           </a>
         </div>
       ),
@@ -191,7 +166,7 @@ function property2() {
             style={{ maxWidth: 600 }}
           >
             <h1 className="pb-3 text-dark mt-4 pt-4">
-              Krishna Nagari
+            Kuhasa Residency
               <hr />
             </h1>
           </div>

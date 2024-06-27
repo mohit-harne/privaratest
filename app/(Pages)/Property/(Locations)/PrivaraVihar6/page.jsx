@@ -1,20 +1,10 @@
 import React from "react";
 import Image from "next/image";
 import header from "../../../../../public/img/pbanner.png";
-import p1 from "../../../../../public/img/carousel-7.jpg";
-import p2 from "../../../../../public/img/carousel-8.jpg";
-import p3 from "../../../../../public/img/nk.png";
-import am1 from "../../../../../public/img/amenities1.png";
-import am2 from "../../../../../public/img/amenities2.png";
-import am3 from "../../../../../public/img/amenities3.png";
-import am4 from "../../../../../public/img/amenities4.png";
-import am5 from "../../../../../public/img/amenities5.png";
-import am6 from "../../../../../public/img/amenities6.png";
-import am7 from "../../../../../public/img/amenities7.png";
-import am8 from "../../../../../public/img/amenities8.png";
-import am9 from "../../../../../public/img/amenities9.png";
+import p1 from "../../../../../public/img/carousel-5.jpg";
+import p2 from "../../../../../public/img/np6.png";
 import Slideshow from "../../../../Components/Slideshow";
-import Rera from "../../../../../public/img/RERA/Krishna Nagri 42-1-A RERA CODE.png";
+import Rera from "../../../../../public/img/RERA/Privara Vihar 6 QR Code.png";
 import Ams from "../../../../Components/Amslider";
 import Qr from "@mui/icons-material/QrCode2";
 import TabsBox from "../../../../Components/TabsBox";
@@ -29,14 +19,15 @@ function property6() {
     },
     {
       image: p2,
-    },
+    }
+
   ];
   const tabs = [
     {
       label: "Introduction",
       content: (
         <div className="Child1">
-          <h3>Krishna Nagari</h3>
+          <h3>PRIVARA VIHAR – 6</h3>
           <a className="tex-primary">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -58,31 +49,22 @@ function property6() {
                 d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z"
               />
             </svg>
-            <strong m-2>JAMTHA NAGPUR</strong>
+            <strong m-2>LONARA NAGPUR</strong>
           </a>
           <div className="d-flex flex text-dark column mt-3">
             <div className="">
               <p>
-                <b>Plot Area:</b> 22 ACRES
+                <b>Plot Area:</b> 2.6 ACRES
               </p>
             </div>
             <div className="px-2">
               <p>
-                <b>Number Of Plots: </b> 321{" "}
+                <b>Number Of Plots: </b> 49{" "}
               </p>
             </div>
           </div>
           <p className="text-dark mb-2 text-align-justify">
-            Welcome to our Krishna Nagari, an idyllic community thoughtfully
-            designed for modern living. Spread across 22 acres, Krishna Nagari
-            boasts meticulously planned spaces, ensuring a perfect balance
-            between Luxury and Affordability Conveniently located Opposite to
-            NCI, Krishna Nagari offers easy access to Samruddhi Expressway,
-            educational institutions(IIM, DPS), healthcare facilities(AIIMS,
-            NCI), and Recreational Centers (VCA Stadium), making it an ideal
-            place to call home. Krishna Nagari welcomes you to experience the
-            perfect harmony of modern living in a community that truly feels
-            comfort, connectivity, and serenity.{" "}
+          Welcome to Privara Vihar-6, an exquisite residential Layout nestled in the heart of Lonara, Nagpur. Privara Vihar-6 offers a harmonious blend of modern luxury for thoughtfully planned community. Conveniently located near Central RTO & State Rural RTO, educational institutions (Central Institute of Pharmacy & MBA College), and amusement hubs (Lonara Lake), Privara Vihar-6 offers the perfect balance between urban convenience and suburban serenity. Experience the epitome of luxury living at Privara Vihar-6.{" "}
           </p>
         </div>
       ),
@@ -96,11 +78,13 @@ function property6() {
             <br />
           </p>
           <ol className="list-outline">
-            <li>{` NCI – 1 Km`}</li>
-            <li>{` AIIMS - 1km`}</li>
-            <li>{`IIM’S – 1 km`}</li>
-            <li>{`VCA stadium – 1 KM`}</li>
-            <li>{`Samruddhi Express Way – 2.5 km`}</li>
+          <li>{` Central RTO – 100 Mtr`}</li>
+            <li>{` Central Institute of Pharmacy – 50 Mtr`}</li>
+            <li>{` Poddar International School – 1.5 KM`}</li>
+            <li>{` Orchid International School – 3 KM`}</li>
+            <li>{` Outer Ring Road – 1.5 KM`}</li>
+            <li>{` Mahalaxmi koradi Temple – 20 Min`}</li>
+            <li>{` Tuli Hotel Management College – 2 KM`}</li>
           </ol>
         </div>
       ),
@@ -111,7 +95,7 @@ function property6() {
       content: (
         <div className="d-flex justify-content-center">
           <a href="#">
-            <Image className="item-align-center" src={Rera} alt="Image" />
+            <Image className="item-align-center" src={Rera} alt="Image" height={300} width={300} />
           </a>
         </div>
       ),
@@ -191,7 +175,7 @@ function property6() {
             style={{ maxWidth: 600 }}
           >
             <h1 className="pb-3 text-dark mt-4 pt-4">
-              Krishna Nagari
+            PRIVARA VIHAR – 6
               <hr />
             </h1>
           </div>
