@@ -12,7 +12,7 @@ const Header = () => {
  {/* Header Start */}
       <div className="container-full header bg-white position-relative">
         <div className="row g-0 align-items-center flex-column-reverse flex-md-row">
-          <div className="bg-white">
+          <div className="Headerslider bg-white">
             <div className="position-absolute w-100 h-100 mt-4 pt-4 mx-4 px-4 d-flex flex-column text-black" style={{ zIndex: 2}}>
               <div className="my-2" />
               <div className="col-md-6 p-1 mt-lg-5 py-4 my-4">
@@ -29,28 +29,28 @@ const Header = () => {
                   <p className="pt-3" style={{color:'grey'}}> - John Paulson</p>
                 </div>
               </div>
-              <div className="d-flex flex-row py-4 my-2">
+              <div className="HeaderButton  py-4 my-2">
                 <a href="#" className="btn btn-primary py-3 px-5 me-3 fadeIn">Get Started</a>
                 <div className='px-4'></div>
                 <a href="#" className="btn btn-primary py-3 px-5 me-3 fadeIn">Schedule Meeting</a>
               </div>
             </div>
-            
+            <div className="Headerslider">
             <div className="owl-carousel header-carousel position-relative">
+         
               <div className="owl-carousel-item">
                 <video autoPlay muted loop className="hvideo">
                   <source src="./videos/H.mp4" type="video/mp4" />
                 </video>
               </div>
               <div className="owl-carousel-item">
-                <Image className="img-flex" src={ab} alt="Carousel" style={
-                    {height: '800px'}
-                } />
+                <Image className="hvideo img-flex" src={ab} alt="Carousel" 
+                />
               </div>
               <div className="owl-carousel-item">
-                <Image className="img-flex" src={h2} alt="Carousel" style={
-                    {height: '800px'}
-                } />
+                <Image className="hvideo img-flex" src={h2} alt="Carousel"
+                 />
+                </div>
               </div>
             </div>
           </div>

@@ -1,20 +1,20 @@
-'use client';
-import React, { useState } from 'react';
-import Image from 'next/image';
+"use client";
+import React, { useState } from "react";
+import Image from "next/image";
 
-import header from '../../../public/img/pbanner.png';
-import '../../styles/bootstrap.min.css';
-import '../../styles/style.css';
-import '../../styles/common.css';
+import header from "../../../public/img/pbanner.png";
+import "../../styles/bootstrap.min.css";
+import "../../styles/style.css";
+import "../../styles/common.css";
 
 const ContactUs = () => {
   const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    number: '',
-    city: '',
-    object: 'Residential',
-    message: ''
+    name: "",
+    email: "",
+    number: "",
+    city: "",
+    object: "Residential",
+    message: "",
   });
 
   const handleChange = (e) => {
@@ -24,18 +24,18 @@ const ContactUs = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    const response = await fetch('http://localhost:5000/send', {
-      method: 'POST',
+    const response = await fetch("http://localhost:5000/send", {
+      method: "POST",
       headers: {
-        'Content-Type': 'application/json'
+        "Content-Type": "application/json",
       },
-      body: JSON.stringify(formData)
+      body: JSON.stringify(formData),
     });
 
     if (response.ok) {
-      alert('Message sent successfully');
+      alert("Message sent successfully");
     } else {
-      alert('Error sending message');
+      alert("Error sending message");
     }
   };
 
@@ -44,8 +44,12 @@ const ContactUs = () => {
       {/* Header Start */}
       <div className="container-fluid header bg-white p-0">
         <div className="row g-0 align-items-center flex-column-reverse flex-md-row">
-          <div className="breadbox mt-4 pt-4" style={{ textAlign: 'center' }}>
-            <div className="text-center mx-auto m-3 wow fadeInUp" data-wow-delay="0.1s" style={{ maxWidth: 600 }}>
+          <div className="breadbox mt-4 pt-4" style={{ textAlign: "center" }}>
+            <div
+              className="text-center mx-auto m-3 wow fadeInUp"
+              data-wow-delay="0.1s"
+              style={{ maxWidth: 600 }}
+            >
               <h1 className="pb-3 text-white">
                 Contact Us
                 <hr />
@@ -53,7 +57,7 @@ const ContactUs = () => {
             </div>
           </div>
           <div className="flex animated fadeIn">
-            <div className='gradient'></div>
+            <div className="gradient"></div>
             <Image className="pbanner img-fluid" src={header} alt="" />
           </div>
         </div>
@@ -63,26 +67,44 @@ const ContactUs = () => {
         <div className="row g-4">
           <div className="col-12">
             <div className="row gy-4">
-              <div className="col-md-6 col-lg-4 wow fadeIn" data-wow-delay="0.1s">
+              <div
+                className="col-md-6 col-lg-4 wow fadeIn"
+                data-wow-delay="0.1s"
+              >
                 <div className="bg-light rounded p-3">
-                  <div className="d-flex align-items-center bg-white rounded p-3" style={{ border: "1px dashed rgba(0, 185, 142, .3)" }}>
-                    <div className="icon me-3" style={{ width: 45, height: 45 }}>
+                  <div
+                    className="d-flex align-items-center bg-white rounded p-3"
+                    style={{ border: "1px dashed rgba(0, 185, 142, .3)" }}
+                  >
+                    <div
+                      className="icon me-3"
+                      style={{ width: 45, height: 45 }}
+                    >
                       <i className="fa fa-map-marker-alt text-primary" />
                     </div>
                     <span>
                       {" "}
-                      <strong>Privara Developers</strong> <br/>
-                      F-2 Saibaba apartment , 17 central excise colony chhatrapati
-                      square, Wardha Rd, Nagpur, Maharashtra 440015
+                      <strong>Privara Developers</strong> <br />
+                      F-2 Saibaba apartment , 17 central excise colony
+                      chhatrapati square, Wardha Rd, Nagpur, Maharashtra 440015
                     </span>
                   </div>
                 </div>
               </div>
-              <div className="col-md-6 col-lg-4 wow fadeIn" data-wow-delay="0.3s">
+              <div
+                className="col-md-6 col-lg-4 wow fadeIn"
+                data-wow-delay="0.3s"
+              >
                 <div style={{ padding: 25 }}>
                   <div className="bg-light rounded p-3">
-                    <div className="d-flex align-items-center bg-white rounded p-3" style={{ border: "1px dashed rgba(0, 185, 142, .3)" }}>
-                      <div className="icon me-3" style={{ width: 45, height: 45 }}>
+                    <div
+                      className="d-flex align-items-center bg-white rounded p-3"
+                      style={{ border: "1px dashed rgba(0, 185, 142, .3)" }}
+                    >
+                      <div
+                        className="icon me-3"
+                        style={{ width: 45, height: 45 }}
+                      >
                         <i className="fa fa-envelope-open text-primary" />
                       </div>
                       <span>privaradevelopers@gmail.com</span>
@@ -90,11 +112,20 @@ const ContactUs = () => {
                   </div>
                 </div>
               </div>
-              <div className="col-md-6 col-lg-4 wow fadeIn" data-wow-delay="0.5s">
+              <div
+                className="col-md-6 col-lg-4 wow fadeIn"
+                data-wow-delay="0.5s"
+              >
                 <div style={{ padding: 25 }}>
                   <div className="bg-light rounded p-3">
-                    <div className="d-flex align-items-center bg-white rounded p-3" style={{ border: "1px dashed rgba(0, 185, 142, .3)" }}>
-                      <div className="icon me-3" style={{ width: 45, height: 45 }}>
+                    <div
+                      className="d-flex align-items-center bg-white rounded p-3"
+                      style={{ border: "1px dashed rgba(0, 185, 142, .3)" }}
+                    >
+                      <div
+                        className="icon me-3"
+                        style={{ width: 45, height: 45 }}
+                      >
                         <i className="fa fa-phone-alt text-primary" />
                       </div>
                       <span>+919970 9553 54</span>
@@ -111,7 +142,11 @@ const ContactUs = () => {
                 src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7444.0670280239865!2d79.06931!3d21.111230000000003!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd4bf5640653599%3A0x4dd5759b03792a99!2sPrivara%20Developers!5e0!3m2!1sen!2sin!4v1716977919160!5m2!1sen!2sin"
                 width={300}
                 height={500}
-                style={{ border: 0, paddingTop: 0 }}
+                style={{
+                  border: 0,
+                  paddingTop: 0,
+                  boxShadow:"0 4px 8px 0 rgba(17, 157, 212, 0.2), 0 6px 20px 0 rgba(17, 157, 212, 0.19)",
+                }}
                 allowFullScreen=""
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
@@ -214,10 +249,14 @@ const ContactUs = () => {
                   </div>
                   <p className="mb-2" style={{ color: "red" }}>
                     {" "}
-                    *Fill the below query form and our agent will contact you soon.
+                    *Fill the below query form and our agent will contact you
+                    soon.
                   </p>
                   <div className="col-12">
-                    <button className="btn btn-primary w-100 py-3" type="submit">
+                    <button
+                      className="btn btn-primary w-100 py-3"
+                      type="submit"
+                    >
                       Send Message
                     </button>
                   </div>
@@ -228,7 +267,7 @@ const ContactUs = () => {
         </div>
       </div>
     </>
-  )
-}
+  );
+};
 
 export default ContactUs;

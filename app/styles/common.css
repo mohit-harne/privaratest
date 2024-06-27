@@ -74,9 +74,20 @@
 }
 @media (max-width: 768px) {
   .logo {
-    width: 160px;
-    height: 220px;
+    position: sticky;
+    max-width: 100px;
+    max-height: 50px;
     padding: 0px;
+    margin-left: 0px;
+    margin-bottom: 20px;
+    background-color: none;
+    box-shadow: none;
+  }
+  .logo-container{
+    padding-top: 0px;
+    display: flex;
+    justify-content: center;
+  
   }
 }
 @media (max-width: 568px) {
@@ -199,9 +210,24 @@
 
 .hvideo{
   width: 100%;
-  height: 808px;
+  height: 800px;
   object-fit: cover;
 
+}
+@media screen and (max-width: 568px){
+  .hvideo{
+    width: 300px;
+    height: 200px;
+    
+
+  }
+  .HeaderButton{
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+  }
+
+  
 }
 
 .himg{
@@ -237,6 +263,9 @@
 .my-float {
   margin-top: 16px;
 }
+
+
+
 
 /*** Header ***/
 @media (min-width: 992px) {
@@ -308,15 +337,34 @@
   }
 }
 
-.header-button {
-  display: flex;
-  justify-self: center;
-  padding: 0px;
-}
+
 @media (max-width: 768px) {
   .header-button {
     display: block;
   }
+}
+
+.HeaderButton{
+  display: flex;
+  flex-direction: row;
+  justify-self: center;
+  margin-top: 50px;
+}
+
+@media (max-width: 568px) {
+  .Headerslider {
+    max-height: fit-content;
+  }
+  .HeaderButton{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    gap: 10px;
+    justify-self: center;
+    
+  
+  }
+
 }
 
 /*** Icon ***/

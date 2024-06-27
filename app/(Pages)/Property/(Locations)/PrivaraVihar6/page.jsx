@@ -9,7 +9,6 @@ import Ams from "../../../../Components/Amslider";
 import Qr from "@mui/icons-material/QrCode2";
 import TabsBox from "../../../../Components/TabsBox";
 import "../../../../styles/bootstrap.min.css";
-
 import "../../../../styles/common.css";
 
 function property6() {
@@ -19,8 +18,7 @@ function property6() {
     },
     {
       image: p2,
-    }
-
+    },
   ];
   const tabs = [
     {
@@ -64,7 +62,14 @@ function property6() {
             </div>
           </div>
           <p className="text-dark mb-2 text-align-justify">
-          Welcome to Privara Vihar-6, an exquisite residential Layout nestled in the heart of Lonara, Nagpur. Privara Vihar-6 offers a harmonious blend of modern luxury for thoughtfully planned community. Conveniently located near Central RTO & State Rural RTO, educational institutions (Central Institute of Pharmacy & MBA College), and amusement hubs (Lonara Lake), Privara Vihar-6 offers the perfect balance between urban convenience and suburban serenity. Experience the epitome of luxury living at Privara Vihar-6.{" "}
+            Welcome to Privara Vihar-6, an exquisite residential Layout nestled
+            in the heart of Lonara, Nagpur. Privara Vihar-6 offers a harmonious
+            blend of modern luxury for thoughtfully planned community.
+            Conveniently located near Central RTO & State Rural RTO, educational
+            institutions (Central Institute of Pharmacy & MBA College), and
+            amusement hubs (Lonara Lake), Privara Vihar-6 offers the perfect
+            balance between urban convenience and suburban serenity. Experience
+            the epitome of luxury living at Privara Vihar-6.{" "}
           </p>
         </div>
       ),
@@ -78,7 +83,7 @@ function property6() {
             <br />
           </p>
           <ol className="list-outline">
-          <li>{` Central RTO – 100 Mtr`}</li>
+            <li>{` Central RTO – 100 Mtr`}</li>
             <li>{` Central Institute of Pharmacy – 50 Mtr`}</li>
             <li>{` Poddar International School – 1.5 KM`}</li>
             <li>{` Orchid International School – 3 KM`}</li>
@@ -95,7 +100,13 @@ function property6() {
       content: (
         <div className="d-flex justify-content-center">
           <a href="#">
-            <Image className="item-align-center" src={Rera} alt="Image" height={300} width={300} />
+            <Image
+              className="item-align-center"
+              src={Rera}
+              alt="Image"
+              height={300}
+              width={300}
+            />
           </a>
         </div>
       ),
@@ -175,7 +186,7 @@ function property6() {
             style={{ maxWidth: 600 }}
           >
             <h1 className="pb-3 text-dark mt-4 pt-4">
-            PRIVARA VIHAR – 6
+              PRIVARA VIHAR – 6
               <hr />
             </h1>
           </div>

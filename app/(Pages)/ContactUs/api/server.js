@@ -13,10 +13,10 @@ app.use(cors());
 
 // Nodemailer setup
 const transporter = nodemailer.createTransport({
-  service: 'ethereal',
+  service: 'gmail',
   auth: {
-    user: 'tito.hoeger@ethereal.email',
-    pass: 'pgaTmG8qwepgBmU11F'
+    user: 'lalittekade@gmail.com',
+    pass: 'xzttglgopineioij'
   }
 });
 
@@ -25,8 +25,8 @@ app.post('/send', (req, res) => {
 
   const mailOptions = {
     from: email,
-    to: 'your-email@gmail.com',
-    subject: `New Contact Form Submission from ${name}`,
+    to: 'lalittekade@gmail.com',
+    subject: `Enquiry from ${name} for ${object}`,
     text: `Name: ${name}\nEmail: ${email}\nNumber: ${number}\nCity: ${city}\nType: ${object}\nMessage: ${message}`
   };
 
