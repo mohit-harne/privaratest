@@ -259,6 +259,7 @@
     top: 280px;
     left: 230px;
     display: flex;
+    
     transform: translateY(-50%);
     flex-direction: row;
     opacity: 3;
@@ -272,8 +273,8 @@
 @media (max-width: 568px) {
   .header-carousel .owl-nav {
     top: 200px;
-    left: 248px;
-
+    left: 246px;
+    z-index: 9999px;
     display: flex;
     transform: translateY(-50%);
     flex-direction: row;
