@@ -3,7 +3,7 @@ import Image from 'next/image'
 import ab from '../../public/img/RERA/home page.png'
 import h2 from '../../public/img/RERA/hb2.png'
 
-import { Inter, Roboto } from 'next/font/google'
+
 
 const Header = () => {
   return (
@@ -15,14 +15,14 @@ const Header = () => {
           <div className="Headerslider bg-white">
             <div className="position-absolute w-100 h-100 mt-4 pt-4 mx-4 px-4 d-flex flex-column text-black" style={{ zIndex: 2}}>
               <div className="my-2" />
-              <div className="col-md-6 p-1 mt-lg-5 py-4 my-4">
-                <div className="pt-4 mt-4">
+              <div className=" col-md-6 p-1 mt-lg-5 py-4 my-4">
+                <div className="header-txt pt-4 mt-4">
                   <h1 className="display-5 animated fadeIn mb-4">
                     Find A <span className="text-primary">Perfect Plot</span> To <br />
                     Build Your Home
                   </h1>
                 </div>
-                <div className="pt-3 p-2">
+                <div className="header-subtxt pt-3 p-2">
                   <p style={{color:'grey'}}>
                     If you don’t own a home, buy one. If you own a home, buy another one. If you <br /> own two homes buy a third. And lend your relatives the money to buy a home.
                   </p>
