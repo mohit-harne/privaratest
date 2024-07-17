@@ -1,4 +1,3 @@
-
 import React from "react";
 import Image from "next/image";
 import Header from "./Components/Header";
@@ -8,16 +7,15 @@ import p3 from "../public/img/np3.png";
 import p4 from "../public/img/np4.png";
 import p5 from "../public/img/np5.png";
 import p6 from "../public/img/np6.png";
-import './styles/bootstrap.min.css';
-import './styles/style.css'
-import './styles/common.css';
-
+import "./styles/bootstrap.min.css";
+import "./styles/style.css";
+import "./styles/common.css";
 
 export default function Home() {
   return (
-    <>     
-    {/* Header Start */}
-    <Header />
+    <>
+      {/* Header Start */}
+      <Header />
       {/* Header End */}
 
       {/* Search Start */}
@@ -76,7 +74,13 @@ export default function Home() {
                 className=" col-lg-4 col-md-6  wow fadeInUp"
                 data-wow-delay="0.1s"
               >
-              <div className="property-item rounded overflow-hidden" style={{boxShadow: "0px 0px 10px 4px #A8A8A8" , backgroundColor:"#F5F5F5"}}>
+                <div
+                  className="property-item rounded overflow-hidden"
+                  style={{
+                    boxShadow: "0px 0px 10px 4px #A8A8A8",
+                    backgroundColor: "#F5F5F5",
+                  }}
+                >
                   <div className="position-relative overflow-hidden">
                     <a href="">
                       <Image className="img-fluid" src={p1} alt="" />
@@ -130,7 +134,13 @@ export default function Home() {
                 className="col-lg-4 col-md-6 wow fadeInUp"
                 data-wow-delay="0.3s"
               >
-             <div className="property-item rounded overflow-hidden" style={{boxShadow: "0px 0px 10px 4px #A8A8A8" , backgroundColor:"#F5F5F5"}}>
+                <div
+                  className="property-item rounded overflow-hidden"
+                  style={{
+                    boxShadow: "0px 0px 10px 4px #A8A8A8",
+                    backgroundColor: "#F5F5F5",
+                  }}
+                >
                   <div className="position-relative overflow-hidden">
                     <a href="">
                       <Image className="img-fluid" src={p2} alt="" />
@@ -184,7 +194,13 @@ export default function Home() {
                 className="col-lg-4 col-md-6 wow fadeInUp"
                 data-wow-delay="0.5s"
               >
-           <div className="property-item rounded overflow-hidden" style={{boxShadow: "0px 0px 10px 4px #A8A8A8" , backgroundColor:"#F5F5F5"}}>
+                <div
+                  className="property-item rounded overflow-hidden"
+                  style={{
+                    boxShadow: "0px 0px 10px 4px #A8A8A8",
+                    backgroundColor: "#F5F5F5",
+                  }}
+                >
                   <div className="position-relative overflow-hidden">
                     <a href="">
                       <Image className="img-fluid" src={p3} alt="" />
@@ -246,7 +262,13 @@ export default function Home() {
                 className="col-lg-4 col-md-6 wow fadeInUp"
                 data-wow-delay="0.1s"
               >
-       <div className="property-item rounded overflow-hidden" style={{boxShadow: "0px 0px 10px 4px #A8A8A8" , backgroundColor:"#F5F5F5"}}>
+                <div
+                  className="property-item rounded overflow-hidden"
+                  style={{
+                    boxShadow: "0px 0px 10px 4px #A8A8A8",
+                    backgroundColor: "#F5F5F5",
+                  }}
+                >
                   <div className="position-relative overflow-hidden">
                     <a href="">
                       <Image className="img-fluid" src={p4} alt="" />
@@ -300,7 +322,13 @@ export default function Home() {
                 className="col-lg-4 col-md-6 wow fadeInUp"
                 data-wow-delay="0.3s"
               >
-             <div className="property-item rounded overflow-hidden" style={{boxShadow: "6px 6px 9px 4px lightgrey" , backgroundColor:"#F5F5F5"}}>
+                <div
+                  className="property-item rounded overflow-hidden"
+                  style={{
+                    boxShadow: "0px 0px 10px 4px #A8A8A8",
+                    backgroundColor: "#F5F5F5",
+                  }}
+                >
                   <div className="position-relative overflow-hidden">
                     <a href="">
                       <Image className="img-fluid" src={p5} alt="" />
@@ -354,7 +382,13 @@ export default function Home() {
                 className="col-lg-4 col-md-6 wow fadeInUp"
                 data-wow-delay="0.5s"
               >
-              <div className="property-item rounded overflow-hidden" style={{boxShadow: "0px 0px 10px 4px #A8A8A8" , backgroundColor:"#F5F5F5"}}>
+                <div
+                  className="property-item rounded overflow-hidden"
+                  style={{
+                    boxShadow: "0px 0px 10px 4px #A8A8A8",
+                    backgroundColor: "#F5F5F5",
+                  }}
+                >
                   <div className="position-relative overflow-hidden">
                     <a href="">
                       <Image className="img-fluid" src={p6} alt="" />

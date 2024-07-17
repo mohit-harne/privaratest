@@ -613,6 +613,13 @@
   height: 305px;
   z-index: 1;
 }
+
+@media (max-width: 568px) {
+  .gradient {
+    height: 200px;
+  }
+}
+
 .pbanner {
   max-height: 350px;
   position: relative;
