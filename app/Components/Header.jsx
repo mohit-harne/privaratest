@@ -40,7 +40,7 @@ const Header = () => {
          
               <div className="owl-carousel-item">
                 <video autoPlay muted loop className="hvideo">
-                  <source src="/videos/H.mp4" type="video/mp4" />
+                  <source src="./videos/H.mp4" type="video/mp4" />
                 </video>
               </div>
               <div className="owl-carousel-item">
