@@ -1,0 +1,14 @@
+/********** Template CSS **********/
+:root {
+  --primary: #119dd4;
+  --secondary: #ff6922;
+  --light: #effdfd;
+  --dark: #0e2e50;
+
+  .text-justify {
+    text-align: justify !important;
+  }
+  @import url(https://fonts.googleapis.com/css?family=Gabriela);
+  @import url(https://fonts.googleapis.com/css?family=Open+Sans);
+  
+}

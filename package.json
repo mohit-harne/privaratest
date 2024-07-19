@@ -1,0 +1,33 @@
+{
+  "name": "privara-nextjs",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "server": "cd C:./app/(Pages)/ContactUs/api & node server.js",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.5",
+    "@fortawesome/fontawesome-svg-core": "^6.5.2",
+    "@mui/icons-material": "^5.15.20",
+    "@mui/material": "^5.15.20",
+    "body-parser": "^1.20.2",
+    "bootstrap": "^5.3.3",
+    "classname": "^0.0.0",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "lovely-whatsapp-fab": "^1.0.2",
+    "next": "14.2.3",
+    "nodemailer": "^6.9.14",
+    "react": "^18",
+    "react-bootstrap": "^2.10.2",
+    "react-dom": "^18",
+    "react-responsive-carousel": "^3.2.23",
+    "sharp": "^0.33.4",
+    "vercel": "^35.0.2"
+  }
+}
