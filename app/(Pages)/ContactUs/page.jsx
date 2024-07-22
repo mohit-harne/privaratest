@@ -23,7 +23,7 @@ const ContactUs = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    const domain = process.env.DOMAIN || "https://privara-nextjs-server.vercel.app";
+    const domain = process.env.DOMAIN || "https://privara-nextjs-server-pi.vercel.app";
     const response = await fetch(`${domain}/send`, {
       method: "POST",
       headers: {
