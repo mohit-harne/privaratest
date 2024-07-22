@@ -534,7 +534,7 @@ export default function Home() {
             style={{ maxWidth: 600 }}
           >
             <h1 className="mb-3">Our Clients Say!</h1>
-            <p>Text</p>
+            <p></p>
           </div>
           <div
             className="owl-carousel testimonial-carousel wow fadeInUp"

@@ -113,7 +113,7 @@ const Property = () => {
               >
                 <div className="jamtha p-4">
                   <h6>Jamtha</h6>
-                  <span>123 Properties</span>
+                  <span>389 Properties</span>
                 </div>
               </a>
             </div>
@@ -127,7 +127,7 @@ const Property = () => {
               >
                 <div className=" p-4">
                   <h6>Wathoda</h6>
-                  <span>123 Properties</span>
+                  <span>36 Properties</span>
                 </div>
               </a>
             </div>
@@ -141,7 +141,7 @@ const Property = () => {
               >
                 <div className=" p-4">
                   <h6>Lonara</h6>
-                  <span>123 Properties</span>
+                  <span>49 Properties</span>
                 </div>
               </a>
             </div>
@@ -172,7 +172,7 @@ const Property = () => {
                 data-wow-delay="0.1s"
               >
                 <h1 className="mb-3">Property Listing</h1>
-                <p>Text</p>
+                <p></p>
               </div>
             </div>
             <div

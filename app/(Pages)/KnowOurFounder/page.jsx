@@ -114,7 +114,7 @@ const KnowOurFounder = () => {
                             weight="10px"
                             alt=""
                             />
-                            <h4 className="p-2">add</h4>
+                            <h4 className="p-2">Priya Babde</h4>
                          
                             <strong>
                             <b>Senior Sales Director</b>
