@@ -23,11 +23,11 @@ const ContactUs = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-
-    const response = await fetch("http://localhost:5000/send", {
+    const domain = process.env.DOMAIN || "http://localhost:5000";
+    const response = await fetch(`${domain}/send`, {
       method: "POST",
       headers: {
-        "Content-Type": "application/json",
+      "Content-Type": "application/json",
       },
       body: JSON.stringify(formData),
     });
