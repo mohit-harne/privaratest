@@ -124,7 +124,7 @@
 
 .navbar-light .navbar-nav .nav-link:hover,
 .navbar-light .navbar-nav .nav-link.active {
-  color: var(--primary);
+  color: var(--secondary);
 }
 
 @media (max-width: 991.98px) {
@@ -148,8 +148,11 @@
 }
 
 .navbar-light .navbar-nav .nav-link {
-  color: var(--dark);
-  font-weight: 500;
+  color: var(--space);
+  font-weight: 600;
+  font-size: 18px;
+  letter-spacing:   5px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 @media (min-width: 992px) {
@@ -337,9 +340,14 @@
 }
 
 /*** About ***/
+.about-img {
+  position: relative;
+  z-index: 1; /* Lower z-index so video can be on top */
+}
+
 .about-img img {
   position: relative;
-  z-index: 9999;
+  z-index: 10; /* Image is above the background */
 }
 
 .about-img::before {
@@ -351,8 +359,15 @@
   height: 100%;
   background: var(--primary);
   transform: skew(20deg);
-  z-index: 9999;
+  z-index: 1; /* Background behind everything */
 }
+
+/* Video Container */
+.video-container {
+  position: relative;
+  z-index: 100; /* Ensure video is above the .about-img div */
+}
+
 
 /*** Category ***/
 .cat-item div {

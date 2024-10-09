@@ -4,11 +4,18 @@
   --secondary: #ff6922;
   --light: #effdfd;
   --dark: #0e2e50;
-
+  --space: #000000;
   .text-justify {
     text-align: justify !important;
   }
   @import url(https://fonts.googleapis.com/css?family=Gabriela);
   @import url(https://fonts.googleapis.com/css?family=Open+Sans);
-  
+}
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+.nextjs-portal {
+  display: none;
 }

@@ -46,7 +46,10 @@ export default function BasicTabs({ tabs }) {
   };
 
   return (
-    <div className="mt-4 pt-1" style={{border: "1px dashed rgba(0, 185, 142, .3)"}}>
+    <div
+      className="mt-4 pt-1"
+      style={{ border: "1px dashed rgba(0, 185, 142, .3)" }}
+    >
       <Box sx={{ width: "100%" }}>
         <Box sx={{ borderBottom: 1, borderColor: "divider" }}>
           <Tabs

@@ -1,28 +1,30 @@
+"use client";
 import React from "react";
 import Image from "next/image";
-import header from "../../../../../public/img/pbanner.png";
+import header from "../../../../../public/img/property_top_bg.png";
 import p1 from "../../../../../public/img/carousel-7.jpg";
 import p2 from "../../../../../public/img/carousel-8.jpg";
-import p3 from "../../../../../public/img/nk.png";
-import am1 from "../../../../../public/img/amenities1.png";
-import am2 from "../../../../../public/img/amenities2.png";
-import am3 from "../../../../../public/img/amenities3.png";
-import am4 from "../../../../../public/img/amenities4.png";
-import am5 from "../../../../../public/img/amenities5.png";
-import am6 from "../../../../../public/img/amenities6.png";
-import am7 from "../../../../../public/img/amenities7.png";
-import am8 from "../../../../../public/img/amenities8.png";
-import am9 from "../../../../../public/img/amenities9.png";
 import Slideshow from "../../../../Components/Slideshow";
 import Rera from "../../../../../public/img/RERA/Krishna Nagri 42-1-A RERA CODE.png";
 import Ams from "../../../../Components/Amslider";
 import Qr from "@mui/icons-material/QrCode2";
 import TabsBox from "../../../../Components/TabsBox";
 import "../../../../styles/bootstrap.min.css";
-
 import "../../../../styles/common.css";
+import "../../../../styles/style.css";
+import Krishna_Nagri_logo from "../../../../../public/img/property_logo/Krishna_Nagri_logo.png";
 
 function property1() {
+  const downloadPDF = () => {
+    // Triggering the download of the PDF file
+    const link = document.createElement("a");
+    link.href = "/pdf/krishna nagri42-1-A.pdf"; // Update to the correct path inside the public folder
+    link.download = "krishna nagri42-1-A.pdf"; // Filename for the downloaded file
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+
   const slides = [
     {
       image: p1,
@@ -58,7 +60,7 @@ function property1() {
                 d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z"
               />
             </svg>
-            <strong m-2>JAMTHA NAGPUR</strong>
+            <strong>JAMTHA NAGPUR</strong>
           </a>
           <div className="d-flex flex text-dark column mt-3">
             <div className="">
@@ -129,19 +131,17 @@ function property1() {
               data-wow-delay="0.1s"
               style={{ maxWidth: 600 }}
             >
-              <h1 className="pb-3 text-white mt-4 pt-4">
-                Properties
-                <hr />
+              <h1 className="mt-5 pt-5 text-white prophead">
+                Property Location
               </h1>
             </div>
           </div>
-          <div className="flex animated fadeIn">
-            <div className="gradient"></div>
+          <div className="flex animated fadeIn " style={{}}>
             <Image
-              className="img-fluid"
+              className="pbanner img-fluid "
               src={header}
               alt=""
-              style={{ height: "350px" }}
+              priority
             />
           </div>
         </div>
@@ -150,7 +150,7 @@ function property1() {
       {/* Search Start */}
       <div className="con">
         <div
-          className="container-fluid mb-5 wow fadeIn p-3 "
+          className="container-fluid wow fadeIn p-3 "
           data-wow-delay="0.1s"
           style={{ padding: 35 }}
         >
@@ -186,14 +186,17 @@ function property1() {
       <div className="container-fluid py-3">
         <div className="container">
           <div
-            className=" text-center mx-auto m-3 wow fadeInUp"
+            className=" text-center mx-auto mt-5 wow fadeInUp"
             data-wow-delay="0.1s"
             style={{ maxWidth: 600 }}
           >
-            <h1 className="pb-3 text-dark mt-4 pt-4">
-              Krishna Nagari
-              <hr />
-            </h1>
+            <div className="logo-container ">
+              <Image
+                src={Krishna_Nagri_logo}
+                alt="Logo"
+                className="logoprop mt-5"
+              />
+            </div>
           </div>
           {/* <div className="bg-light rounded p-4">
             <div
@@ -226,11 +229,11 @@ function property1() {
               </div>
 
               <div className="m-4 p-2 d-flex justify-content-center align-items-center">
-                <a href="" className="btn btn-primary py-2 px-3 me-2">
-                  <i className="fa fa-phone-alt me-2" />
-                  Make A Call
-                </a>
-                <a href="" className="btn btn-primary py-2 px-3 me-2">
+                <a
+                  href=""
+                  className="btn btn-primary py-2 px-3 me-2"
+                  onClick={downloadPDF}
+                >
                   <i className="fa fa-download-alt me-2" />
                   Download Brochure
                 </a>

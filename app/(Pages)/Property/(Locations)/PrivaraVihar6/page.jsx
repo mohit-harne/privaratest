@@ -1,17 +1,28 @@
+"use client";
 import React from "react";
 import Image from "next/image";
-import header from "../../../../../public/img/pbanner.png";
+import header from "../../../../../public/img/property_top_bg.png";
 import p1 from "../../../../../public/img/carousel-5.jpg";
 import p2 from "../../../../../public/img/np6.png";
 import Slideshow from "../../../../Components/Slideshow";
 import Rera from "../../../../../public/img/RERA/Privara Vihar 6 QR Code.png";
 import Ams from "../../../../Components/Amslider";
+import VIHAR_6 from "../../../../../public/img/property_logo/VIHAR_6.png";
 import Qr from "@mui/icons-material/QrCode2";
 import TabsBox from "../../../../Components/TabsBox";
 import "../../../../styles/bootstrap.min.css";
 import "../../../../styles/common.css";
-
+import "../../../../styles/style.css";
 function property6() {
+  const downloadPDF = () => {
+    // Triggering the download of the PDF file
+    const link = document.createElement("a");
+    link.href = "/pdf/PV6 LONARA BROCHURE.pdf"; // Update to the correct path inside the public folder
+    link.download = "PV6 LONARA BROCHURE.pdf"; // Filename for the downloaded file
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
   const slides = [
     {
       image: p1,
@@ -124,19 +135,17 @@ function property6() {
               data-wow-delay="0.1s"
               style={{ maxWidth: 600 }}
             >
-              <h1 className="pb-3 text-white mt-4 pt-4">
-                Properties
-                <hr />
+              <h1 className="mt-5 pt-5 text-white prophead">
+                Property Location
               </h1>
             </div>
           </div>
-          <div className="flex animated fadeIn">
-            <div className="gradient"></div>
+          <div className="flex animated fadeIn " style={{}}>
             <Image
-              className="img-fluid"
+              className="pbanner img-fluid "
               src={header}
               alt=""
-              style={{ height: "350px" }}
+              priority
             />
           </div>
         </div>
@@ -185,10 +194,9 @@ function property6() {
             data-wow-delay="0.1s"
             style={{ maxWidth: 600 }}
           >
-            <h1 className="pb-3 text-dark mt-4 pt-4">
-              PRIVARA VIHAR – 6
-              <hr />
-            </h1>
+            <div className="logo-container ">
+              <Image src={VIHAR_6} alt="Logo" className="logoprop mt-5" />
+            </div>
           </div>
           {/* <div className="bg-light rounded p-4">
             <div
@@ -221,11 +229,11 @@ function property6() {
               </div>
 
               <div className="m-4 p-2 d-flex justify-content-center align-items-center">
-                <a href="" className="btn btn-primary py-2 px-3 me-2">
-                  <i className="fa fa-phone-alt me-2" />
-                  Make A Call
-                </a>
-                <a href="" className="btn btn-primary py-2 px-3 me-2">
+                <a
+                  href=""
+                  className="btn btn-primary py-2 px-3 me-2"
+                  onClick={downloadPDF}
+                >
                   <i className="fa fa-download-alt me-2" />
                   Download Brochure
                 </a>

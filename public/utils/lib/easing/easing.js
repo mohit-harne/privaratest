@@ -6,7 +6,7 @@
  * All rights reserved.
  * https://raw.github.com/gdsmith/jquery-easing/master/LICENSE
 */
-
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
 (function (factory) {
 	if (typeof define === "function" && define.amd) {
 		define(['jquery'], function ($) {

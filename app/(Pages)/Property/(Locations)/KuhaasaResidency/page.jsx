@@ -1,6 +1,7 @@
+"use client";
 import React from "react";
 import Image from "next/image";
-import header from "../../../../../public/img/pbanner.png";
+import header from "../../../../../public/img/property_top_bg.png";
 import p1 from "../../../../../public/img/ku.jpg";
 import Slideshow from "../../../../Components/Slideshow";
 import Rera from "../../../../../public/img/RERA/RERA CODE KUHHASA .jpeg.jpg";
@@ -9,12 +10,22 @@ import Qr from "@mui/icons-material/QrCode2";
 import TabsBox from "../../../../Components/TabsBox";
 import "../../../../styles/bootstrap.min.css";
 import "../../../../styles/common.css";
-
+import "../../../../styles/style.css";
+import kuhaasa_logo from "../../../../../public/img/property_logo/kuhaasa_logo.png";
 function property2() {
+  const downloadPDF = () => {
+    // Triggering the download of the PDF file
+    const link = document.createElement("a");
+    link.href = "/pdf/kuhaasa residency-brochure.pdf"; // Update to the correct path inside the public folder
+    link.download = "kuhaasa residency-brochure.pdf"; // Filename for the downloaded file
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
   const slides = [
     {
       image: p1,
-    }
+    },
   ];
   const tabs = [
     {
@@ -43,7 +54,7 @@ function property2() {
                 d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z"
               />
             </svg>
-            <strong m-2>JAMTHA NAGPUR</strong>
+            <strong>JAMTHA NAGPUR</strong>
           </a>
           <div className="d-flex flex text-dark column mt-3">
             <div className="">
@@ -58,7 +69,15 @@ function property2() {
             </div>
           </div>
           <p className="text-dark mb-2 text-align-justify">
-          Kuhasa, a serene residential heaven nestled in the picturesque town of Shankarpur. Near Jupiter ayurvedic college Spread across 2 acres of lush landscapes, offering 31 plots Kuhaasa Residency offers a unique blend of peaceful and modern living, Residents of Kuhaasa Residency have access to a range of community amenities, including parks, walking trails, and recreational spaces. providing the perfect canvas for you to create your dream home. Secure your plot today and embark on a journey to craft your dream home at Kuhaasa Residency!{" "}
+            Kuhasa, a serene residential heaven nestled in the picturesque town
+            of Shankarpur. Near Jupiter ayurvedic college Spread across 2 acres
+            of lush landscapes, offering 31 plots Kuhaasa Residency offers a
+            unique blend of peaceful and modern living, Residents of Kuhaasa
+            Residency have access to a range of community amenities, including
+            parks, walking trails, and recreational spaces. providing the
+            perfect canvas for you to create your dream home. Secure your plot
+            today and embark on a journey to craft your dream home at Kuhaasa
+            Residency!{" "}
           </p>
         </div>
       ),
@@ -86,7 +105,13 @@ function property2() {
       content: (
         <div className="d-flex justify-content-center">
           <a href="#">
-            <Image className="item-align-center" src={Rera} alt="Image" height={200} width={200} />
+            <Image
+              className="item-align-center"
+              src={Rera}
+              alt="Image"
+              height={200}
+              width={200}
+            />
           </a>
         </div>
       ),
@@ -104,19 +129,17 @@ function property2() {
               data-wow-delay="0.1s"
               style={{ maxWidth: 600 }}
             >
-              <h1 className="pb-3 text-white mt-4 pt-4">
-                Properties
-                <hr />
+              <h1 className="mt-5 pt-5 text-white prophead">
+                Property Location
               </h1>
             </div>
           </div>
-          <div className="flex animated fadeIn">
-            <div className="gradient"></div>
+          <div className="flex animated fadeIn " style={{}}>
             <Image
-              className="img-fluid"
+              className="pbanner img-fluid "
               src={header}
               alt=""
-              style={{ height: "350px" }}
+              priority
             />
           </div>
         </div>
@@ -165,10 +188,9 @@ function property2() {
             data-wow-delay="0.1s"
             style={{ maxWidth: 600 }}
           >
-            <h1 className="pb-3 text-dark mt-4 pt-4">
-            Kuhasa Residency
-              <hr />
-            </h1>
+            <div className="logo-container">
+              <Image src={kuhaasa_logo} alt="Logo" className="logoprop" />
+            </div>
           </div>
           {/* <div className="bg-light rounded p-4">
             <div
@@ -201,11 +223,11 @@ function property2() {
               </div>
 
               <div className="m-4 p-2 d-flex justify-content-center align-items-center">
-                <a href="" className="btn btn-primary py-2 px-3 me-2">
-                  <i className="fa fa-phone-alt me-2" />
-                  Make A Call
-                </a>
-                <a href="" className="btn btn-primary py-2 px-3 me-2">
+                <a
+                  href=""
+                  className="btn btn-primary py-2 px-3 me-2"
+                  onClick={downloadPDF}
+                >
                   <i className="fa fa-download-alt me-2" />
                   Download Brochure
                 </a>

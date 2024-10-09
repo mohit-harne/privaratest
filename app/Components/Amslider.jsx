@@ -2,6 +2,7 @@
 import { useEffect, useRef } from "react";
 import Image from "next/image";
 import "bootstrap/dist/css/bootstrap.min.css";
+import "../styles/common.css";
 
 // Import images
 import am1 from "../../public/img/amenities1.png";
@@ -55,7 +56,7 @@ export default function Widget() {
         className="scroll-container overflow-hidden position-relative"
         ref={scrollContainerRef}
       >
-        <div className="scroll-content d-flex">
+        <div className="scroll-content d-flex ">
           <div className="scroll-item flex-shrink-0">
             <Image
               src={am1}
@@ -148,24 +149,6 @@ export default function Widget() {
           </div>
         </div>
       </div>
-      <style jsx>{`
-        .scroll-container {
-          overflow-x: hidden;
-        }
-        .scroll-content {
-          display: flex;
-          width: max-content;
-        }
-        .scroll-item {
-          flex: 0 0 calc(100% / 3);
-          text-align: center;
-          padding: 10px;
-        }
-        .img-fluid {
-          max-width: 100%;
-          height: auto;
-        }
-      `}</style>
     </div>
   );
 }

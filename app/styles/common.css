@@ -128,20 +128,33 @@
   transform: rotate(-180deg);
 }
 
+/* Ensure consistent styling for all nav links */
 .navbar-light .navbar-nav .nav-link {
   margin-right: 30px;
   padding: 25px 0;
-  color: #ffffff;
-  font-size: 15px;
+  color: var(--dark); /* Set color to dark for all links */
+  font-size: 15px; /* Consistent font size */
+  font-weight: 400; /* Consistent font weight */
   text-transform: uppercase;
   outline: none;
+  transition: font-size 0.2s, font-weight 0.2s, color 0.2s; /* Smooth transition */
 }
 
-.navbar-light .navbar-nav .nav-link:hover,
+/* Hover effect for non-active links */
+.navbar-light .navbar-nav .nav-link:hover:not(.active) {
+  font-size: 17px; /* Increase font size only on hover for non-active links */
+  color: var(--secondary);
+  font-weight: 600; /* Optional: Make it bolder on hover */
+}
+
+/* Active link stays consistent and does not change on hover */
 .navbar-light .navbar-nav .nav-link.active {
-  color: var(--primary);
+  color: var(--secondary); /* Active color */
+  font-size: 17px; /* Keep the active link font size increased */
+  font-weight: 600; /* Keep the active link bold */
 }
 
+/* Responsive styles for smaller screens */
 @media (max-width: 991.98px) {
   .nav-bar {
     margin: 0;
@@ -162,11 +175,7 @@
   height: 75px;
 }
 
-.navbar-light .navbar-nav .nav-link {
-  color: var(--dark);
-  font-weight: 500;
-}
-
+/* Dropdown menu styling for larger screens */
 @media (min-width: 992px) {
   .navbar .nav-item .dropdown-menu {
     display: block;
@@ -177,6 +186,7 @@
     opacity: 0;
     visibility: hidden;
     transition: 0.5s;
+   
   }
 
   .navbar .nav-item:hover .dropdown-menu {
@@ -211,7 +221,7 @@
 @media (max-width: 568px) {
   .hvideo {
     width: 100%;
-    height: 200px;
+    height: 200px !important;
   }
 }
 @media (max-width: 568px) {
@@ -252,14 +262,7 @@
   margin-top: 16px;
 }
 
-/*** Header ***/
-@media (min-width: 992px) {
-  .header {
-    margin-top: -120px;
-  }
-}
-
-.header-carousel .owl-nav {
+** Header ** .header-carousel .owl-nav {
   position: absolute;
   bottom: 10%;
   padding-inline-end: 50px;
@@ -304,9 +307,9 @@
     top: 200px;
     left: 246px;
     z-index: 9999px;
-    
+
     display: flex;
-    transform: translateY(-50%);
+
     flex-direction: row;
     opacity: 3;
   }
@@ -349,21 +352,9 @@
   margin-top: 50px;
 }
 
-@media (max-width: 568px) {
-  .Headerslider {
-    max-height: fit-content;
-  }
-  .HeaderButton {
-    display: flex;
-    flex-direction: column;
-    padding: 5px;
-    gap: 10px;
-    justify-self: center;
-  }
-}
-@media (max-width: 568px) {
+@media (max-width: 547px) {
   .header-txt {
-    max-width: 50%;
+    width: 200px !important;
     font-size: 5px;
     position: absolute;
 
@@ -372,6 +363,14 @@
   }
   .header-subtxt {
     display: none;
+  }
+  .para {
+    display: none;
+  }
+  .HeaderButton {
+    margin-top: 500px;
+    justify-self: auto;
+    gap: 20px;
   }
 }
 
@@ -599,33 +598,16 @@
   background-color: #4caf50;
 }
 
-.gradient {
-  background: linear-gradient(
-    90deg,
-    rgba(0, 0, 0, 0.5) 0%,
-    rgba(0, 0, 0, 0.5) 35%,
-    rgba(0, 0, 0, 0.5) 100%
-  );
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 305px;
-  z-index: 1;
-}
-
-@media (max-width: 568px) {
-  .gradient {
-    height: 200px;
-  }
-}
-
 .pbanner {
   max-height: 350px;
   position: relative;
   object-fit: cover;
-
-  z-index: -1;
+}
+.prophead {
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.9); /* Dark text shadow */
+}
+.prophead2 {
+  text-shadow: 3px 3px 5px rgba(255, 255, 255, 0.8); /* Dark text shadow */
 }
 .breadbox {
   position: absolute;
@@ -828,4 +810,176 @@
   margin-right: 0;
   padding-right: 0;
   border-right: none;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  position: absolute;
+  top: 50%;
+  z-index: 1; /* Ensure they are above the carousel items */
+  width: 50px;
+  height: 200;
+}
+
+.carousel-control-prev {
+  transform: translateX(-50%);
+}
+
+.carousel-control-next {
+  transform: translateX(50%);
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: #119dd4; /* Add background to make them visible */
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  padding: 20px;
+}
+
+.sample-text {
+  position: absolute;
+  z-index: 999;
+  margin-top: -550px;
+  margin-left: 80px;
+  width: 580px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 10px;
+  line-height: 30px;
+}
+.carousel-inner {
+  height: 790px !important;
+}
+@media (max-width: 578px) {
+  .sample-text {
+    position: absolute;
+    z-index: 999;
+    margin-top: -670px;
+    margin-left: -30px;
+    width: 260px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 10px;
+    scale: 70%;
+  }
+  .home-buttons {
+    display: flex;
+    flex-direction: column !important;
+    width: 300px;
+    gap: 20px;
+    scale: 80%;
+    margin-left: -25px;
+  }
+  .carousel-inner {
+    height: 640px !important;
+  }
+  .carousel-inner1 {
+    height: 500px !important;
+  }
+}
+
+.carousel-controls {
+  position: relative;
+  width: 70px;
+  left: 30px;
+}
+.custom-prev-icon,
+.custom-next-icon {
+  background-color: #119dd4;
+  border-radius: 50%; /* Optional: make the icon circular */
+  width: 80px;
+  height: 80px;
+}
+.custom-prev-icon {
+  background-image: url("/img/prev_icon.png"); /* Replace with your custom prev icon */
+}
+.custom-next-icon {
+  background-image: url("/img/next-icon.png"); /* Path from the public directory */
+}
+.home-buttons {
+  display: flex;
+  flex-direction: row;
+
+  gap: 20px;
+}
+.carousel-inner1 {
+  height: 260px;
+}
+.outstand {
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5); /* Initial state shadow */
+  transform: translateY(0); /* Starts at its original position */
+  transition: all 0.3s ease; /* Smooth transition for all properties */
+}
+
+.outstand img {
+  transition: transform 0.5s; /* Transition for scaling the image */
+}
+
+.outstand:hover img {
+  transform: scale(1.1); /* Scale the image on hover */
+}
+
+.outstand:hover {
+  transform: translateY(-10px); /* Move it up by 10px */
+  box-shadow: 2px 2px 10px rgba(4, 173, 235, 0.988); /* Change shadow color on hover */
+}
+.logo-container {
+  width: 100%; /* Set the width of the container */
+  max-width: 200px; /* Set a maximum width for the container (adjust as needed) */
+  aspect-ratio: 1 / 1; /* This will create a square aspect ratio */
+  /* Hide overflow if the image is larger than the container */
+  display: flex; /* Use flexbox for alignment */
+  justify-content: center; /* Center align horizontally */
+  align-items: center; /* Center align vertically */
+  margin: 0 auto; /* Center the container itself horizontally */
+  height: 100px;
+}
+
+.logoprop {
+  width: 200%; /* Makes the logo responsive */
+  height: auto; /* Maintain aspect ratio */
+  object-fit: contain; /* Scale the image to fit while maintaining its aspect ratio */
+  margin-top: 0px;
+}
+
+.scroll-container {
+  overflow-x: hidden;
+}
+
+.scroll-content {
+  display: flex;
+  width: max-content;
+}
+
+.scroll-item {
+  flex: 0 0 calc(100% / 3);
+  text-align: center;
+  padding: 10px;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .scroll-item {
+    flex: 0 0 calc(100% / 2); /* 2 items on small devices */
+    padding: 5px; /* Adjust padding for smaller devices */
+  }
+}
+
+@media (max-width: 480px) {
+  .scroll-item {
+    flex: 0 0 calc(100%); /* 1 item on extra small devices */
+    padding: 5px; /* Keep padding consistent */
+  }
+  .video6 {
+    width: 300px;
+  }
 }

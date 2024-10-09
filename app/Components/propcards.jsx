@@ -42,8 +42,6 @@ const propcards = () => {
                       <a href="">
                         <Image className="img-fluid" src={p1} alt="" />
                       </a>
-
-                     
                     </div>
                     <div className="p-4 pb-0">
                       <a className="d-block h5 mb-2" href="">
@@ -74,7 +72,7 @@ const propcards = () => {
                       <p />
                     </div>
                     <div className="d-flex border-top">
-                    <small className="flex-fill text-center border-end py-2">
+                      <small className="flex-fill text-center border-end py-2">
                         <i className="fa fa-ruler-combined text-primary me-2" />
                         2 Acres
                       </small>
@@ -164,7 +162,6 @@ const propcards = () => {
                             PRIVARA VIHAR – 3
                           </a>
                         </div>
-           
                       </div>
 
                       <p>
@@ -191,7 +188,7 @@ const propcards = () => {
                       <p />
                     </div>
                     <div className="d-flex border-top">
-                    <small className="flex-fill text-center border-end py-2">
+                      <small className="flex-fill text-center border-end py-2">
                         <i className="fa fa-ruler-combined text-primary me-2" />
                         2 Acres
                       </small>
@@ -245,7 +242,7 @@ const propcards = () => {
                       <p />
                     </div>
                     <div className="d-flex border-top">
-                    <small className="flex-fill text-center border-end py-2">
+                      <small className="flex-fill text-center border-end py-2">
                         <i className="fa fa-ruler-combined text-primary me-2" />
                         2 Acres
                       </small>
@@ -269,7 +266,6 @@ const propcards = () => {
                       <a href="">
                         <Image className="img-fluid" src={p5} alt="" />
                       </a>
-
                     </div>
                     <div className="p-4 pb-0">
                       <a className="d-block h5 mb-2" href="">
@@ -300,7 +296,7 @@ const propcards = () => {
                       <p />
                     </div>
                     <div className="d-flex border-top">
-                    <small className="flex-fill text-center border-end py-2">
+                      <small className="flex-fill text-center border-end py-2">
                         <i className="fa fa-ruler-combined text-primary me-2" />
                         2 Acres
                       </small>
@@ -324,7 +320,6 @@ const propcards = () => {
                       <a href="">
                         <Image className="img-fluid" src={p6} alt="" />
                       </a>
-
                     </div>
                     <div className="p-4 pb-0">
                       <a className="d-block h5 mb-2" href="">
@@ -355,7 +350,7 @@ const propcards = () => {
                       <p />
                     </div>
                     <div className="d-flex border-top">
-                    <small className="flex-fill text-center border-end py-2">
+                      <small className="flex-fill text-center border-end py-2">
                         <i className="fa fa-ruler-combined text-primary me-2" />
                         2 Acres
                       </small>
@@ -383,7 +378,6 @@ const propcards = () => {
                       <a href="">
                         <Image className="img-fluid" src={p2} alt="" />
                       </a>
-
                     </div>
                     <div className="p-4 pb-0">
                       <a className="d-block h5 mb-2" href="">
@@ -414,7 +408,7 @@ const propcards = () => {
                       <p />
                     </div>
                     <div className="d-flex border-top">
-                    <small className="flex-fill text-center border-end py-2">
+                      <small className="flex-fill text-center border-end py-2">
                         <i className="fa fa-ruler-combined text-primary me-2" />
                         2 Acres
                       </small>
@@ -438,7 +432,6 @@ const propcards = () => {
                       <a href="">
                         <Image className="img-fluid" src={p3} alt="" />
                       </a>
- 
                     </div>
                     <div className="p-4 pb-0">
                       <a className="d-block h5 mb-2" href="">
@@ -467,7 +460,7 @@ const propcards = () => {
                       <p />
                     </div>
                     <div className="d-flex border-top">
-                    <small className="flex-fill text-center border-end py-2">
+                      <small className="flex-fill text-center border-end py-2">
                         <i className="fa fa-ruler-combined text-primary me-2" />
                         2 Acres
                       </small>
@@ -491,7 +484,6 @@ const propcards = () => {
                       <a href="">
                         <Image className="img-fluid" src={p4} alt="" />
                       </a>
-
                     </div>
                     <div className="p-4 pb-0">
                       <a className="d-block h5 mb-2" href="">
@@ -520,7 +512,7 @@ const propcards = () => {
                       <p />
                     </div>
                     <div className="d-flex border-top">
-                    <small className="flex-fill text-center border-end py-2">
+                      <small className="flex-fill text-center border-end py-2">
                         <i className="fa fa-ruler-combined text-primary me-2" />
                         2 Acres
                       </small>
@@ -544,7 +536,6 @@ const propcards = () => {
                       <a href="">
                         <Image className="img-fluid" src={p5} alt="" />
                       </a>
-
                     </div>
                     <div className="p-4 pb-0">
                       <a className="d-block h5 mb-2" href="">
@@ -573,7 +564,7 @@ const propcards = () => {
                       <p />
                     </div>
                     <div className="d-flex border-top">
-                    <small className="flex-fill text-center border-end py-2">
+                      <small className="flex-fill text-center border-end py-2">
                         <i className="fa fa-ruler-combined text-primary me-2" />
                         2 Acres
                       </small>
@@ -597,7 +588,6 @@ const propcards = () => {
                       <a href="">
                         <Image className="img-fluid" src={p6} alt="" />
                       </a>
-
                     </div>
                     <div className="p-4 pb-0">
                       <a className="d-block h5 mb-2" href="">
@@ -626,7 +616,7 @@ const propcards = () => {
                       <p />
                     </div>
                     <div className="d-flex border-top">
-                    <small className="flex-fill text-center border-end py-2">
+                      <small className="flex-fill text-center border-end py-2">
                         <i className="fa fa-ruler-combined text-primary me-2" />
                         2 Acres
                       </small>
@@ -654,7 +644,6 @@ const propcards = () => {
                       <a href="">
                         <Image className="img-fluid" src={p1} alt="" />
                       </a>
-
                     </div>
                     <div className="p-4 pb-0">
                       <a className="d-block h5 mb-2" href="">
@@ -683,7 +672,7 @@ const propcards = () => {
                       <p />
                     </div>
                     <div className="d-flex border-top">
-                    <small className="flex-fill text-center border-end py-2">
+                      <small className="flex-fill text-center border-end py-2">
                         <i className="fa fa-ruler-combined text-primary me-2" />
                         2 Acres
                       </small>

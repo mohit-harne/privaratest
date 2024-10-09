@@ -1,17 +1,28 @@
+"use client";
 import React from "react";
 import Image from "next/image";
-import header from "../../../../../public/img/pbanner.png";
+import header from "../../../../../public/img/property_top_bg.png";
 import p1 from "../../../../../public/img/np3.png";
+import VIHAR_3 from "../../../../../public/img/property_logo/VIHAR_3.png";
 import p2 from "../../../../../public/img/nnp3.png";
 import Slideshow from "../../../../Components/Slideshow";
-import Rera from "../../../../../public/img/RERA/RERA CODE PV 3.jpeg.jpg";
 import Ams from "../../../../Components/Amslider";
 import Qr from "@mui/icons-material/QrCode2";
 import TabsBox from "../../../../Components/TabsBox";
 import "../../../../styles/bootstrap.min.css";
 import "../../../../styles/common.css";
-
+import "../../../../styles/style.css";
+import Privara_Vihar_3_Rera_Code from "../../../../../public/img/RERA/Privara_Vihar_3_Rera_Code.jpg";
 function property3() {
+  const downloadPDF = () => {
+    // Triggering the download of the PDF file
+    const link = document.createElement("a");
+    link.href = "/pdf/Privara Vihar 3&4  Brochure.pdf"; // Update to the correct path inside the public folder
+    link.download = "Privara Vihar 3 Brochure.pdf"; // Filename for the downloaded file
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
   const slides = [
     {
       image: p1,
@@ -47,7 +58,7 @@ function property3() {
                 d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z"
               />
             </svg>
-            <strong m-2>JAMTHA NAGPUR</strong>
+            <strong>JAMTHA NAGPUR</strong>
           </a>
           <div className="d-flex flex text-dark column mt-3">
             <div className="">
@@ -62,7 +73,15 @@ function property3() {
             </div>
           </div>
           <p className="text-dark mb-2 text-align-justify">
-            Welcome to Privara Vihar-3, an exclusive residential layout nestled in the heart of Jamtha, right next to the prestigious VCA Stadium and adjacent to the flourishing Sandesh City. This meticulously planned and thoughtfully designed residential community offers an unparalleled living experience, convenience, and modernity. One of the standout features of Privara Vihar 3 is its direct access to a spacious 200 ft road and a grand 200 ft road leads you to a perfect harmony for you and your family. Whole Layout is Surrounded with 60 feet & 80 Feet road{" "}
+            Welcome to Privara Vihar-3, an exclusive residential layout nestled
+            in the heart of Jamtha, right next to the prestigious VCA Stadium
+            and adjacent to the flourishing Sandesh City. This meticulously
+            planned and thoughtfully designed residential community offers an
+            unparalleled living experience, convenience, and modernity. One of
+            the standout features of Privara Vihar 3 is its direct access to a
+            spacious 200 ft road and a grand 200 ft road leads you to a perfect
+            harmony for you and your family. Whole Layout is Surrounded with 60
+            feet & 80 Feet road{" "}
           </p>
         </div>
       ),
@@ -95,7 +114,13 @@ function property3() {
       content: (
         <div className="d-flex justify-content-center">
           <a href="#">
-            <Image className="item-align-center" src={Rera} alt="Image" height={300} width={300} />
+            <Image
+              className="item-align-center"
+              src={Privara_Vihar_3_Rera_Code}
+              alt="Image"
+              height={300}
+              width={300}
+            />
           </a>
         </div>
       ),
@@ -113,19 +138,17 @@ function property3() {
               data-wow-delay="0.1s"
               style={{ maxWidth: 600 }}
             >
-              <h1 className="pb-3 text-white mt-4 pt-4">
-                Properties
-                <hr />
+              <h1 className="mt-5 pt-5 text-white prophead">
+                Property Location
               </h1>
             </div>
           </div>
-          <div className="flex animated fadeIn">
-            <div className="gradient"></div>
+          <div className="flex animated fadeIn " style={{}}>
             <Image
-              className="img-fluid"
+              className="pbanner img-fluid "
               src={header}
               alt=""
-              style={{ height: "350px" }}
+              priority
             />
           </div>
         </div>
@@ -174,10 +197,9 @@ function property3() {
             data-wow-delay="0.1s"
             style={{ maxWidth: 600 }}
           >
-            <h1 className="pb-3 text-dark mt-4 pt-4">
-            Privara Vihar 3
-              <hr />
-            </h1>
+            <div className="logo-container ">
+              <Image src={VIHAR_3} alt="Logo" className="logoprop mt-5" />
+            </div>
           </div>
           {/* <div className="bg-light rounded p-4">
             <div
@@ -210,11 +232,11 @@ function property3() {
               </div>
 
               <div className="m-4 p-2 d-flex justify-content-center align-items-center">
-                <a href="" className="btn btn-primary py-2 px-3 me-2">
-                  <i className="fa fa-phone-alt me-2" />
-                  Make A Call
-                </a>
-                <a href="" className="btn btn-primary py-2 px-3 me-2">
+                <a
+                  href=""
+                  className="btn btn-primary py-2 px-3 me-2"
+                  onClick={downloadPDF}
+                >
                   <i className="fa fa-download-alt me-2" />
                   Download Brochure
                 </a>

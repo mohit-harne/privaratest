@@ -1,5 +1,5 @@
 import React from "react";
-
+import "../styles/common.css";
 const featureProject = () => {
   return (
     <>
@@ -14,17 +14,17 @@ const featureProject = () => {
                 <div className="row g-5 align-items-center">
                   <div className="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
                     <div className="  about-img indexing position-relative overflow-hidden p-5 pe-0">
-                      <div className="">
-                        {/* <video width="720" height="380" autoplay muted>
-                          <source src="videos/privara_video.mp4" type="video/mp4">
-                        Your browser does not support the video tag.
-                        </video> */}
-                        <img
-                          src="./img/carousel-5.jpg"
-                          alt=""
-                          width={720}
-                          height={380}
-                        />
+                      <div className="video-container">
+                        <iframe
+                          width="568"
+                          height="320"
+                          src="https://www.youtube.com/embed/_-OqYhrmRSo?autoplay=1&mute=1&controls=0&showinfo=0&modestbranding=1&loop=1&playlist=_-OqYhrmRSo"
+                          title="YouTube video player"
+                          frameBorder="0"
+                          allow="autoplay; encrypted-media"
+                          allowFullScreen
+                          className="video6"
+                        ></iframe>
                       </div>
                     </div>
                   </div>
@@ -154,13 +154,15 @@ const featureProject = () => {
                                 <p>Playground</p>
                               </div>
                             </div>
+                            <div className="d-flex flex-row">
+                              <a className="btn btn-primary px-3 py-1" href="">
+                                Read More
+                              </a>
+                            </div>
                           </div>
                         </div>
                       </div>
                     </div>
-                    <a className="btn btn-primary py-3 px-5 mt-3" href="">
-                      Read More
-                    </a>
                   </div>
                 </div>
               </div>
