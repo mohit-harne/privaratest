@@ -74,9 +74,9 @@ const ContactUs = () => {
       </div>
       {/* Header End */}
       <div className="container-xxl py-5">
-        <div className="row g-4">
+        <div className="row g-5">
           <div className="col-12">
-            <div className="row gy-4">
+            <div className="row gy-">
               <div
                 className="col-md-6 col-lg-4 wow fadeIn"
                 data-wow-delay="0.1s"
@@ -288,12 +288,10 @@ const ContactUs = () => {
               />
             </div>
           </div>
-          <div className="col-md-6">
-            <div className="wow fadeInUp" data-wow-delay="0.5s">
+          <div className="glass-effect col-md-6 p-4   rounded-4 ">
+            <div className="wow fadeInUp " data-wow-delay="0.5s">
               <form onSubmit={handleSubmit}>
-                <div style={{ padding: 20 }}>
-                  <p></p>
-                </div>
+                
                 <div className="row g-3">
                   <div className="col-md-6">
                     <div className="form-floating">
@@ -354,7 +352,7 @@ const ContactUs = () => {
                   <div className="col-ld-6">
                     <div className="form-floating">
                       <fieldset>
-                        <label htmlFor="project">Select Project</label> <br />
+                        <label className="" htmlFor="project">Select Project</label> <br />
                         <select
                           className="form-control"
                           name="project"

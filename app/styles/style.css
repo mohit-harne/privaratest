@@ -150,7 +150,7 @@
 .navbar-light .navbar-nav .nav-link {
   color: var(--space);
   font-weight: 600;
-  font-size: 18px;
+  font-size: 15px;
   letter-spacing:   5px;
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -606,7 +606,11 @@
   .owl-nav {
     display: none;
   }
+  .glass-effect{
+    scale: 90%;
+  }
 }
+
 /*** Whatsapp ***/
 
 /* Add WA floating button CSS */
@@ -702,4 +706,13 @@
   margin-right: 0;
   padding-right: 0;
   border-right: none;
+}
+.glass-effect {
+  /* From https://css.glass */
+background: rgba(4, 135, 144, 0.2);
+border-radius: 16px;
+box-shadow: 0 4px 20px rgba(4, 135, 144, 0.8);
+backdrop-filter: blur(6px);
+-webkit-backdrop-filter: blur(6px);
+border: 3px solid rgba(4, 135, 144, 0.8);
 }
