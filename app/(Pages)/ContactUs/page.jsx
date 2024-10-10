@@ -288,8 +288,8 @@ const ContactUs = () => {
               />
             </div>
           </div>
-          <div className="glass-effect col-md-6 p-4   rounded-4 ">
-            <div className="wow fadeInUp " data-wow-delay="0.5s">
+          <div className="glass-effect col-md-6 p-4 wow fadeInUp " data-wow-delay="0.5s  rounded-4 ">
+            <div className="">
               <form onSubmit={handleSubmit}>
                 
                 <div className="row g-3">
