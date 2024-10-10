@@ -269,7 +269,7 @@ const ContactUs = () => {
               </div>
             </div>
           </div>
-          <div className="col-lg-6 col-md-10">
+          <div className="col-lg-6 col-md-10 wow fadeInUp " data-wow-delay="0.5s">
             <h5 className="text-white mb-4">Map</h5>
             <div className="row g-2 pt-2">
               <iframe
